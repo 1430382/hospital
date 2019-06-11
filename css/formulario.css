@@ -1,0 +1,21 @@
+body {
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #fff; 
+    background-color: #222733;
+
+}
+
+.titulo{
+    text-align: center;
+
+}
+
+.p{
+   text-align: center; 
+}
+
+.jumbotron{
+
+    background: rgba(0, 0, 0, 0.35);
+}
