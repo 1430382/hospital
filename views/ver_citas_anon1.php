@@ -1,6 +1,6 @@
 <?php
 //Documentos de conexión y header
-require 'header.med.php';
+require 'header.anon.php';
 include '../functions.php';
 include '../conexion.php';
 

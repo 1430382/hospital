@@ -4,19 +4,12 @@ ini_set('display_errors', '1');
 //Documentos de conexión y header
 require 'header.med.php';
 include '../conexion.php';
-/*
+
 if(!isset($_SESSION)) {
     //Revisa si la sesión ha sido inciada ya
     session_start();
 }
 
-if($_SESSION['rol']==2){
-	header("location: recepcionista.view.php");
-}
-
-if($_SESSION['rol']==0){
-	header("location: login.view.php");
-}*/
 
 //Variables Alta Cita
 $paciente_cita = 0;
@@ -167,7 +160,7 @@ if (isset($_POST['submit_cita'])) {
 
 			</div>
 
-	
+
 
 </div>
 

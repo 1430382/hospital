@@ -25,7 +25,7 @@
       <a href="#" class="brand-logo">&nbsp;&nbsp;<img src="../images/logo.png"> </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="web.view.php">Pagina Principal</a></li>
-      <li><a href="ver_citas_anon.php">Visualizar citas</a></li><!--
+      <li><a href="ver_citas_anon1.php">Visualizar citas</a></li><!--
       <li><a href="personal.php">Sobre nosotros</a></li> -->
         <li><a href="login.view.php">Login</a></li>
         <!-- <li><a href="https://www.facebook.com/TheApolloHospitals/" class="fa fa-facebook"></a></li> -->

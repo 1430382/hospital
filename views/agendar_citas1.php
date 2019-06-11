@@ -2,17 +2,12 @@
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 //Documentos de conexión y header
-require 'header.med.php';
+require 'header.anon.php';
 include '../conexion.php';
-
-if(!isset($_SESSION)) {
-    //Revisa si la sesión ha sido inciada ya
-    session_start();
-}
-
 
 //Variables Alta Cita
 $paciente_cita = 0;
+$medico_cita = 0;
 $hora_cita = 0;
 $costo_cita = 0;
 $motivo_cita = 0;
@@ -40,8 +35,10 @@ if(isset($_GET['status'])){
 </script>";
 }
 }
+//Se verifica si se hizo click en el boton
 if (isset($_POST['submit_cita'])) {
-	//Se asigna el valor del post de las variables
+
+	// Se asigna el valor de las variables al post
 	$paciente_cita='';
 	if (isset($_POST['paciente_cita'])) {
 		$paciente_cita=$_POST['paciente_cita'];
@@ -59,7 +56,7 @@ if (isset($_POST['submit_cita'])) {
 		$email=$_POST['email'];
 	}
 
-	//Se llama el query del procedimiento almacenado
+//Una vez que se asignaron los valores a las variables de arriba se llama al procedimiento almacenado correspondiente
 	if (!$con->query("CALL alta_cita('$paciente_cita','$motivo_cita','$hora_cita','$fecha_cita','$email')")) {
 		header("location: agendar_citas.php?status=0");
 		//echo "Falló CALL: (" . $con->errno . ") " . $con->error;
@@ -93,6 +90,8 @@ if (isset($_POST['submit_cita'])) {
 	} /*Color of underline*/
 </style>
 <main>
+
+	<!-- El form con el metodo post que pasa los valores--->
 <form method="post" >
 
 	<div class="row">
@@ -138,7 +137,7 @@ if (isset($_POST['submit_cita'])) {
 				</button>
 
 
-			</div>
+			</div>7
 
 
 </div>

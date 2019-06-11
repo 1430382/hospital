@@ -1,55 +1,71 @@
 <?php
 //Documentos de conexión y header
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
+
 require 'header.med.php';
 include '../functions.php';
 include '../conexion.php';
-/*
+
 if(!isset($_SESSION)) {
     //Revisa si la sesión ha sido inciada ya
     session_start();
 }
 
-if($_SESSION['rol']==0){
-	header("location: login.view.php");
-}
-
-if($_SESSION['rol']==1){
-	header("location: medico.view.php");
-}
-*/
 //librerias
-  require 'PHPMailer/PHPMailerAutoload.php';
+require 'PHPMailer/PHPMailerAutoload.php';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer();
 $mail->IsSMTP();
 
+
 //Configuracion servidor mail
-$mail->From = "pruebasmedicohospital@gmail.com"; //remitente
-$mail->SMTPAuth = true;
-$mail->SMTPSecure = 'tls'; //seguridad
-$mail->Host = "smtp.gmail.com"; // servidor smtp
-$mail->Port = 587; //puerto
-$mail->Username ='pruebasmedicohospital@gmail.com'; //nombre usuario
-$mail->Password = 'Lololol1'; //contraseña
 
-//Agregar destinatario
+date_default_timezone_set("America/Monterrey");
+$fechactual=date('y-m-d');
+if (isset($_POST['sendemail'])) {
+
+////
+if (!($res=$con->query("SELECT email FROM cita where fecha='$fechactual'"))) {
+
+}else{
+  /*E imprimimos el resultado para ver que el ejemplo ha funcionado*/
+  if($row = $res->fetch_assoc()){
+    $_SESSION['email']=$row['email'];
+    var_dump($_SESSION['email']);
+///////////
+    $mail->From = "pruebasmedicohospital@gmail.com"; //remitente
+    $mail->SMTPAuth = true;
+    $mail->SMTPSecure = 'tls'; //seguridad
+    $mail->Host = "smtp.gmail.com"; // servidor smtp
+    $mail->Port = 587; //puerto
+    $mail->Username ='pruebasmedicohospital@gmail.com'; //nombre usuario
+    $mail->Password = 'Lololol1'; //contraseña
 
 
-///
-$subject='Ya casi es su cita';
-$message='Este correo se manda con tiempo de anticipacion';
-$mail->AddAddress($cita['email']);
-$mail->Subject = $subject;
-$mail->Body = $_POST['message'];
+    //Agregar destinatario
 
-//Avisar si fue enviado o no y dirigir al index
-if ($mail->Send()) {
-    echo'<script type="text/javascript">
-           alert("Enviado Correctamente");
-        </script>';
+
+
+    ///
+    $subject='Ya casi es su cita';
+    $message='Este correo se manda con tiempo de anticipacion';
+    $mail->AddAddress($_SESSION['email']);
+    $mail->Subject = $subject;
+    $mail->Body = $message;
+
+    //Avisar si fue enviado o no y dirigir al index
+    if ($mail->Send()) {
+        echo'<script type="text/javascript">
+               alert("Enviado Correctamente");
+            </script>';
+    }
+
 }
 
+}
+}
 
 ?>
 
@@ -78,23 +94,10 @@ if ($mail->Send()) {
 <main>
 <form method="POST">
   <div class="row">
-	<!--	<div class="col s12">
-      <label for="subject">Asunto:
-        <input type="text" name="subject" id="subject">
-      </label>
-      <br>
-      <label for="email">Email destinatario:
-        <input type="email" name="email" id="email">
-      </label>
-      <br>
-      <label for="message">Mensaje:
-        <textarea name="message" id="message" rows="8" cols="20"></textarea>
-      </label>
-      <br> -->
 			<h4>Enviar notificacion que ya va casi es la cita</h4>
 
 			<br>
-      <input type="submit" value="Send">
+      <input type="submit" id="sendemail" name="sendemail" value="Send">
 		</div>
 
 
@@ -122,7 +125,7 @@ if ($mail->Send()) {
 			</div>
 
 			<div class="col s2">
-			<br>
+			<br><!-- Aqui se guarda cuando se selecciona la fecha en el html--->
 				<button class="btn waves-effect waves-light blue darken-4 right" type="submit" name="submit_ver">Revisar
 					<i class="material-icons right">search</i>
 				</button>
@@ -130,9 +133,9 @@ if ($mail->Send()) {
 			</div>
 
 			<?php
-
+      // Se hace una funcion para visualizar las citas con un procedimiento almacenado
 			if (isset($_POST['submit_ver'])&&isset($_POST['fecha_ver'])&&$_POST['fecha_ver']!="") {
-				# code...
+        //Se asigna la fecha mediante post
 				$fecha=$_POST['fecha_ver'];
 				$result = $con->query("CALL get_citas('$fecha')");
 				$citas = mysqli_fetch_all($result,MYSQLI_ASSOC);
@@ -140,7 +143,7 @@ if ($mail->Send()) {
 			}
 
 			function visualizar($fecha, $citas){
-
+        //Si no hay citas manda un mensaje que no encontro nada
 				if (empty($citas)) {
 					echo "<div class='col s8'><h4 class='blue-text text-darken'>No hay citas para este día</h4></div>";
 				}else{
@@ -148,6 +151,7 @@ if ($mail->Send()) {
 				?>
 				<div class="row">
 					<div class="col s12">
+            <!-- Imprime las coincidencias--->
 					<?php echo "<p>Citas del día ".fecha($fecha)."</p>"; ?>
 						<table class="highlight">
 							<thead>
@@ -160,7 +164,7 @@ if ($mail->Send()) {
 							</thead>
 
 							<tbody>
-
+                <!-- se guarda en un array el resultado y luego se imprime  --->
 								<?php foreach($citas as $cita): ?>
 									<tr>
 										<td><?php echo $cita['nombre_paciente']; ?></td>
