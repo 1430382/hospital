@@ -31,7 +31,6 @@ UNLOCK TABLES;
 
 
 DROP TABLE IF EXISTS `usuario`;
-
 CREATE TABLE `usuario` (
   `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
   `cedula` varchar(20) DEFAULT NULL,
@@ -48,6 +47,7 @@ CREATE TABLE `usuario` (
   `pasword` varchar(32) DEFAULT NULL,
   `horaentrada` time DEFAULT NULL,
   `horasalida` time DEFAULT NULL,
+  `fechalimite` date DEFAULT NULL,
   PRIMARY KEY (`id_usuario`),
   KEY `id_rol` (`id_rol`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
