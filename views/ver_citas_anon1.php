@@ -3,7 +3,6 @@
 require 'header.anon.php';
 include '../functions.php';
 include '../conexion.php';
-
 ?>
 <main>
 <form method="post">
@@ -11,14 +10,12 @@ include '../conexion.php';
 <br>
 	<div class="col s7">
 		<h4>Visualizar citas</h4>
-
 	</div>
 			<div class="col s2">
 				<label>Elija una fecha</label>
 				<!-- Se guarda la fecha -->
 				<input type="text" class="datepicker" name="fecha_ver">
 			</div>
-
 			<div class="col s2">
 			<br>
 				<button class="btn waves-effect waves-light blue darken-4 right" type="submit" name="submit_ver">Revisar
@@ -26,7 +23,6 @@ include '../conexion.php';
 				</button>
 			</div>
 			</div>
-
 			<?php
 			//Se revisa si se mando la fecha correcta
 			if (isset($_POST['submit_ver'])&&isset($_POST['fecha_ver'])&&$_POST['fecha_ver']!="") {
@@ -37,7 +33,6 @@ include '../conexion.php';
 				$citas = mysqli_fetch_all($result,MYSQLI_ASSOC);
 				visualizar($fecha,$citas);
 			}
-
 			//Se haceu una funcion para visualizar la fecha
 			function visualizar($fecha, $citas){
 					//Si no encuentra nada manda un mensaje que no hay citas para ese dia
@@ -53,14 +48,11 @@ include '../conexion.php';
 						<table class="highlight">
 							<thead>
 								<tr>
-								<!--	<th>Paciente</th> -->
 									<th>Hora</th>
-							<!--		<th>Motivo</th> -->
 								</tr>
 							</thead>
-
 							<tbody>
-									<!-- Lo muestra desde el array-->
+
 								<?php foreach($citas as $cita): ?>
 									<tr>
 								<!--		<td><?php echo $cita['nombre_paciente']; ?></td> -->

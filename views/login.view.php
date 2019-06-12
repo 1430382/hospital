@@ -1,15 +1,16 @@
 <?php
+// se cargan los archivos necesarios
 require 'header.web.php';
 include '../conexion.php';
 if(!isset($_SESSION)) {
     //Revisa si la sesión ha sido inciada ya
     session_start();
 }
-
+// si no esta logeado te regresa al login
 if (isset($_SESSION['rol'])) {
 	$_SESSION['rol'] = 0;
 }
-
+// Se utiliza para mandar mensajes de error al al usuario
 if(isset($_GET['status'])){
 	$status = $_GET['status'];
 	if($status == 1){
@@ -26,36 +27,32 @@ if(isset($_GET['status'])){
 	</script>";
 }
 }
-
+// Si se presiona el boton
 if (isset($_POST['submit_ver'])) {
+  // Se asigna a sus respectivas variables
 	$username = htmlspecialchars($_POST['username']);
 	$password = htmlspecialchars($_POST['password']);
+  // Luego se llama el procedimiento almacenado
 	if (!($res=$con->query("CALL iniciar_sesion('$username','$password')"))) {
 		header("location: login.view.php?status=2");
 	}else{
 		/*E imprimimos el resultado para ver que el ejemplo ha funcionado*/
 		if($row = $res->fetch_assoc()){
+      //Se guarda el rol y el id del id_usuario
+      // Para utilizarlo posteriormente
 			$_SESSION['rol']=$row['id_rol'];
 			$_SESSION['usuario']=$row['id_usuario'];
 		if($row['id_rol']==2){
-				//header("location: recepcionista.view.php");
-        header("location: horario.php");
+				header("location: horario.php");
 			}
-
 		}else{
 			header("location: login.view.php?status=1");
 		}
-		//header("location: recepcionista.view.php");
-		//$result = $con->query( "CALL iniciar_sesion($username, $password)" );
-		///row = $result->fetch_array(MYSQLI_ASSOC);
-		//
-
 	}
 }
-
-
 ?>
 <main>
+  <!--  El form con sus respectivos campos-->
 	<form method="post">
 		<br><br><br><br>
 		<div class="row">
@@ -64,7 +61,6 @@ if (isset($_POST['submit_ver'])) {
 					<label for="username">Nombre de usuario</label>
 					<input type="text" id="username" name="username" placeholder="Ingrese el nombre de usuario" maxlength="32">
 				</div>
-
 			</div>
 		</div>
 		<div class="row">
@@ -75,7 +71,6 @@ if (isset($_POST['submit_ver'])) {
 				</div>
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col s2 offset-s5">
 				<button class="btn waves-effect waves-light blue darken-4 right btn-la" type="submit" name="submit_ver">Iniciar Sesión
@@ -83,15 +78,8 @@ if (isset($_POST['submit_ver'])) {
 				</button>
 			</div>
 		</div>
-
-
-
 	</form>
 </main>
-
-
-
 <?php
-
 //require 'footer.web.php'
 ?>

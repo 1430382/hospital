@@ -1,24 +1,27 @@
 <?php
+//Para los errores en pantalla
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 //Documentos de conexión y header
 require 'header.med.php';
 include '../conexion.php';
-
 if(!isset($_SESSION)) {
     //Revisa si la sesión ha sido inciada ya
     session_start();
 }
+//Se verifica si inicio con sesion correcta
+//Si no, lo regresa al login
 if($_SESSION['rol']==0){
 	header("location: login.view.php");
 }
-//fecha
+//Se asigna el horario y se hace un parseo a la fecha para que se muestre correctamente
 date_default_timezone_set("America/Monterrey");
 $fechactual=date('y-m-d');
 $fechactual=date('Y-m-d', strtotime($fechactual));
 //var_dump($fechactual);
 //
-//
+//Se asigna la variable sesion usuario a el idusuario
+//Para usarlo posteriormente
 $idusuario=$_SESSION['usuario'];
 //Variables Alta Cita
 $paciente_cita = 0;
@@ -29,7 +32,7 @@ $motivo_cita = 0;
 $conn=mysqli_connect("localhost","root","","hospital1") or die("Error in connection");
 $query = mysqli_query($conn,"SELECT horaentrada,horasalida from usuario WHERE id_usuario='$idusuario'");
     while ($result=  mysqli_fetch_array($query)) {
-
+      //Se asigna el horario a dos variables
       $hora_entrada=$result['horaentrada'];
       $hora_salida=$result['horasalida'];
       }
@@ -79,7 +82,7 @@ if (isset($_POST['submit_cita'])) {
 		$email=$_POST['email'];
 	}
 /////
-
+  //Se verifica que el horario este correctamente y no se salga del horario asignado
   if ($hora_cita < $hora_salida and $hora_cita>$hora_entrada) {
 	//Se llama el query del procedimiento almacenado
 	if (!$con->query("CALL alta_cita('$paciente_cita','$motivo_cita','$hora_cita','$fecha_cita','$email')")) {
@@ -92,11 +95,59 @@ if (isset($_POST['submit_cita'])) {
   header("location: agendar_citas.php?status=2");
 }
 ////
-
 }
-
-
 ?>
+<script type="text/javascript">
+//Funcion para validar los campos
+function validate()
+{
+    //Se declaran variables
+    var paciente_cita = document.forms["RegForm"]["paciente_cita"];
+    var hora_cita = document.forms["RegForm"]["hora_cita"];
+    var motivo_cita = document.forms["RegForm"]["motivo_cita"];
+    var email =  document.forms["RegForm"]["email"];
+    var fecha_cita = document.forms["RegForm"]["fecha_cita"];
+
+    //Luego se verifica con un if cada variable
+    if (paciente_cita.value == "")
+    {
+        window.alert("Please enter your name.");
+        paciente_cita.focus();
+        return false;
+    }
+    if (hora_cita.value == "")
+    {
+        window.alert("Please enter the time.");
+        hora_cita.focus();
+        return false;
+    }
+    if (motivo_cita.value == "")
+    {
+        window.alert("Please enter a valid e-mail address.");
+        motivo_cita.focus();
+        return false;
+    }
+    if (email.value.indexOf("@", 0) < 0)
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+    if (email.value.indexOf(".", 0) < 0)
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+    if (fecha_cita.value == "")
+    {
+        window.alert("Please enter a valid date.");
+        fecha_cita.focus();
+        return false;
+    }
+    return true;
+}
+</script>
 <style type="text/css">
 
 	.tabs .tab a{
@@ -118,13 +169,11 @@ if (isset($_POST['submit_cita'])) {
 	} /*Color of underline*/
 </style>
 <main>
-<form method="post" >
-
+<form method="post" name="RegForm" onsubmit="return validate()">
 	<div class="row">
 		<div class="col s12">
 			<ul class="tabs blue-text text-darken-4">
 				<li class="tab col s6 "><a class="active" href="#cita">Generar Cita</a></li>
-
 			</ul>
 		</div>
 			<div id="cita" class="col s12">
@@ -133,14 +182,11 @@ if (isset($_POST['submit_cita'])) {
 					<div class="input-field col s3">
 						<label for="costo_cita">Paciente</label>
 						<input type="text" name="paciente_cita" id="paciente_cita" placeholder="Ingrese el nombre" maxlength="50">
-
 					</div>
-
 					<div class="input-field col s3">
 						<label for="hora_cita">Hora</label>
 						<input type="text" id="hora_cita" name="hora_cita" class="timepicker" placeholder="Hora">
 					</div>
-
 				</div>
 				<div class="row">
 					<div class="input-field col s6">
@@ -161,16 +207,10 @@ if (isset($_POST['submit_cita'])) {
 				<button class="btn waves-effect waves-light blue darken-4 right" type="submit" name="submit_cita">Agendar
 					<i class="material-icons right">send</i>
 				</button>
-
-
 			</div>
-
-
 </div>
-
 </form>
 </main>
-
 <?php
 //require 'footer.web.php';
 ?>
