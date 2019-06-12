@@ -10,12 +10,27 @@ if(!isset($_SESSION)) {
     session_start();
 }
 
-
+//
+$idusuario=$_SESSION['usuario'];
 //Variables Alta Cita
 $paciente_cita = 0;
 $hora_cita = 0;
 $costo_cita = 0;
 $motivo_cita = 0;
+
+//
+$conn=mysqli_connect("localhost","root","","hospital1") or die("Error in connection");
+$query = mysqli_query($conn,"SELECT horaentrada,horasalida from usuario WHERE id_usuario='$idusuario'");
+    while ($result=  mysqli_fetch_array($query)) {
+
+      $hora_entrada=$result['horaentrada'];
+      $hora_salida=$result['horasalida'];
+      }
+
+//echo "Hora entrada ",$hora_entrada;
+//echo "<br>";
+//echo "Hora salida ",$hora_salida;
+//
 
 //Verifica si se completó el registro, de ser así, lo informa al usuario mediante un mensaje
 if(isset($_GET['status'])){
@@ -35,7 +50,7 @@ if(isset($_GET['status'])){
 }else if($status == 2){
 	echo "<script>
 	$(function(){
-		Materialize.toast('El paciente ha sido registrado correctamente', 2200, 'rounded')
+		Materialize.toast('No esta en el horario del medico', 2200, 'rounded')
 	});
 </script>";
 }
@@ -59,6 +74,8 @@ if (isset($_POST['submit_cita'])) {
 		$email=$_POST['email'];
 	}
 
+  if ($hora_cita < $hora_salida and $hora_cita>$hora_entrada) {
+
 	//Se llama el query del procedimiento almacenado
 	if (!$con->query("CALL alta_cita('$paciente_cita','$motivo_cita','$hora_cita','$fecha_cita','$email')")) {
 		header("location: agendar_citas.php?status=0");
@@ -67,8 +84,11 @@ if (isset($_POST['submit_cita'])) {
 		header("location: agendar_citas.php?status=1");
 	}
 
+}else {
+  header("location: agendar_citas.php?status=2");
 }
-
+////
+}
 
 
 ?>

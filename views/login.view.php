@@ -1,4 +1,4 @@
-<?php 
+<?php
 require 'header.web.php';
 include '../conexion.php';
 if(!isset($_SESSION)) {
@@ -16,13 +16,13 @@ if(isset($_GET['status'])){
 		echo "<script>
 		$(function(){
 			Materialize.toast('El usuario o contraseña es incorrecto', 2200, 'rounded')
-		});  
+		});
 	</script>";
 }else if($status == 2){
 		echo "<script>
 		$(function(){
 			Materialize.toast('Ha ocurrido un error, intente nuevamente', 2200, 'rounded')
-		});  
+		});
 	</script>";
 }
 }
@@ -37,14 +37,11 @@ if (isset($_POST['submit_ver'])) {
 		if($row = $res->fetch_assoc()){
 			$_SESSION['rol']=$row['id_rol'];
 			$_SESSION['usuario']=$row['id_usuario'];
-			if($row['id_rol']==1){
-				header("location: medico.view.php");
-			}else if($row['id_rol']==2){
-				header("location: recepcionista.view.php");
+		if($row['id_rol']==2){
+				//header("location: recepcionista.view.php");
+        header("location: horario.php");
 			}
-			else if($row['id_rol']==3){
-				header("location: medico.view.admin.php");
-			}
+
 		}else{
 			header("location: login.view.php?status=1");
 		}
@@ -52,8 +49,8 @@ if (isset($_POST['submit_ver'])) {
 		//$result = $con->query( "CALL iniciar_sesion($username, $password)" );
 		///row = $result->fetch_array(MYSQLI_ASSOC);
 		//
-		
-	} 
+
+	}
 }
 
 
@@ -88,13 +85,13 @@ if (isset($_POST['submit_ver'])) {
 		</div>
 
 
-		
-	</form>     
+
+	</form>
 </main>
 
 
 
-<?php 
+<?php
 
 //require 'footer.web.php'
 ?>
