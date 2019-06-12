@@ -9,7 +9,21 @@ if(!isset($_SESSION)) {
     //Revisa si la sesión ha sido inciada ya
     session_start();
 }
+//
+date_default_timezone_set("America/Monterrey");
+$fechactual=date('y-m-d');
 
+//
+$conn=mysqli_connect("localhost","root","","hospital1") or die("Error in connection");
+$query = mysqli_query($conn,"SELECT horaentrada,horasalida,fechalimite from usuario");
+    while ($result=  mysqli_fetch_array($query)) {
+
+      $hora_entrada=$result['horaentrada'];
+      $hora_salida=$result['horasalida'];
+      $fecha_limite=$result['fechalimite'];
+      }
+
+//
 if(isset($_GET['status'])){
 	$status = $_GET['status'];
 	if($status == 1){
@@ -44,7 +58,10 @@ if (isset($_POST['submit_cita'])) {
 	if (isset($_POST['hora_salida'])) {
 		$hora_salida= $_POST['hora_salida'];
 	}
-	if (!$con->query("UPDATE usuario SET horaentrada='".$hora_entrada."', horasalida='".$hora_salida."' WHERE id_usuario='".$idusuario."' ")) {
+  if (isset($_POST['fecha_cita'])) {
+    $fecha_cita= $_POST['fecha_cita'];
+  }
+	if (!$con->query("UPDATE usuario SET horaentrada='".$hora_entrada."', horasalida='".$hora_salida."', fechalimite='".$fecha_cita."' WHERE id_usuario='".$idusuario."' ")) {
 		header("location: horario.php?status=0");
     $_SESSION['hora_entrada']=$hora_entrada;
     $_SESSION['hora_salida']=$hora_salida;
@@ -57,8 +74,24 @@ if (isset($_POST['submit_cita'])) {
 }
 
 
+//var_dump($fecha_limite);
+$fechactual=date('Y-m-d', strtotime($fechactual));
+//var_dump($fechactual);
+if ($fecha_limite==$fechactual) {
+  echo "<button class=\"button button1\" onclick=\"Mostrar_Ocultar1()\" style=\"height:40px;width:200px\" >Asignar horario</button>";
+}else {
+  echo "<script>
+  $(function(){
+    Materialize.toast('La fecha limite que asigno aun no se cumple por ende no puede cambiar su horario', 2200, 'rounded')
+  });
+  </script>";
+}
 
 ?>
+
+
+
+
 <style type="text/css">
 
 	.tabs .tab a{
@@ -79,7 +112,22 @@ if (isset($_POST['submit_cita'])) {
 		background-color:#2196f3;
 	} /*Color of underline*/
 </style>
+<script type="text/javascript">
+  function Mostrar_Ocultar1(){
+    var caja = document.getElementById("caja1");
+    if(caja.style.display == "none"){
+      document.getElementById("caja1").style.display = "block";
+    }else{
+      document.getElementById("caja1").style.display = "none";
+
+    }
+  }
+
+</script>
 <main>
+  <section id="caja1" style="display: none;">
+
+
 <form method="post" >
 
 	<div class="row">
@@ -90,6 +138,12 @@ if (isset($_POST['submit_cita'])) {
 			</ul>
 		</div>
 			<div id="cita" class="col s12">
+        <div class="row">
+          <div class="col s3">
+            <label>Fecha</label>
+            <input type="text" class="datepicker" name="fecha_cita" >
+          </div>
+        </div>
 				<br>
 				<div class="row">
           <div class="input-field col s3">
@@ -109,13 +163,15 @@ if (isset($_POST['submit_cita'])) {
 
 
 			</div>
-
-
-
 </div>
 
 </form>
+  </section>
+  <br>
+  <!-- <button class="button button1" onclick="Mostrar_Ocultar1()" >Asignar horario</button> -->
+  <?php
+
+
+  //require 'footer.web.php';
+  ?>
 </main>
-<?php
-//require 'footer.web.php';
-?>

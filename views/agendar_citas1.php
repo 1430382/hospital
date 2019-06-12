@@ -13,7 +13,7 @@ $medico_cita = 0;
 $hora_cita = 0;
 $costo_cita = 0;
 $motivo_cita = 0;
-//
+//Se hace una consulta al a base de datos para obtener el horario en el que esta atendiendo el medico
 $conn=mysqli_connect("localhost","root","","hospital1") or die("Error in connection");
 $query = mysqli_query($conn,"SELECT horaentrada,horasalida from usuario");
     while ($result=  mysqli_fetch_array($query)) {

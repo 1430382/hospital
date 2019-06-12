@@ -11,26 +11,30 @@ if(!isset($_SESSION)) {
     //Revisa si la sesión ha sido inciada ya
     session_start();
 }
-
+if($_SESSION['rol']==0){
+	header("location: login.view.php");
+}
 //librerias
-require 'PHPMailer/PHPMailerAutoload.php';
+//require 'PHPMailer/PHPMailerAutoload.php';
 
 //Create a new PHPMailer instance
-$mail = new PHPMailer();
-$mail->IsSMTP();
+//$mail = new PHPMailer();
+//$mail->IsSMTP();
 
 
 //Configuracion servidor mail
 
 date_default_timezone_set("America/Monterrey");
 $fechactual=date('y-m-d');
+$fechactual=date('Y-m-d', strtotime($fechactual));
+/*
 if (isset($_POST['sendemail'])) {
 
 ////
 if (!($res=$con->query("SELECT email FROM cita where fecha='$fechactual'"))) {
 
 }else{
-  /*E imprimimos el resultado para ver que el ejemplo ha funcionado*/
+  //E imprimimos el resultado para ver que el ejemplo ha funcionado
   if($row = $res->fetch_assoc()){
     $_SESSION['email']=$row['email'];
     var_dump($_SESSION['email']);
@@ -65,7 +69,7 @@ if (!($res=$con->query("SELECT email FROM cita where fecha='$fechactual'"))) {
 }
 
 }
-}
+}*/
 
 ?>
 
@@ -91,24 +95,6 @@ if (!($res=$con->query("SELECT email FROM cita where fecha='$fechactual'"))) {
 		background-color:#2196f3;
 	} /*Color of underline*/
 </style>
-<main>
-<form method="POST">
-  <div class="row">
-			<h4>Enviar notificacion que ya va casi es la cita</h4>
-
-			<br>
-      <input type="submit" id="sendemail" name="sendemail" value="Send">
-		</div>
-
-
-			</div>
-
-
-
-</div>
-
-</form>
-</main>
 
 
 <main>
