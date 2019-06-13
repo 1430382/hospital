@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="conexion_8php" kind="file" language="PHP">
+    <compoundname>conexion.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="conexion_8php_1ad135cc8a47e55f0829949cf62214170f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$server</definition>
+        <argsstring></argsstring>
+        <name>$server</name>
+        <initializer>=&quot;localhost&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/conexion.php" line="2" column="1" bodyfile="/var/www/html/trabajos/hospital/conexion.php" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conexion_8php_1a559c8003f481610caf373b85cc607fb6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$usuario</definition>
+        <argsstring></argsstring>
+        <name>$usuario</name>
+        <initializer>=&quot;root&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/conexion.php" line="3" column="1" bodyfile="/var/www/html/trabajos/hospital/conexion.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conexion_8php_1a12ec2780b52bd1c54d38c2f981c0349f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$pass</definition>
+        <argsstring></argsstring>
+        <name>$pass</name>
+        <initializer>=&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/conexion.php" line="4" column="1" bodyfile="/var/www/html/trabajos/hospital/conexion.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conexion_8php_1ae02092314a2b7ce65255e368b0a47192" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$baseDatos</definition>
+        <argsstring></argsstring>
+        <name>$baseDatos</name>
+        <initializer>=&quot;hospital1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/conexion.php" line="5" column="1" bodyfile="/var/www/html/trabajos/hospital/conexion.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conexion_8php_1a0debe10448ec56a57b5509648408a549" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$con</definition>
+        <argsstring></argsstring>
+        <name>$con</name>
+        <initializer>= new mysqli($server,$usuario,$pass,$baseDatos)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/conexion.php" line="6" column="1" bodyfile="/var/www/html/trabajos/hospital/conexion.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conexion_8php_1ada4d1ede20de11b2d362c5cd6f582e42" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$acentos</definition>
+        <argsstring></argsstring>
+        <name>$acentos</name>
+        <initializer>= $con-&gt;query(&quot;SET NAMES &apos;utf8&apos;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/conexion.php" line="7" column="1" bodyfile="/var/www/html/trabajos/hospital/conexion.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"><sp/>&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>$server=</highlight><highlight class="stringliteral">&quot;localhost&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>$usuario=</highlight><highlight class="stringliteral">&quot;root&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>$pass=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>$baseDatos=</highlight><highlight class="stringliteral">&quot;hospital1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>$con<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>mysqli($server,$usuario,$pass,$baseDatos);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>$acentos<sp/>=<sp/>$con-&gt;query(</highlight><highlight class="stringliteral">&quot;SET<sp/>NAMES<sp/>&apos;utf8&apos;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($con-&gt;connect_error){</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>die(</highlight><highlight class="stringliteral">&quot;Error<sp/>al<sp/>conectar&quot;</highlight><highlight class="normal">.$con-&gt;connect_error);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/>?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/var/www/html/trabajos/hospital/conexion.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="courierb_8php" kind="file" language="PHP">
+    <compoundname>courierb.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="courierb_8php_1a9a4a6fba2208984cabb3afacadf33919" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$type</definition>
+        <argsstring></argsstring>
+        <name>$type</name>
+        <initializer>= &apos;Core&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/courierb.php" line="2" column="1" bodyfile="/var/www/html/trabajos/hospital/font/courierb.php" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="courierb_8php_1ab2fc40d43824ea3e1ce5d86dee0d763b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$name</definition>
+        <argsstring></argsstring>
+        <name>$name</name>
+        <initializer>= &apos;Courier-Bold&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/courierb.php" line="3" column="1" bodyfile="/var/www/html/trabajos/hospital/font/courierb.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="courierb_8php_1a6b5ad2ac55f9df46e8f34e78fbd6f176" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$up</definition>
+        <argsstring></argsstring>
+        <name>$up</name>
+        <initializer>= -100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/courierb.php" line="4" column="1" bodyfile="/var/www/html/trabajos/hospital/font/courierb.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="courierb_8php_1aadd3f841051043ee58e587e840e8dd0b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ut</definition>
+        <argsstring></argsstring>
+        <name>$ut</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/courierb.php" line="5" column="1" bodyfile="/var/www/html/trabajos/hospital/font/courierb.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="courierb_8php_1ac35f45ece02c139742f8d3edacae5925" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$enc</definition>
+        <argsstring></argsstring>
+        <name>$enc</name>
+        <initializer>= &apos;cp1252&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/courierb.php" line="8" column="1" bodyfile="/var/www/html/trabajos/hospital/font/courierb.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="courierb_8php_1a6002e8c8e44c609c5087ce9b1c5867de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$uv</definition>
+        <argsstring></argsstring>
+        <name>$uv</name>
+        <initializer>= array(0=&gt;array(0,128),128=&gt;8364,130=&gt;8218,131=&gt;402,132=&gt;8222,133=&gt;8230,134=&gt;array(8224,2),136=&gt;710,137=&gt;8240,138=&gt;352,139=&gt;8249,140=&gt;338,142=&gt;381,145=&gt;array(8216,2),147=&gt;array(8220,2),149=&gt;8226,150=&gt;array(8211,2),152=&gt;732,153=&gt;8482,154=&gt;353,155=&gt;8250,156=&gt;339,158=&gt;382,159=&gt;376,160=&gt;array(160,96))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/courierb.php" line="9" column="1" bodyfile="/var/www/html/trabajos/hospital/font/courierb.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">$type<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Core&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">$name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Courier-Bold&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">$up<sp/>=<sp/>-100;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">$ut<sp/>=<sp/>50;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($i=0;$i&lt;=255;$i++)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>$cw[chr($i)]<sp/>=<sp/>600;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">$enc<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;cp1252&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">$uv<sp/>=<sp/>array(0=&gt;array(0,128),128=&gt;8364,130=&gt;8218,131=&gt;402,132=&gt;8222,133=&gt;8230,134=&gt;array(8224,2),136=&gt;710,137=&gt;8240,138=&gt;352,139=&gt;8249,140=&gt;338,142=&gt;381,145=&gt;array(8216,2),147=&gt;array(8220,2),149=&gt;8226,150=&gt;array(8211,2),152=&gt;732,153=&gt;8482,154=&gt;353,155=&gt;8250,156=&gt;339,158=&gt;382,159=&gt;376,160=&gt;array(160,96));</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/var/www/html/trabajos/hospital/font/courierb.php"/>
+  </compounddef>
+</doxygen>

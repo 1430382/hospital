@@ -1,0 +1,892 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classTTFParser" kind="class" language="PHP" prot="public">
+    <compoundname>TTFParser</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classTTFParser_1aaa0e1e5670f133ad18e748244bf3b839" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$f</definition>
+        <argsstring></argsstring>
+        <name>$f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="12" column="11" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a6fec21b0a0305f020012e2382f96005f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$tables</definition>
+        <argsstring></argsstring>
+        <name>$tables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="13" column="11" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a279359ab6abedfa1809311857245138f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$numberOfHMetrics</definition>
+        <argsstring></argsstring>
+        <name>$numberOfHMetrics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="14" column="11" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a6e663eabf186f7a15d60fdbd57974693" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$numGlyphs</definition>
+        <argsstring></argsstring>
+        <name>$numGlyphs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="15" column="11" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a72486086c17dae80998896f5b8c7bd7a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$glyphNames</definition>
+        <argsstring></argsstring>
+        <name>$glyphNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="16" column="11" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1ab75adf45bf49839a632ab2bde42c89b8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$indexToLocFormat</definition>
+        <argsstring></argsstring>
+        <name>$indexToLocFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="17" column="11" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a02960e53ddc66f4adabb8d69de2f2c14" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$subsettedChars</definition>
+        <argsstring></argsstring>
+        <name>$subsettedChars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="18" column="11" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1aead84f8cda7cbf5cf49a2529aa6450a6" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$subsettedGlyphs</definition>
+        <argsstring></argsstring>
+        <name>$subsettedGlyphs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="19" column="11" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classTTFParser_1ae450e6c969d5be14cc82a40c48697470" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$chars</definition>
+        <argsstring></argsstring>
+        <name>$chars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="20" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a73794ef12d78d974a0dadb4e20e5b954" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$glyphs</definition>
+        <argsstring></argsstring>
+        <name>$glyphs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="21" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a081eb1e34c96b94b279365e285d77ee3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$unitsPerEm</definition>
+        <argsstring></argsstring>
+        <name>$unitsPerEm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="22" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a0147f1450e3d775c89c1d50f531f1f54" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$xMin</definition>
+        <argsstring></argsstring>
+        <name>$xMin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="23" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a4562aa6fe0656069fcaad452bce2772f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$yMin</definition>
+        <argsstring></argsstring>
+        <name>$yMin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="23" column="14" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a8dc1fa6634fad386dd721bda495dec93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$xMax</definition>
+        <argsstring></argsstring>
+        <name>$xMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="23" column="20" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1ae3871bb9e3c31cb81fe616f4a59dbf19" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$yMax</definition>
+        <argsstring></argsstring>
+        <name>$yMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="23" column="26" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1ac67943b8655cae5c6ba81e7217abc04f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$postScriptName</definition>
+        <argsstring></argsstring>
+        <name>$postScriptName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="24" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a32e045756b6c4bcb417f0aecbc96048c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$embeddable</definition>
+        <argsstring></argsstring>
+        <name>$embeddable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="25" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a83cc1d6a27a516e64751877859f664e4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$bold</definition>
+        <argsstring></argsstring>
+        <name>$bold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="26" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a2e6d7caa84b7c678d3c475f71ec81528" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$typoAscender</definition>
+        <argsstring></argsstring>
+        <name>$typoAscender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="27" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a7f2b6f4e0e71e6284255c46beb24586d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$typoDescender</definition>
+        <argsstring></argsstring>
+        <name>$typoDescender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="28" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1af01d90cd33a90e906db3bcbd63d78a54" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$capHeight</definition>
+        <argsstring></argsstring>
+        <name>$capHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="29" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a00bf745d03b39f24fb36f94f14083d62" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$italicAngle</definition>
+        <argsstring></argsstring>
+        <name>$italicAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="30" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1aa5db12337eeb53a2a0e33071dbe69e98" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$underlinePosition</definition>
+        <argsstring></argsstring>
+        <name>$underlinePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="31" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a676721af52dd3748c9e0fdbd3056883d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$underlineThickness</definition>
+        <argsstring></argsstring>
+        <name>$underlineThickness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="32" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTTFParser_1a939aa940d419002839e55f20ffd34b0a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>TTFParser::$isFixedPitch</definition>
+        <argsstring></argsstring>
+        <name>$isFixedPitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="33" column="8" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTTFParser_1abd99cacd07f66a8d937c3fca4507fd8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::__construct</definition>
+        <argsstring>($file)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="35" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a6e820d51dcc061b96253a73407c83e97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="42" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a67edb1bd7297f06b04dcbc8b6135a5db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::Parse</definition>
+        <argsstring>()</argsstring>
+        <name>Parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="48" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="48" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a2a0c425d7064410ff2a476920d49134a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseOffsetTable</definition>
+        <argsstring>()</argsstring>
+        <name>ParseOffsetTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="63" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="63" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1ae87aa2ef8fef27cff059106d57d1303c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseHead</definition>
+        <argsstring>()</argsstring>
+        <name>ParseHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="83" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="83" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a5068ab1775e58f2ddf8a5c2a74e11c43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseHhea</definition>
+        <argsstring>()</argsstring>
+        <name>ParseHhea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="101" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="101" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a45ca897180839588639c1c6a1fcaaf8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseMaxp</definition>
+        <argsstring>()</argsstring>
+        <name>ParseMaxp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="108" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="108" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1adb82cd858d9cbab2cf350202662a8959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseHmtx</definition>
+        <argsstring>()</argsstring>
+        <name>ParseHmtx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="115" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="115" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a9556b5853c5e9e07f860fd63a31b34f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseLoca</definition>
+        <argsstring>()</argsstring>
+        <name>ParseLoca</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="132" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="132" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1ade723de9cd8c9b8ca0dacd4dabc3bd33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseGlyf</definition>
+        <argsstring>()</argsstring>
+        <name>ParseGlyf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="155" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="155" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1af35ff7a233c6de7751e4df1ead414315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseCmap</definition>
+        <argsstring>()</argsstring>
+        <name>ParseCmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="194" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="194" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a1bf8839b790543a35722529d151cd0df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseName</definition>
+        <argsstring>()</argsstring>
+        <name>ParseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="262" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="262" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1aeeb7b994865c9690f4c5e7877c89e0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParseOS2</definition>
+        <argsstring>()</argsstring>
+        <name>ParseOS2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="291" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="291" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1aecfdf351bb047a3c72cbc9db0ae75e46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ParsePost</definition>
+        <argsstring>()</argsstring>
+        <name>ParsePost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="313" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="313" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a1077451e1055d24f99e24fb265ff57aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::Subset</definition>
+        <argsstring>($chars)</argsstring>
+        <name>Subset</name>
+        <param>
+          <declname>$chars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="355" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="355" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1afe63147229f77e5884864737a920e406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::AddGlyph</definition>
+        <argsstring>($id)</argsstring>
+        <name>AddGlyph</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="378" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="378" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a633b58407236edc95997c8d4694eee51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="392" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="392" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1ae415813333d9b1bc0cdf6ff0832f0cde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::BuildCmap</definition>
+        <argsstring>()</argsstring>
+        <name>BuildCmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="404" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="404" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a7c6b39eb568510974148ab9b08db5fcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::BuildHhea</definition>
+        <argsstring>()</argsstring>
+        <name>BuildHhea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="489" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="489" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a2f893e98aa99b4985d003988b8c7c3b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::BuildHmtx</definition>
+        <argsstring>()</argsstring>
+        <name>BuildHmtx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="497" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="497" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1ab29a72cdb4974648fbb74c43369d4070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::BuildLoca</definition>
+        <argsstring>()</argsstring>
+        <name>BuildLoca</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="508" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="508" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1adc4cf2ee8eedddc538b866c75c244878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::BuildGlyf</definition>
+        <argsstring>()</argsstring>
+        <name>BuildGlyf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="527" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="527" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1afc1504b822ad8fee8090e177100ca718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::BuildMaxp</definition>
+        <argsstring>()</argsstring>
+        <name>BuildMaxp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="550" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="550" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1add276f04750d9c5abadf9c6f33b451db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::BuildPost</definition>
+        <argsstring>()</argsstring>
+        <name>BuildPost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="558" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="558" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a66988913e7a001aa10d6999aa8bec9cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::BuildFont</definition>
+        <argsstring>()</argsstring>
+        <name>BuildFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="593" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="593" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1ad4afda301f81eb46d696508f6cabe20b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::LoadTable</definition>
+        <argsstring>($tag)</argsstring>
+        <name>LoadTable</name>
+        <param>
+          <declname>$tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="646" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="646" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a2490927fe72410b0d507f36d5ae6a7fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::SetTable</definition>
+        <argsstring>($tag, $data)</argsstring>
+        <name>SetTable</name>
+        <param>
+          <declname>$tag</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="656" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="656" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1aa703a58f9c3bee79dac1f61bbec475bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::Seek</definition>
+        <argsstring>($tag)</argsstring>
+        <name>Seek</name>
+        <param>
+          <declname>$tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="667" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="667" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1af3fbeec4785fdd40d6295009432440cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::Skip</definition>
+        <argsstring>($n)</argsstring>
+        <name>Skip</name>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="674" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="674" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a2c654758fca166436e49424c43459eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::Read</definition>
+        <argsstring>($n)</argsstring>
+        <name>Read</name>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="679" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="679" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1afcf0c3429844304824d652634c3c5aef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ReadUShort</definition>
+        <argsstring>()</argsstring>
+        <name>ReadUShort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="684" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="684" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a19ed1b90fdb6d08c73c7ef1464d88dc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ReadShort</definition>
+        <argsstring>()</argsstring>
+        <name>ReadShort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="690" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="690" bodyend="697"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a2401e438a38f0f3e6c9238f35ca0be98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::ReadULong</definition>
+        <argsstring>()</argsstring>
+        <name>ReadULong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="699" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="699" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a03fef1fd5b4083bb78e7f2fd6bfb0884" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::CheckSum</definition>
+        <argsstring>($s)</argsstring>
+        <name>CheckSum</name>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="705" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="705" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="classTTFParser_1a7a4137fee293884ff4be14dac1806b34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TTFParser::Error</definition>
+        <argsstring>($msg)</argsstring>
+        <name>Error</name>
+        <param>
+          <declname>$msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="718" column="10" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="718" bodyend="721"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/makefont/ttfparser.php" line="11" column="1" bodyfile="/var/www/html/trabajos/hospital/makefont/ttfparser.php" bodystart="10" bodyend="722"/>
+    <listofallmembers>
+      <member refid="classTTFParser_1a83cc1d6a27a516e64751877859f664e4" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$bold</name></member>
+      <member refid="classTTFParser_1af01d90cd33a90e906db3bcbd63d78a54" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$capHeight</name></member>
+      <member refid="classTTFParser_1ae450e6c969d5be14cc82a40c48697470" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$chars</name></member>
+      <member refid="classTTFParser_1a32e045756b6c4bcb417f0aecbc96048c" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$embeddable</name></member>
+      <member refid="classTTFParser_1aaa0e1e5670f133ad18e748244bf3b839" prot="protected" virt="non-virtual"><scope>TTFParser</scope><name>$f</name></member>
+      <member refid="classTTFParser_1a72486086c17dae80998896f5b8c7bd7a" prot="protected" virt="non-virtual"><scope>TTFParser</scope><name>$glyphNames</name></member>
+      <member refid="classTTFParser_1a73794ef12d78d974a0dadb4e20e5b954" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$glyphs</name></member>
+      <member refid="classTTFParser_1ab75adf45bf49839a632ab2bde42c89b8" prot="protected" virt="non-virtual"><scope>TTFParser</scope><name>$indexToLocFormat</name></member>
+      <member refid="classTTFParser_1a939aa940d419002839e55f20ffd34b0a" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$isFixedPitch</name></member>
+      <member refid="classTTFParser_1a00bf745d03b39f24fb36f94f14083d62" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$italicAngle</name></member>
+      <member refid="classTTFParser_1a279359ab6abedfa1809311857245138f" prot="protected" virt="non-virtual"><scope>TTFParser</scope><name>$numberOfHMetrics</name></member>
+      <member refid="classTTFParser_1a6e663eabf186f7a15d60fdbd57974693" prot="protected" virt="non-virtual"><scope>TTFParser</scope><name>$numGlyphs</name></member>
+      <member refid="classTTFParser_1ac67943b8655cae5c6ba81e7217abc04f" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$postScriptName</name></member>
+      <member refid="classTTFParser_1a02960e53ddc66f4adabb8d69de2f2c14" prot="protected" virt="non-virtual"><scope>TTFParser</scope><name>$subsettedChars</name></member>
+      <member refid="classTTFParser_1aead84f8cda7cbf5cf49a2529aa6450a6" prot="protected" virt="non-virtual"><scope>TTFParser</scope><name>$subsettedGlyphs</name></member>
+      <member refid="classTTFParser_1a6fec21b0a0305f020012e2382f96005f" prot="protected" virt="non-virtual"><scope>TTFParser</scope><name>$tables</name></member>
+      <member refid="classTTFParser_1a2e6d7caa84b7c678d3c475f71ec81528" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$typoAscender</name></member>
+      <member refid="classTTFParser_1a7f2b6f4e0e71e6284255c46beb24586d" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$typoDescender</name></member>
+      <member refid="classTTFParser_1aa5db12337eeb53a2a0e33071dbe69e98" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$underlinePosition</name></member>
+      <member refid="classTTFParser_1a676721af52dd3748c9e0fdbd3056883d" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$underlineThickness</name></member>
+      <member refid="classTTFParser_1a081eb1e34c96b94b279365e285d77ee3" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$unitsPerEm</name></member>
+      <member refid="classTTFParser_1a8dc1fa6634fad386dd721bda495dec93" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$xMax</name></member>
+      <member refid="classTTFParser_1a0147f1450e3d775c89c1d50f531f1f54" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$xMin</name></member>
+      <member refid="classTTFParser_1ae3871bb9e3c31cb81fe616f4a59dbf19" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$yMax</name></member>
+      <member refid="classTTFParser_1a4562aa6fe0656069fcaad452bce2772f" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>$yMin</name></member>
+      <member refid="classTTFParser_1abd99cacd07f66a8d937c3fca4507fd8c" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>__construct</name></member>
+      <member refid="classTTFParser_1a6e820d51dcc061b96253a73407c83e97" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>__destruct</name></member>
+      <member refid="classTTFParser_1afe63147229f77e5884864737a920e406" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>AddGlyph</name></member>
+      <member refid="classTTFParser_1a633b58407236edc95997c8d4694eee51" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>Build</name></member>
+      <member refid="classTTFParser_1ae415813333d9b1bc0cdf6ff0832f0cde" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>BuildCmap</name></member>
+      <member refid="classTTFParser_1a66988913e7a001aa10d6999aa8bec9cc" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>BuildFont</name></member>
+      <member refid="classTTFParser_1adc4cf2ee8eedddc538b866c75c244878" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>BuildGlyf</name></member>
+      <member refid="classTTFParser_1a7c6b39eb568510974148ab9b08db5fcc" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>BuildHhea</name></member>
+      <member refid="classTTFParser_1a2f893e98aa99b4985d003988b8c7c3b8" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>BuildHmtx</name></member>
+      <member refid="classTTFParser_1ab29a72cdb4974648fbb74c43369d4070" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>BuildLoca</name></member>
+      <member refid="classTTFParser_1afc1504b822ad8fee8090e177100ca718" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>BuildMaxp</name></member>
+      <member refid="classTTFParser_1add276f04750d9c5abadf9c6f33b451db" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>BuildPost</name></member>
+      <member refid="classTTFParser_1a03fef1fd5b4083bb78e7f2fd6bfb0884" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>CheckSum</name></member>
+      <member refid="classTTFParser_1a7a4137fee293884ff4be14dac1806b34" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>Error</name></member>
+      <member refid="classTTFParser_1ad4afda301f81eb46d696508f6cabe20b" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>LoadTable</name></member>
+      <member refid="classTTFParser_1a67edb1bd7297f06b04dcbc8b6135a5db" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>Parse</name></member>
+      <member refid="classTTFParser_1af35ff7a233c6de7751e4df1ead414315" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseCmap</name></member>
+      <member refid="classTTFParser_1ade723de9cd8c9b8ca0dacd4dabc3bd33" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseGlyf</name></member>
+      <member refid="classTTFParser_1ae87aa2ef8fef27cff059106d57d1303c" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseHead</name></member>
+      <member refid="classTTFParser_1a5068ab1775e58f2ddf8a5c2a74e11c43" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseHhea</name></member>
+      <member refid="classTTFParser_1adb82cd858d9cbab2cf350202662a8959" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseHmtx</name></member>
+      <member refid="classTTFParser_1a9556b5853c5e9e07f860fd63a31b34f5" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseLoca</name></member>
+      <member refid="classTTFParser_1a45ca897180839588639c1c6a1fcaaf8b" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseMaxp</name></member>
+      <member refid="classTTFParser_1a1bf8839b790543a35722529d151cd0df" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseName</name></member>
+      <member refid="classTTFParser_1a2a0c425d7064410ff2a476920d49134a" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseOffsetTable</name></member>
+      <member refid="classTTFParser_1aeeb7b994865c9690f4c5e7877c89e0a6" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParseOS2</name></member>
+      <member refid="classTTFParser_1aecfdf351bb047a3c72cbc9db0ae75e46" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ParsePost</name></member>
+      <member refid="classTTFParser_1a2c654758fca166436e49424c43459eac" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>Read</name></member>
+      <member refid="classTTFParser_1a19ed1b90fdb6d08c73c7ef1464d88dc8" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ReadShort</name></member>
+      <member refid="classTTFParser_1a2401e438a38f0f3e6c9238f35ca0be98" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ReadULong</name></member>
+      <member refid="classTTFParser_1afcf0c3429844304824d652634c3c5aef" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>ReadUShort</name></member>
+      <member refid="classTTFParser_1aa703a58f9c3bee79dac1f61bbec475bb" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>Seek</name></member>
+      <member refid="classTTFParser_1a2490927fe72410b0d507f36d5ae6a7fc" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>SetTable</name></member>
+      <member refid="classTTFParser_1af3fbeec4785fdd40d6295009432440cf" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>Skip</name></member>
+      <member refid="classTTFParser_1a1077451e1055d24f99e24fb265ff57aa" prot="public" virt="non-virtual"><scope>TTFParser</scope><name>Subset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

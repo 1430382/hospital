@@ -1,0 +1,736 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classPOP3" kind="class" language="PHP" prot="public">
+    <compoundname>POP3</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classPOP3_1a2a7719920c947815dd27de33d72af8b1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$Version</definition>
+        <argsstring></argsstring>
+        <name>$Version</name>
+        <initializer>= &apos;5.2.27&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="37" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1af023545d9cb0b63ca85bfd7efc667ff1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$POP3_PORT</definition>
+        <argsstring></argsstring>
+        <name>$POP3_PORT</name>
+        <initializer>= 110</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="44" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a0b32b0438167c805b2af958b2499c21c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$POP3_TIMEOUT</definition>
+        <argsstring></argsstring>
+        <name>$POP3_TIMEOUT</name>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="51" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a1eacceb41d7076a02d699fbc76912ad6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$CRLF</definition>
+        <argsstring></argsstring>
+        <name>$CRLF</name>
+        <initializer>= &quot;\r\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="59" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a4d933c1f22c2d1b909072b677a796911" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$do_debug</definition>
+        <argsstring></argsstring>
+        <name>$do_debug</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="67" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a683d947d1cc315a29250652e2f3ce6f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$host</definition>
+        <argsstring></argsstring>
+        <name>$host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="74" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a16746e61a0be526a36521f939fb4764d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$port</definition>
+        <argsstring></argsstring>
+        <name>$port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="81" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a61925db699ff6ff820394bfded5e8561" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$tval</definition>
+        <argsstring></argsstring>
+        <name>$tval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="88" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1acbfb9ff11ef82c94fc9dcede0a7da15d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$username</definition>
+        <argsstring></argsstring>
+        <name>$username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="95" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1ac749ff7e2312c1511dd94e9f7f88df5d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$password</definition>
+        <argsstring></argsstring>
+        <name>$password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="102" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a5de802c27a18225db6247ced4e3caae9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const POP3::CRLF</definition>
+        <argsstring></argsstring>
+        <name>CRLF</name>
+        <initializer>= &quot;\r\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Line break constant </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="128" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classPOP3_1a29ed46d6bff50732f5f38f9e3038ff52" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$pop_conn</definition>
+        <argsstring></argsstring>
+        <name>$pop_conn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="109" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a8095822fda20d2f1019a3e2c093c7b4e" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$connected</definition>
+        <argsstring></argsstring>
+        <name>$connected</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="116" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPOP3_1a2ccc237d4b613d635e0fbc02502c6323" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>POP3::$errors</definition>
+        <argsstring></argsstring>
+        <name>$errors</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="123" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classPOP3_1a1fd138e5c3c70d1761c57e7551f6cce5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static POP3::popBeforeSmtp</definition>
+        <argsstring>( $host, $port=false, $timeout=false, $username=&apos;&apos;, $password=&apos;&apos;, $debug_level=0)</argsstring>
+        <name>popBeforeSmtp</name>
+        <param>
+          <declname>$host</declname>
+        </param>
+        <param>
+          <declname>$port</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$username</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$password</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$debug_level</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Simple static wrapper for all-in-one POP before <ref refid="classSMTP" kindref="compound">SMTP</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametertype>boolean</parametertype>
+<parametername>$port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The port number to connect to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametertype>boolean</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timeout value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$debug_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="140" column="28" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="140" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPOP3_1ae80dba3738dd402631b4565259fff42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::authorise</definition>
+        <argsstring>($host, $port=false, $timeout=false, $username=&apos;&apos;, $password=&apos;&apos;, $debug_level=0)</argsstring>
+        <name>authorise</name>
+        <param>
+          <declname>$host</declname>
+        </param>
+        <param>
+          <declname>$port</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$username</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$password</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$debug_level</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Authenticate with a <ref refid="classPOP3" kindref="compound">POP3</ref> server. A connect, login, disconnect sequence appropriate for POP-before <ref refid="classSMTP" kindref="compound">SMTP</ref> authorisation. @access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The hostname to connect to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametertype>boolean</parametertype>
+<parametername>$port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The port number to connect to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametertype>boolean</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timeout value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$debug_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="165" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="165" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOP3_1abeeb62ef3ea0ae1cc648112b4d870965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::connect</definition>
+        <argsstring>($host, $port=false, $tval=30)</argsstring>
+        <name>connect</name>
+        <param>
+          <declname>$host</declname>
+        </param>
+        <param>
+          <declname>$port</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$tval</declname>
+          <defval>30</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Connect to a <ref refid="classPOP3" kindref="compound">POP3</ref> server. @access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametertype>boolean</parametertype>
+<parametername>$port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$tval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="207" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="207" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOP3_1a29a4c41512888f54b6940c695e5746c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::login</definition>
+        <argsstring>($username=&apos;&apos;, $password=&apos;&apos;)</argsstring>
+        <name>login</name>
+        <param>
+          <declname>$username</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$password</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Log in to the <ref refid="classPOP3" kindref="compound">POP3</ref> server. Does not support APOP (RFC 2828, 4949). @access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="266" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="266" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOP3_1ab6dccba2275be90d856203b8cde81db4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::disconnect</definition>
+        <argsstring>()</argsstring>
+        <name>disconnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disconnect from the <ref refid="classPOP3" kindref="compound">POP3</ref> server. @access public </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="296" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="296" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOP3_1a83db44b1cc63a8ed5a309b9e56a9a4ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::getErrors</definition>
+        <argsstring>()</argsstring>
+        <name>getErrors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get an array of error messages, if any. <simplesect kind="return"><para>array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="384" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="384" bodyend="387"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classPOP3_1a7d7291e693037a6a8cbb322adf1ff7dd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::getResponse</definition>
+        <argsstring>($size=128)</argsstring>
+        <name>getResponse</name>
+        <param>
+          <declname>$size</declname>
+          <defval>128</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a response from the <ref refid="classPOP3" kindref="compound">POP3</ref> server. $size is the maximum number of bytes to retrieve <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string @access protected </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="315" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="315" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOP3_1a32a26f6d83f635a66622e95fca32a5de" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::sendString</definition>
+        <argsstring>($string)</argsstring>
+        <name>sendString</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send raw data to the <ref refid="classPOP3" kindref="compound">POP3</ref> server. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>integer @access protected </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="330" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="330" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOP3_1ac68234fa176dda26c23733af44ef1c55" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::checkResponse</definition>
+        <argsstring>($string)</argsstring>
+        <name>checkResponse</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the <ref refid="classPOP3" kindref="compound">POP3</ref> server response. Looks for for +OK or -ERR. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean @access protected </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="348" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="348" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOP3_1abf17a9af3cbdf988738dfb894efd0c8a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::setError</definition>
+        <argsstring>($error)</argsstring>
+        <name>setError</name>
+        <param>
+          <declname>$error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add an error to the internal error store. Also display debug output if it&apos;s enabled. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>@access protected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="368" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="368" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classPOP3_1a211eb6b89572512b35a7c3984288627f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>POP3::catchWarning</definition>
+        <argsstring>($errno, $errstr, $errfile, $errline)</argsstring>
+        <name>catchWarning</name>
+        <param>
+          <declname>$errno</declname>
+        </param>
+        <param>
+          <declname>$errstr</declname>
+        </param>
+        <param>
+          <declname>$errfile</declname>
+        </param>
+        <param>
+          <declname>$errline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classPOP3" kindref="compound">POP3</ref> connection error handler. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$errno</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$errstr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$errfile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$errline</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>@access protected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="397" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="397" bodyend="406"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" line="31" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php" bodystart="30" bodyend="407"/>
+    <listofallmembers>
+      <member refid="classPOP3_1a8095822fda20d2f1019a3e2c093c7b4e" prot="protected" virt="non-virtual"><scope>POP3</scope><name>$connected</name></member>
+      <member refid="classPOP3_1a1eacceb41d7076a02d699fbc76912ad6" prot="public" virt="non-virtual"><scope>POP3</scope><name>$CRLF</name></member>
+      <member refid="classPOP3_1a4d933c1f22c2d1b909072b677a796911" prot="public" virt="non-virtual"><scope>POP3</scope><name>$do_debug</name></member>
+      <member refid="classPOP3_1a2ccc237d4b613d635e0fbc02502c6323" prot="protected" virt="non-virtual"><scope>POP3</scope><name>$errors</name></member>
+      <member refid="classPOP3_1a683d947d1cc315a29250652e2f3ce6f9" prot="public" virt="non-virtual"><scope>POP3</scope><name>$host</name></member>
+      <member refid="classPOP3_1ac749ff7e2312c1511dd94e9f7f88df5d" prot="public" virt="non-virtual"><scope>POP3</scope><name>$password</name></member>
+      <member refid="classPOP3_1af023545d9cb0b63ca85bfd7efc667ff1" prot="public" virt="non-virtual"><scope>POP3</scope><name>$POP3_PORT</name></member>
+      <member refid="classPOP3_1a0b32b0438167c805b2af958b2499c21c" prot="public" virt="non-virtual"><scope>POP3</scope><name>$POP3_TIMEOUT</name></member>
+      <member refid="classPOP3_1a29ed46d6bff50732f5f38f9e3038ff52" prot="protected" virt="non-virtual"><scope>POP3</scope><name>$pop_conn</name></member>
+      <member refid="classPOP3_1a16746e61a0be526a36521f939fb4764d" prot="public" virt="non-virtual"><scope>POP3</scope><name>$port</name></member>
+      <member refid="classPOP3_1a61925db699ff6ff820394bfded5e8561" prot="public" virt="non-virtual"><scope>POP3</scope><name>$tval</name></member>
+      <member refid="classPOP3_1acbfb9ff11ef82c94fc9dcede0a7da15d" prot="public" virt="non-virtual"><scope>POP3</scope><name>$username</name></member>
+      <member refid="classPOP3_1a2a7719920c947815dd27de33d72af8b1" prot="public" virt="non-virtual"><scope>POP3</scope><name>$Version</name></member>
+      <member refid="classPOP3_1ae80dba3738dd402631b4565259fff42e" prot="public" virt="non-virtual"><scope>POP3</scope><name>authorise</name></member>
+      <member refid="classPOP3_1a211eb6b89572512b35a7c3984288627f" prot="protected" virt="non-virtual"><scope>POP3</scope><name>catchWarning</name></member>
+      <member refid="classPOP3_1ac68234fa176dda26c23733af44ef1c55" prot="protected" virt="non-virtual"><scope>POP3</scope><name>checkResponse</name></member>
+      <member refid="classPOP3_1abeeb62ef3ea0ae1cc648112b4d870965" prot="public" virt="non-virtual"><scope>POP3</scope><name>connect</name></member>
+      <member refid="classPOP3_1a5de802c27a18225db6247ced4e3caae9" prot="public" virt="non-virtual"><scope>POP3</scope><name>CRLF</name></member>
+      <member refid="classPOP3_1ab6dccba2275be90d856203b8cde81db4" prot="public" virt="non-virtual"><scope>POP3</scope><name>disconnect</name></member>
+      <member refid="classPOP3_1a83db44b1cc63a8ed5a309b9e56a9a4ec" prot="public" virt="non-virtual"><scope>POP3</scope><name>getErrors</name></member>
+      <member refid="classPOP3_1a7d7291e693037a6a8cbb322adf1ff7dd" prot="protected" virt="non-virtual"><scope>POP3</scope><name>getResponse</name></member>
+      <member refid="classPOP3_1a29a4c41512888f54b6940c695e5746c9" prot="public" virt="non-virtual"><scope>POP3</scope><name>login</name></member>
+      <member refid="classPOP3_1a1fd138e5c3c70d1761c57e7551f6cce5" prot="public" virt="non-virtual"><scope>POP3</scope><name>popBeforeSmtp</name></member>
+      <member refid="classPOP3_1a32a26f6d83f635a66622e95fca32a5de" prot="protected" virt="non-virtual"><scope>POP3</scope><name>sendString</name></member>
+      <member refid="classPOP3_1abf17a9af3cbdf988738dfb894efd0c8a" prot="protected" virt="non-virtual"><scope>POP3</scope><name>setError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

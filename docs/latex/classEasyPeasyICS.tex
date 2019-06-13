@@ -1,0 +1,123 @@
+\hypertarget{classEasyPeasyICS}{}\doxysection{Easy\+Peasy\+I\+CS Class Reference}
+\label{classEasyPeasyICS}\index{EasyPeasyICS@{EasyPeasyICS}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEasyPeasyICS_ab2e67a334ef9f0636f287eff56f534d9}{\+\_\+\+\_\+construct}} (\$calendar\+Name=\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{classEasyPeasyICS_a7ddc2c4db51af8ac050a84cac9a1bb3a}{add\+Event}} (\$start, \$end, \$summary=\textquotesingle{}\textquotesingle{}, \$description=\textquotesingle{}\textquotesingle{}, \$url=\textquotesingle{}\textquotesingle{}, \$uid=\textquotesingle{}\textquotesingle{})
+\item 
+\mbox{\hyperlink{classEasyPeasyICS_a7e5915cc04284faff4212364767199df}{get\+Events}} ()
+\item 
+\mbox{\hyperlink{classEasyPeasyICS_a3e65c1f33ee518c65da9fcfddfa39fc0}{clear\+Events}} ()
+\item 
+\mbox{\hyperlink{classEasyPeasyICS_a3bb8a214cf48d1e7d2a9ed2977517d7c}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{classEasyPeasyICS_abad9d0c3179560a812e723bdcd66bc87}{set\+Name}} (\$name)
+\item 
+\mbox{\hyperlink{classEasyPeasyICS_ad7da24308fc03c7f92fd4dc8b2985b75}{render}} (\$output=true)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEasyPeasyICS_aa7fb91848a1e428c721b718b7a3f14ea}\label{classEasyPeasyICS_aa7fb91848a1e428c721b718b7a3f14ea}} 
+{\bfseries \$calendar\+Name}
+\item 
+\mbox{\Hypertarget{classEasyPeasyICS_a5567b64be041cc7d5e09ab1381ffe28b}\label{classEasyPeasyICS_a5567b64be041cc7d5e09ab1381ffe28b}} 
+{\bfseries \$events} = array()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEasyPeasyICS_ab2e67a334ef9f0636f287eff56f534d9}\label{classEasyPeasyICS_ab2e67a334ef9f0636f287eff56f534d9}} 
+\index{EasyPeasyICS@{EasyPeasyICS}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!EasyPeasyICS@{EasyPeasyICS}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily Easy\+Peasy\+I\+C\+S\+::\+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$calendar\+Name = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+Constructor 
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$calendar\+Name} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classEasyPeasyICS_a7ddc2c4db51af8ac050a84cac9a1bb3a}\label{classEasyPeasyICS_a7ddc2c4db51af8ac050a84cac9a1bb3a}} 
+\index{EasyPeasyICS@{EasyPeasyICS}!addEvent@{addEvent}}
+\index{addEvent@{addEvent}!EasyPeasyICS@{EasyPeasyICS}}
+\doxysubsubsection{\texorpdfstring{addEvent()}{addEvent()}}
+{\footnotesize\ttfamily Easy\+Peasy\+I\+C\+S\+::add\+Event (\begin{DoxyParamCaption}\item[{}]{\$start,  }\item[{}]{\$end,  }\item[{}]{\$summary = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{}]{\$description = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{}]{\$url = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{}]{\$uid = {\ttfamily \textquotesingle{}\textquotesingle{}} }\end{DoxyParamCaption})}
+
+Add an event to this calendar. 
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$start} & The start date and time as a unix timestamp \\
+\hline
+string & {\em \$end} & The end date and time as a unix timestamp \\
+\hline
+string & {\em \$summary} & A summary or title for the event \\
+\hline
+string & {\em \$description} & A description of the event \\
+\hline
+string & {\em \$url} & A U\+RL for the event \\
+\hline
+string & {\em \$uid} & A unique identifier for the event -\/ generated automatically if not provided \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array An array of event details, including any generated U\+ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEasyPeasyICS_a3e65c1f33ee518c65da9fcfddfa39fc0}\label{classEasyPeasyICS_a3e65c1f33ee518c65da9fcfddfa39fc0}} 
+\index{EasyPeasyICS@{EasyPeasyICS}!clearEvents@{clearEvents}}
+\index{clearEvents@{clearEvents}!EasyPeasyICS@{EasyPeasyICS}}
+\doxysubsubsection{\texorpdfstring{clearEvents()}{clearEvents()}}
+{\footnotesize\ttfamily Easy\+Peasy\+I\+C\+S\+::clear\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Clear all events. \mbox{\Hypertarget{classEasyPeasyICS_a7e5915cc04284faff4212364767199df}\label{classEasyPeasyICS_a7e5915cc04284faff4212364767199df}} 
+\index{EasyPeasyICS@{EasyPeasyICS}!getEvents@{getEvents}}
+\index{getEvents@{getEvents}!EasyPeasyICS@{EasyPeasyICS}}
+\doxysubsubsection{\texorpdfstring{getEvents()}{getEvents()}}
+{\footnotesize\ttfamily Easy\+Peasy\+I\+C\+S\+::get\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+array Get the array of events. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEasyPeasyICS_a3bb8a214cf48d1e7d2a9ed2977517d7c}\label{classEasyPeasyICS_a3bb8a214cf48d1e7d2a9ed2977517d7c}} 
+\index{EasyPeasyICS@{EasyPeasyICS}!getName@{getName}}
+\index{getName@{getName}!EasyPeasyICS@{EasyPeasyICS}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily Easy\+Peasy\+I\+C\+S\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the name of the calendar. \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEasyPeasyICS_ad7da24308fc03c7f92fd4dc8b2985b75}\label{classEasyPeasyICS_ad7da24308fc03c7f92fd4dc8b2985b75}} 
+\index{EasyPeasyICS@{EasyPeasyICS}!render@{render}}
+\index{render@{render}!EasyPeasyICS@{EasyPeasyICS}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily Easy\+Peasy\+I\+C\+S\+::render (\begin{DoxyParamCaption}\item[{}]{\$output = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Render and optionally output a vcal string. 
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$output} & Whether to output the calendar data directly (the default). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The complete rendered vlal 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEasyPeasyICS_abad9d0c3179560a812e723bdcd66bc87}\label{classEasyPeasyICS_abad9d0c3179560a812e723bdcd66bc87}} 
+\index{EasyPeasyICS@{EasyPeasyICS}!setName@{setName}}
+\index{setName@{setName}!EasyPeasyICS@{EasyPeasyICS}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily Easy\+Peasy\+I\+C\+S\+::set\+Name (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})}
+
+Set the name of the calendar. 
+\begin{DoxyParams}{Parameters}
+{\em \$name} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/var/www/html/trabajos/hospital/views/\+P\+H\+P\+Mailer/extras/Easy\+Peasy\+I\+C\+S.\+php\end{DoxyCompactItemize}

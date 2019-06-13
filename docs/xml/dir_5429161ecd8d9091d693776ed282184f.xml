@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_5429161ecd8d9091d693776ed282184f" kind="dir">
+    <compoundname>/var/www/html/trabajos/hospital/views/PHPMailer/language</compoundname>
+    <innerfile refid="phpmailer_8lang-am_8php">phpmailer.lang-am.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ar_8php">phpmailer.lang-ar.php</innerfile>
+    <innerfile refid="phpmailer_8lang-az_8php">phpmailer.lang-az.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ba_8php">phpmailer.lang-ba.php</innerfile>
+    <innerfile refid="phpmailer_8lang-be_8php">phpmailer.lang-be.php</innerfile>
+    <innerfile refid="phpmailer_8lang-bg_8php">phpmailer.lang-bg.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ca_8php">phpmailer.lang-ca.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ch_8php">phpmailer.lang-ch.php</innerfile>
+    <innerfile refid="phpmailer_8lang-cs_8php">phpmailer.lang-cs.php</innerfile>
+    <innerfile refid="phpmailer_8lang-da_8php">phpmailer.lang-da.php</innerfile>
+    <innerfile refid="phpmailer_8lang-de_8php">phpmailer.lang-de.php</innerfile>
+    <innerfile refid="phpmailer_8lang-el_8php">phpmailer.lang-el.php</innerfile>
+    <innerfile refid="phpmailer_8lang-eo_8php">phpmailer.lang-eo.php</innerfile>
+    <innerfile refid="phpmailer_8lang-es_8php">phpmailer.lang-es.php</innerfile>
+    <innerfile refid="phpmailer_8lang-et_8php">phpmailer.lang-et.php</innerfile>
+    <innerfile refid="phpmailer_8lang-fa_8php">phpmailer.lang-fa.php</innerfile>
+    <innerfile refid="phpmailer_8lang-fi_8php">phpmailer.lang-fi.php</innerfile>
+    <innerfile refid="phpmailer_8lang-fo_8php">phpmailer.lang-fo.php</innerfile>
+    <innerfile refid="phpmailer_8lang-fr_8php">phpmailer.lang-fr.php</innerfile>
+    <innerfile refid="phpmailer_8lang-gl_8php">phpmailer.lang-gl.php</innerfile>
+    <innerfile refid="phpmailer_8lang-he_8php">phpmailer.lang-he.php</innerfile>
+    <innerfile refid="phpmailer_8lang-hr_8php">phpmailer.lang-hr.php</innerfile>
+    <innerfile refid="phpmailer_8lang-hu_8php">phpmailer.lang-hu.php</innerfile>
+    <innerfile refid="phpmailer_8lang-id_8php">phpmailer.lang-id.php</innerfile>
+    <innerfile refid="phpmailer_8lang-it_8php">phpmailer.lang-it.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ja_8php">phpmailer.lang-ja.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ka_8php">phpmailer.lang-ka.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ko_8php">phpmailer.lang-ko.php</innerfile>
+    <innerfile refid="phpmailer_8lang-lt_8php">phpmailer.lang-lt.php</innerfile>
+    <innerfile refid="phpmailer_8lang-lv_8php">phpmailer.lang-lv.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ms_8php">phpmailer.lang-ms.php</innerfile>
+    <innerfile refid="phpmailer_8lang-nb_8php">phpmailer.lang-nb.php</innerfile>
+    <innerfile refid="phpmailer_8lang-nl_8php">phpmailer.lang-nl.php</innerfile>
+    <innerfile refid="phpmailer_8lang-pl_8php">phpmailer.lang-pl.php</innerfile>
+    <innerfile refid="phpmailer_8lang-pt_8php">phpmailer.lang-pt.php</innerfile>
+    <innerfile refid="phpmailer_8lang-pt__br_8php">phpmailer.lang-pt_br.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ro_8php">phpmailer.lang-ro.php</innerfile>
+    <innerfile refid="phpmailer_8lang-rs_8php">phpmailer.lang-rs.php</innerfile>
+    <innerfile refid="phpmailer_8lang-ru_8php">phpmailer.lang-ru.php</innerfile>
+    <innerfile refid="phpmailer_8lang-sk_8php">phpmailer.lang-sk.php</innerfile>
+    <innerfile refid="phpmailer_8lang-sl_8php">phpmailer.lang-sl.php</innerfile>
+    <innerfile refid="phpmailer_8lang-sv_8php">phpmailer.lang-sv.php</innerfile>
+    <innerfile refid="phpmailer_8lang-tr_8php">phpmailer.lang-tr.php</innerfile>
+    <innerfile refid="phpmailer_8lang-uk_8php">phpmailer.lang-uk.php</innerfile>
+    <innerfile refid="phpmailer_8lang-vi_8php">phpmailer.lang-vi.php</innerfile>
+    <innerfile refid="phpmailer_8lang-zh_8php">phpmailer.lang-zh.php</innerfile>
+    <innerfile refid="phpmailer_8lang-zh__cn_8php">phpmailer.lang-zh_cn.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/language/"/>
+  </compounddef>
+</doxygen>

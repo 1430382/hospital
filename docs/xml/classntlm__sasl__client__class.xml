@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classntlm__sasl__client__class" kind="class" language="PHP" prot="public">
+    <compoundname>ntlm_sasl_client_class</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classntlm__sasl__client__class_1a4d16326542b98923057def07729f0f87" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ntlm_sasl_client_class::$credentials</definition>
+        <argsstring></argsstring>
+        <name>$credentials</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="18" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classntlm__sasl__client__class_1a1673fa8cdc38d78e459afdd70f8b1b8c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>ntlm_sasl_client_class::$state</definition>
+        <argsstring></argsstring>
+        <name>$state</name>
+        <initializer>= SASL_NTLM_STATE_START</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="19" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classntlm__sasl__client__class_1a50cc5f61a1bff87b2cb41a04d0cc3fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ntlm_sasl_client_class::initialize</definition>
+        <argsstring>(&amp;$client)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="21" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="21" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classntlm__sasl__client__class_1afaddca2c8084d8bba9f5433155d7f0f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ntlm_sasl_client_class::ASCIIToUnicode</definition>
+        <argsstring>($ascii)</argsstring>
+        <name>ASCIIToUnicode</name>
+        <param>
+          <declname>$ascii</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="37" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classntlm__sasl__client__class_1aeec512bae0c02d307b792e4682e7cb81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ntlm_sasl_client_class::typeMsg1</definition>
+        <argsstring>($domain, $workstation)</argsstring>
+        <name>typeMsg1</name>
+        <param>
+          <declname>$domain</declname>
+        </param>
+        <param>
+          <declname>$workstation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="45" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="45" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classntlm__sasl__client__class_1a60b6a158b9fdbd49203ce1e7683a296a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ntlm_sasl_client_class::NTLMResponse</definition>
+        <argsstring>($challenge, $password)</argsstring>
+        <name>NTLMResponse</name>
+        <param>
+          <declname>$challenge</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="66" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="66" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classntlm__sasl__client__class_1a91add509d2b4c09e98eb841938836fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ntlm_sasl_client_class::typeMsg3</definition>
+        <argsstring>($ntlm_response, $user, $domain, $workstation)</argsstring>
+        <name>typeMsg3</name>
+        <param>
+          <declname>$ntlm_response</declname>
+        </param>
+        <param>
+          <declname>$user</declname>
+        </param>
+        <param>
+          <declname>$domain</declname>
+        </param>
+        <param>
+          <declname>$workstation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="88" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="88" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classntlm__sasl__client__class_1a723e77c0f181de6cf664b892534d05cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ntlm_sasl_client_class::start</definition>
+        <argsstring>(&amp;$client, &amp;$message, &amp;$interactions)</argsstring>
+        <name>start</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$client</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$interactions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="138" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="138" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classntlm__sasl__client__class_1a3f12ac892637653d9e3932b18857a242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ntlm_sasl_client_class::step</definition>
+        <argsstring>(&amp;$client, $response, &amp;$message, &amp;$interactions)</argsstring>
+        <name>step</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$client</declname>
+        </param>
+        <param>
+          <declname>$response</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$interactions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="159" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="159" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" line="17" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php" bodystart="16" bodyend="185"/>
+    <listofallmembers>
+      <member refid="classntlm__sasl__client__class_1a4d16326542b98923057def07729f0f87" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>$credentials</name></member>
+      <member refid="classntlm__sasl__client__class_1a1673fa8cdc38d78e459afdd70f8b1b8c" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>$state</name></member>
+      <member refid="classntlm__sasl__client__class_1afaddca2c8084d8bba9f5433155d7f0f1" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>ASCIIToUnicode</name></member>
+      <member refid="classntlm__sasl__client__class_1a50cc5f61a1bff87b2cb41a04d0cc3fa8" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>initialize</name></member>
+      <member refid="classntlm__sasl__client__class_1a60b6a158b9fdbd49203ce1e7683a296a" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>NTLMResponse</name></member>
+      <member refid="classntlm__sasl__client__class_1a723e77c0f181de6cf664b892534d05cd" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>start</name></member>
+      <member refid="classntlm__sasl__client__class_1a3f12ac892637653d9e3932b18857a242" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>step</name></member>
+      <member refid="classntlm__sasl__client__class_1aeec512bae0c02d307b792e4682e7cb81" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>typeMsg1</name></member>
+      <member refid="classntlm__sasl__client__class_1a91add509d2b4c09e98eb841938836fe7" prot="public" virt="non-virtual"><scope>ntlm_sasl_client_class</scope><name>typeMsg3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

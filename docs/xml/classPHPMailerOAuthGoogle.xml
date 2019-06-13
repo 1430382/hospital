@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classPHPMailerOAuthGoogle" kind="class" language="PHP" prot="public">
+    <compoundname>PHPMailerOAuthGoogle</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPHPMailerOAuthGoogle_1adcd1bd4ce7bdf4d73bad065fb93c4706" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::$oauthUserEmail</definition>
+        <argsstring></argsstring>
+        <name>$oauthUserEmail</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="29" column="13" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPHPMailerOAuthGoogle_1a043c471dc715f98c8b0a636a03363dca" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::$oauthRefreshToken</definition>
+        <argsstring></argsstring>
+        <name>$oauthRefreshToken</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="30" column="13" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPHPMailerOAuthGoogle_1ac7e77d765a52d1c738b076d930de14ad" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::$oauthClientId</definition>
+        <argsstring></argsstring>
+        <name>$oauthClientId</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="31" column="13" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPHPMailerOAuthGoogle_1af788335aa9fe0ce971b84bd538492ed6" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::$oauthClientSecret</definition>
+        <argsstring></argsstring>
+        <name>$oauthClientSecret</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="32" column="13" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPHPMailerOAuthGoogle_1ad04c51fe73fc1057d562a05b645521cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::__construct</definition>
+        <argsstring>( $UserEmail, $ClientSecret, $ClientId, $RefreshToken)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$UserEmail</declname>
+        </param>
+        <param>
+          <declname>$ClientSecret</declname>
+        </param>
+        <param>
+          <declname>$ClientId</declname>
+        </param>
+        <param>
+          <declname>$RefreshToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$UserEmail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$ClientSecret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$ClientId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$RefreshToken</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="40" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="40" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classPHPMailerOAuthGoogle_1a5ba980d04e42fd345e2af3933faa51d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::getOauth64</definition>
+        <argsstring>()</argsstring>
+        <name>getOauth64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="72" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="72" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classPHPMailerOAuthGoogle_1a15c4a2227ed3952320b6c7555eae6f88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::getProvider</definition>
+        <argsstring>()</argsstring>
+        <name>getProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="52" column="22" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classPHPMailerOAuthGoogle_1aa9eafedd38ce16336a273d37c5d35def" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::getGrant</definition>
+        <argsstring>()</argsstring>
+        <name>getGrant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="60" column="22" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classPHPMailerOAuthGoogle_1a922e1bf428a7d0af5ce8212d0c4e9bb0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PHPMailerOAuthGoogle::getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="65" column="22" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="65" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" line="28" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php" bodystart="27" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classPHPMailerOAuthGoogle_1ac7e77d765a52d1c738b076d930de14ad" prot="private" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>$oauthClientId</name></member>
+      <member refid="classPHPMailerOAuthGoogle_1af788335aa9fe0ce971b84bd538492ed6" prot="private" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>$oauthClientSecret</name></member>
+      <member refid="classPHPMailerOAuthGoogle_1a043c471dc715f98c8b0a636a03363dca" prot="private" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>$oauthRefreshToken</name></member>
+      <member refid="classPHPMailerOAuthGoogle_1adcd1bd4ce7bdf4d73bad065fb93c4706" prot="private" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>$oauthUserEmail</name></member>
+      <member refid="classPHPMailerOAuthGoogle_1ad04c51fe73fc1057d562a05b645521cb" prot="public" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>__construct</name></member>
+      <member refid="classPHPMailerOAuthGoogle_1aa9eafedd38ce16336a273d37c5d35def" prot="private" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>getGrant</name></member>
+      <member refid="classPHPMailerOAuthGoogle_1a5ba980d04e42fd345e2af3933faa51d1" prot="public" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>getOauth64</name></member>
+      <member refid="classPHPMailerOAuthGoogle_1a15c4a2227ed3952320b6c7555eae6f88" prot="private" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>getProvider</name></member>
+      <member refid="classPHPMailerOAuthGoogle_1a922e1bf428a7d0af5ce8212d0c4e9bb0" prot="private" virt="non-virtual"><scope>PHPMailerOAuthGoogle</scope><name>getToken</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+\hypertarget{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider}{}\doxysection{League\textbackslash{}O\+Auth2\textbackslash{}Client\textbackslash{}Provider Namespace Reference}
+\label{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider}\index{League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider@{League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google}{Google}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_aa0a589ae49cc378d9c24b882b3a24006}\label{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_aa0a589ae49cc378d9c24b882b3a24006}} 
+{\bfseries \$redirect\+Uri} = isset(\$\+\_\+\+S\+E\+R\+V\+ER\mbox{[}\textquotesingle{}H\+T\+T\+PS\textquotesingle{}\mbox{]}) ? \textquotesingle{}https\+://\textquotesingle{} \+: \textquotesingle{}http\+://\textquotesingle{} . \$\+\_\+\+S\+E\+R\+V\+ER\mbox{[}\textquotesingle{}H\+T\+T\+P\+\_\+\+H\+O\+ST\textquotesingle{}\mbox{]} . \$\+\_\+\+S\+E\+R\+V\+ER\mbox{[}\textquotesingle{}P\+H\+P\+\_\+\+S\+E\+LF\textquotesingle{}\mbox{]}
+\item 
+\mbox{\Hypertarget{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_ab8ce28ebe72b1f8eefd37f2a5f20cfee}\label{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_ab8ce28ebe72b1f8eefd37f2a5f20cfee}} 
+{\bfseries \$client\+Id} = \textquotesingle{}R\+A\+N\+D\+O\+M\+C\+H\+A\+RS-\/-\/-\/-\/-\/duv1n2.\+apps.\+googleusercontent.\+com\textquotesingle{}
+\item 
+\mbox{\Hypertarget{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_abb7ee95744dcf0f0de8802390d1dfb5f}\label{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_abb7ee95744dcf0f0de8802390d1dfb5f}} 
+{\bfseries \$client\+Secret} = \textquotesingle{}R\+A\+N\+D\+O\+M\+C\+H\+A\+RS-\/-\/-\/-\/-\/l\+Gyj\+Pc\+RtvP\textquotesingle{}
+\item 
+{\bfseries \$provider}
+\item 
+if(!isset(\$\+\_\+\+G\+ET\mbox{[}\textquotesingle{}code\textquotesingle{}\mbox{]})) elseif(empty(\$\+\_\+\+G\+ET\mbox{[}\textquotesingle{}state\textquotesingle{}\mbox{]})$\vert$$\vert$(\$\+\_\+\+G\+ET\mbox{[}\textquotesingle{}state\textquotesingle{}\mbox{]} !==\$\+\_\+\+S\+E\+S\+S\+I\+ON\mbox{[}\textquotesingle{}oauth2state\textquotesingle{}\mbox{]})) {\bfseries else}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Get an O\+Auth2 token from \mbox{\hyperlink{classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google}{Google}}.
+\begin{DoxyItemize}
+\item Install this script on your server so that it\textquotesingle{}s accessible as \mbox{[}https/http\mbox{]}\+://$<$yourdomain$>$/$<$folder$>$/get\+\_\+oauth\+\_\+token.php e.\+g.\+: \href{http://localhost/phpmail/get_oauth_token.php}{\texttt{ http\+://localhost/phpmail/get\+\_\+oauth\+\_\+token.\+php}}
+\item Ensure dependencies are installed with \textquotesingle{}composer install\textquotesingle{}
+\item Set up an app in your \mbox{\hyperlink{classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google}{Google}} developer console
+\item Set the script address as the app\textquotesingle{}s redirect U\+RL If no refresh token is obtained when running this file, revoke access to your app using link\+: \href{https://accounts.google.com/b/0/IssuedAuthSubTokens}{\texttt{ https\+://accounts.\+google.\+com/b/0/\+Issued\+Auth\+Sub\+Tokens}} and run the script again. This script requires P\+HP 5.\+4 or later P\+HP Version 5.\+4 
+\end{DoxyItemize}
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_aeee6dcbd59af93dd4303526dedf970b4}\label{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_aeee6dcbd59af93dd4303526dedf970b4}} 
+\index{League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider@{League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider}!\$provider@{\$provider}}
+\index{\$provider@{\$provider}!League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider@{League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider}}
+\doxysubsubsection{\texorpdfstring{\$provider}{$provider}}
+{\footnotesize\ttfamily League\+::\+O\+Auth2\+::\+Client\+::\+Provider\textbackslash{}\$provider}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \textcolor{keyword}{new} Google(}
+\DoxyCodeLine{    array(}
+\DoxyCodeLine{        \textcolor{stringliteral}{'clientId'} => \$clientId,}
+\DoxyCodeLine{        \textcolor{stringliteral}{'clientSecret'} => \$clientSecret,}
+\DoxyCodeLine{        \textcolor{stringliteral}{'redirectUri'} => \$redirectUri,}
+\DoxyCodeLine{        \textcolor{stringliteral}{'scope'} => array(\textcolor{stringliteral}{'https://mail.google.com/'}),}
+\DoxyCodeLine{    \textcolor{stringliteral}{'accessType'} => \textcolor{stringliteral}{'offline'}}
+\DoxyCodeLine{    )}
+\DoxyCodeLine{)}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_aa195d6c3313b8f9acc84a27b1ac2cc1e}\label{namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_aa195d6c3313b8f9acc84a27b1ac2cc1e}} 
+\index{League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider@{League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider}!else@{else}}
+\index{else@{else}!League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider@{League\textbackslash{}OAuth2\textbackslash{}Client\textbackslash{}Provider}}
+\doxysubsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily if (!isset( \$\+\_\+\+G\+ET\mbox{[} \textquotesingle{}code\textquotesingle{}\mbox{]})) elseif (empty( \$\+\_\+\+G\+ET\mbox{[} \textquotesingle{}state\textquotesingle{}\mbox{]})$\vert$$\vert$( \$\+\_\+\+G\+ET\mbox{[} \textquotesingle{}state\textquotesingle{}\mbox{]} !==\$\+\_\+\+S\+E\+S\+S\+I\+ON\mbox{[} \textquotesingle{}oauth2state\textquotesingle{}\mbox{]})) League\+::\+O\+Auth2\+::\+Client\+::\+Provider\textbackslash{}else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    \$token = \$provider-\/>getAccessToken(}
+\DoxyCodeLine{        \textcolor{stringliteral}{'authorization\_code'},}
+\DoxyCodeLine{        array(}
+\DoxyCodeLine{            \textcolor{stringliteral}{'code'} => \$\_GET[\textcolor{stringliteral}{'code'}]}
+\DoxyCodeLine{        )}
+\DoxyCodeLine{    )}
+
+\end{DoxyCode}

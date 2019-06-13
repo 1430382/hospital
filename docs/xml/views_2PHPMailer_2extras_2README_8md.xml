@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="views_2PHPMailer_2extras_2README_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>PHPMailer<sp/>Extras</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">These<sp/>classes<sp/>provide<sp/>optional<sp/>additional<sp/>functions<sp/>to<sp/>PHPMailer.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">These<sp/>are<sp/>not<sp/>loaded<sp/>by<sp/>the<sp/>PHPMailer<sp/>autoloader,<sp/>so<sp/>in<sp/>some<sp/>cases<sp/>you<sp/>may<sp/>need<sp/>to<sp/>`require`<sp/>them<sp/>yourself<sp/>before<sp/>using<sp/>them.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>EasyPeasyICS</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>class<sp/>was<sp/>originally<sp/>written<sp/>by<sp/>Manuel<sp/>Reinhard<sp/>and<sp/>provides<sp/>a<sp/>simple<sp/>means<sp/>of<sp/>generating<sp/>ICS/vCal<sp/>files<sp/>that<sp/>are<sp/>used<sp/>in<sp/>sending<sp/>calendar<sp/>events.<sp/>PHPMailer<sp/>does<sp/>not<sp/>use<sp/>it<sp/>directly,<sp/>but<sp/>you<sp/>can<sp/>use<sp/>it<sp/>to<sp/>generate<sp/>content<sp/>appropriate<sp/>for<sp/>placing<sp/>in<sp/>the<sp/>`Ical`<sp/>property<sp/>of<sp/>PHPMailer.<sp/>The<sp/>PHPMailer<sp/>project<sp/>is<sp/>now<sp/>its<sp/>official<sp/>home<sp/>as<sp/>Manuel<sp/>has<sp/>given<sp/>permission<sp/>for<sp/>that<sp/>and<sp/>is<sp/>no<sp/>longer<sp/>maintaining<sp/>it<sp/>himself.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>htmlfilter</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>class<sp/>by<sp/>Konstantin<sp/>Riabitsev<sp/>and<sp/>Jim<sp/>Jagielski<sp/>implements<sp/>HTML<sp/>filtering<sp/>to<sp/>remove<sp/>potentially<sp/>malicious<sp/>tags,<sp/>such<sp/>as<sp/>`&lt;script&gt;`<sp/>or<sp/>`onclick=`<sp/>attributes<sp/>that<sp/>can<sp/>result<sp/>in<sp/>XSS<sp/>attacks.<sp/>This<sp/>is<sp/>a<sp/>simple<sp/>filter<sp/>and<sp/>is<sp/>not<sp/>as<sp/>comprehensive<sp/>as<sp/>[HTMLawed](http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/)<sp/>or<sp/>[HTMLPurifier](http://htmlpurifier.org),<sp/>but<sp/>it&apos;s<sp/>easier<sp/>to<sp/>use<sp/>and<sp/>considerably<sp/>better<sp/>than<sp/>nothing!<sp/>PHPMailer<sp/>does<sp/>not<sp/>use<sp/>it<sp/>directly,<sp/>but<sp/>you<sp/>may<sp/>want<sp/>to<sp/>apply<sp/>it<sp/>to<sp/>user-supplied<sp/>HTML<sp/>before<sp/>using<sp/>it<sp/>as<sp/>a<sp/>message<sp/>body.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>NTLM_SASL_client</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>class<sp/>by<sp/>Manuel<sp/>Lemos<sp/>(bundled<sp/>with<sp/>permission)<sp/>adds<sp/>the<sp/>ability<sp/>to<sp/>authenticate<sp/>with<sp/>Microsoft<sp/>Windows<sp/>mail<sp/>servers<sp/>that<sp/>use<sp/>NTLM-based<sp/>authentication.<sp/>It<sp/>is<sp/>used<sp/>by<sp/>PHPMailer<sp/>if<sp/>you<sp/>send<sp/>via<sp/>SMTP<sp/>and<sp/>set<sp/>the<sp/>`AuthType`<sp/>property<sp/>to<sp/>`NTLM`;<sp/>you<sp/>will<sp/>also<sp/>need<sp/>to<sp/>use<sp/>the<sp/>`Realm`<sp/>and<sp/>`Workstation`<sp/>properties.<sp/>The<sp/>original<sp/>source<sp/>is<sp/>[here](http://www.phpclasses.org/browse/file/7495.html).</highlight></codeline>
+    </programlisting>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/README.md"/>
+  </compounddef>
+</doxygen>

@@ -5,4 +5,4 @@ crontab -e
 #pegue el siguiente comando cambiando la dirección a la respectiva
 #en su proyecto.
 ##every 24 hours
- 0 * * * /var/www/html/trabajos/hospital/views/enviar.php
+0 0 * * * /var/www/html/trabajos/hospital/views/enviar.php

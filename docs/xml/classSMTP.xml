@@ -1,0 +1,1585 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classSMTP" kind="class" language="PHP" prot="public">
+    <compoundname>SMTP</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSMTP_1a41fdd77beca2b15c059b4f214b5cbbc7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::VERSION</definition>
+        <argsstring></argsstring>
+        <name>VERSION</name>
+        <initializer>= &apos;5.2.27&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="33" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a243b2f12eee92be5a67bef4fcc30f207" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::CRLF</definition>
+        <argsstring></argsstring>
+        <name>CRLF</name>
+        <initializer>= &quot;\r\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="39" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a947c8362d8a0b1a18b87279e3c109c94" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::DEFAULT_SMTP_PORT</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_SMTP_PORT</name>
+        <initializer>= 25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="45" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1affd1bb47a138d642d9860a96a63eac6e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::MAX_LINE_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>MAX_LINE_LENGTH</name>
+        <initializer>= 998</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="51" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1acb8c406fba86fbb2531dd98f22c6aeb1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::DEBUG_OFF</definition>
+        <argsstring></argsstring>
+        <name>DEBUG_OFF</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Debug level for no output </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="56" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1ad58261e598847b386d3646cb1d8bc178" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::DEBUG_CLIENT</definition>
+        <argsstring></argsstring>
+        <name>DEBUG_CLIENT</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Debug level to show client -&gt; server messages </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="61" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a95ba76d2b5ef58318d4ac64eb0d2e981" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::DEBUG_SERVER</definition>
+        <argsstring></argsstring>
+        <name>DEBUG_SERVER</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Debug level to show client -&gt; server and server -&gt; client messages </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="66" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a61d2988ca01403ead2417bcf79ec5092" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::DEBUG_CONNECTION</definition>
+        <argsstring></argsstring>
+        <name>DEBUG_CONNECTION</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Debug level to show connection status, client -&gt; server and server -&gt; client messages </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="71" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a955e01b87400d0495c4ea3ba70228d89" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SMTP::DEBUG_LOWLEVEL</definition>
+        <argsstring></argsstring>
+        <name>DEBUG_LOWLEVEL</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Debug level to show all messages </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="76" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1afcbef3beaf3b796ded3f4e672719e06a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$Version</definition>
+        <argsstring></argsstring>
+        <name>$Version</name>
+        <initializer>= &apos;5.2.27&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="84" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1ab18d9e6b53ece65286ba6a83af7f9576" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$SMTP_PORT</definition>
+        <argsstring></argsstring>
+        <name>$SMTP_PORT</name>
+        <initializer>= 25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="92" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1ab92088467c740f1c76ef8a54c30bd955" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$CRLF</definition>
+        <argsstring></argsstring>
+        <name>$CRLF</name>
+        <initializer>= &quot;\r\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="100" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1aecf5a15107efffb004210746eb3e58bf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$do_debug</definition>
+        <argsstring></argsstring>
+        <name>$do_debug</name>
+        <initializer>= self::DEBUG_OFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="112" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a0ce9e88c86073a74f12385375129caf9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$Debugoutput</definition>
+        <argsstring></argsstring>
+        <name>$Debugoutput</name>
+        <initializer>= &apos;echo&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="127" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1ac682fd7712ecbd5f11917c99d173de43" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$do_verp</definition>
+        <argsstring></argsstring>
+        <name>$do_verp</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="135" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1ab06eec525b731db7d69082f974239ecc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$Timeout</definition>
+        <argsstring></argsstring>
+        <name>$Timeout</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="144" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a8ba184f9b746339c2281a90e6af61e5b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$Timelimit</definition>
+        <argsstring></argsstring>
+        <name>$Timelimit</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="151" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classSMTP_1ac74373625726cb6de37b88d8b1b64cce" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$smtp_transaction_id_patterns</definition>
+        <argsstring></argsstring>
+        <name>$smtp_transaction_id_patterns</name>
+        <initializer>= array(
+        &apos;exim&apos; =&gt; &apos;/[0-9]{3} OK id=(.*)/&apos;,
+        &apos;sendmail&apos; =&gt; &apos;/[0-9]{3} 2.0.0 (.*) Message/&apos;,
+        &apos;postfix&apos; =&gt; &apos;/[0-9]{3} 2.0.0 Ok: queued as (.*)/&apos;
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="157" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a024a10a48df1df4d66038fe763cc3d5f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$last_smtp_transaction_id</definition>
+        <argsstring></argsstring>
+        <name>$last_smtp_transaction_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="167" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a489b5e4392d1fe7cc9e380c9f59fb40e" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$smtp_conn</definition>
+        <argsstring></argsstring>
+        <name>$smtp_conn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="173" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1aa6229ff080afe81bfddd45951952ad99" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$error</definition>
+        <argsstring></argsstring>
+        <name>$error</name>
+        <initializer>= array(
+        &apos;error&apos; =&gt; &apos;&apos;,
+        &apos;detail&apos; =&gt; &apos;&apos;,
+        &apos;smtp_code&apos; =&gt; &apos;&apos;,
+        &apos;smtp_code_ex&apos; =&gt; &apos;&apos;
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="179" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a13804c297a331da2de5543fd1da0443e" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$helo_rply</definition>
+        <argsstring></argsstring>
+        <name>$helo_rply</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="191" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a1edb50d3625d2c45672f463cdea12cf2" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$server_caps</definition>
+        <argsstring></argsstring>
+        <name>$server_caps</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="202" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSMTP_1a73c7c5a610d1b947b010e2ee669ec044" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>SMTP::$last_reply</definition>
+        <argsstring></argsstring>
+        <name>$last_reply</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="208" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classSMTP_1a9651e3051d912d24b722199a51245f0d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::edebug</definition>
+        <argsstring>($str, $level=0)</argsstring>
+        <name>edebug</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$level</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Output debugging info via a user-selected method. <simplesect kind="see"><para>SMTP::$Debugoutput </para>
+</simplesect>
+<simplesect kind="see"><para>SMTP::$do_debug </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Debug string to output </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The debug level of this message; see DEBUG_* constants </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="218" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="218" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a657747e7a6bb2f2bb35e7e637ffe5877" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::hmac</definition>
+        <argsstring>($data, $key)</argsstring>
+        <name>hmac</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate an MD5 HMAC hash. Works like hash_hmac(&apos;md5&apos;, $data, $key) in case that function is not available <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to hash </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key to hash with @access protected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="561" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="561" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1af08470e72404fac3c15daecb270b7a75" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::sendHello</definition>
+        <argsstring>($hello, $host)</argsstring>
+        <name>sendHello</name>
+        <param>
+          <declname>$hello</declname>
+        </param>
+        <param>
+          <declname>$host</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> HELO or EHLO command. Low-level implementation used by <ref refid="classSMTP_1af1bb1a12327aa53955758265a10f5d05" kindref="member">hello()</ref> <simplesect kind="see"><para><ref refid="classSMTP_1af1bb1a12327aa53955758265a10f5d05" kindref="member">hello()</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$hello</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The HELO string </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The hostname to say we are @access protected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="748" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="748" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ab2b2c38a7d482ba6693aefd9c436fc94" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::parseHelloFields</definition>
+        <argsstring>($type)</argsstring>
+        <name>parseHelloFields</name>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse a reply to HELO/EHLO command to discover server extensions. In case of HELO, the only parameter that can be discovered is a server name. @access protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- &apos;HELO&apos; or &apos;EHLO&apos; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="766" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="766" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a87e84c6756c5dcf01c9d8c6c185786a1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::sendCommand</definition>
+        <argsstring>($command, $commandstring, $expect)</argsstring>
+        <name>sendCommand</name>
+        <param>
+          <declname>$command</declname>
+        </param>
+        <param>
+          <declname>$commandstring</declname>
+        </param>
+        <param>
+          <declname>$expect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send a command to an <ref refid="classSMTP" kindref="compound">SMTP</ref> server and check its return code. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The command name - not sent to the server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$commandstring</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actual command to send </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametertype>array</parametertype>
+<parametername>$expect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>One or more expected integer success codes @access protected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True on success. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="880" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="880" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1aac2979bf3894af90e6b228c418358f54" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::get_lines</definition>
+        <argsstring>()</argsstring>
+        <name>get_lines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read the <ref refid="classSMTP" kindref="compound">SMTP</ref> server&apos;s response. Either before eof or socket timeout occurs on the operation. With <ref refid="classSMTP" kindref="compound">SMTP</ref> we can tell if we have more lines to read if the 4th character is &apos;-&apos; symbol. If it is a space then we don&apos;t need to read anything else. @access protected <simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1084" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1084" bodyend="1127"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a1c7ce9a21d7e4fd5281b7115d81dd0d2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::setError</definition>
+        <argsstring>($message, $detail=&apos;&apos;, $smtp_code=&apos;&apos;, $smtp_code_ex=&apos;&apos;)</argsstring>
+        <name>setError</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$detail</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$smtp_code</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$smtp_code_ex</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set error messages and codes. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error message </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$detail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Further detail on the error </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$smtp_code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An associated <ref refid="classSMTP" kindref="compound">SMTP</ref> error code </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$smtp_code_ex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Extended <ref refid="classSMTP" kindref="compound">SMTP</ref> code </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1154" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1154" bodyend="1162"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ac725d705609a6d6f589bb4f35f9647d6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::errorHandler</definition>
+        <argsstring>($errno, $errmsg, $errfile=&apos;&apos;, $errline=0)</argsstring>
+        <name>errorHandler</name>
+        <param>
+          <declname>$errno</declname>
+        </param>
+        <param>
+          <declname>$errmsg</declname>
+        </param>
+        <param>
+          <declname>$errfile</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$errline</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reports an error number and string. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$errno</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error number returned by PHP. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$errmsg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error message returned by PHP. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$errfile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file the error occurred in </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$errline</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The line number the error occurred on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1225" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1225" bodyend="1237"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1aeaab0ef8b62065afdac54e190783008a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::recordLastTransactionID</definition>
+        <argsstring>()</argsstring>
+        <name>recordLastTransactionID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extract and return the ID of the last <ref refid="classSMTP" kindref="compound">SMTP</ref> transaction based on a list of patterns provided in SMTP::$smtp_transaction_id_patterns. Relies on the host providing the ID in response to a DATA command. If no reply has been received yet, it will return null. If no pattern was matched, it will return false. <simplesect kind="return"><para>bool|null|string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1247" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1247" bodyend="1263"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSMTP_1a99878ea0fb6aac693f8d91cc3b7d1944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::connect</definition>
+        <argsstring>($host, $port=null, $timeout=30, $options=array())</argsstring>
+        <name>connect</name>
+        <param>
+          <declname>$host</declname>
+        </param>
+        <param>
+          <declname>$port</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>30</defval>
+        </param>
+        <param>
+          <declname>$options</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Connect to an <ref refid="classSMTP" kindref="compound">SMTP</ref> server. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classSMTP" kindref="compound">SMTP</ref> server IP or host name </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The port number to connect to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How long to wait for the connection to open </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of options for stream_context_create() @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="262" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="262" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1af073b18f8e00a63c94c04ac77b21343d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::startTLS</definition>
+        <argsstring>()</argsstring>
+        <name>startTLS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initiate a TLS (encrypted) session. @access public <simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="353" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="353" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ad440c7b08d3cefc810df92cb187fe665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::authenticate</definition>
+        <argsstring>( $username, $password, $authtype=null, $realm=&apos;&apos;, $workstation=&apos;&apos;, $OAuth=null)</argsstring>
+        <name>authenticate</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <param>
+          <declname>$authtype</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$realm</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$workstation</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$OAuth</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Perform <ref refid="classSMTP" kindref="compound">SMTP</ref> authentication. Must be run after <ref refid="classSMTP_1af1bb1a12327aa53955758265a10f5d05" kindref="member">hello()</ref>. <simplesect kind="see"><para><ref refid="classSMTP_1af1bb1a12327aa53955758265a10f5d05" kindref="member">hello()</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user name </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$authtype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The auth type (PLAIN, LOGIN, NTLM, CRAM-MD5, XOAUTH2) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$realm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The auth realm for NTLM </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$workstation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The auth workstation for NTLM </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametertype>OAuth</parametertype>
+<parametername>$OAuth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An optional OAuth instance (</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classPHPMailerOAuth" kindref="compound">PHPMailerOAuth</ref>) </para>
+</simplesect>
+<simplesect kind="return"><para>bool True if successfully authenticated.* @access public </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="392" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="392" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a36ba343057efdbb7bec92a37539b8c8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::connected</definition>
+        <argsstring>()</argsstring>
+        <name>connected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check connection state. @access public <simplesect kind="return"><para>boolean True if connected. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="593" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="593" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a3195ed3234db281e18a203013c286bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Close the socket and clean up the state of the class. Don&apos;t use this function without first trying to use QUIT. <simplesect kind="see"><para><ref refid="classSMTP_1a4125d346dff5846eb228cc3db180b254" kindref="member">quit()</ref> @access public </para>
+</simplesect>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="618" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="618" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ae5ae69f15530c34b0d40db955a83679c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::data</definition>
+        <argsstring>($msg_data)</argsstring>
+        <name>data</name>
+        <param>
+          <declname>$msg_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> DATA command. Issues a data command and sends the msg_data to the server, finializing the mail transaction. $msg_data is the message that is to be send with the headers. Each header needs to be on a single line followed by a &lt;CRLF&gt; with the message headers and the message body being separated by and additional &lt;CRLF&gt;. Implements rfc 821: DATA &lt;CRLF&gt; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$msg_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Message data to send @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="643" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="643" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1af1bb1a12327aa53955758265a10f5d05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::hello</definition>
+        <argsstring>($host=&apos;&apos;)</argsstring>
+        <name>hello</name>
+        <param>
+          <declname>$host</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> HELO or EHLO command. Used to identify the sending server to the receiving server. This makes sure that client and server are in a known state. Implements RFC 821: HELO &lt;SP&gt; &lt;domain&gt; &lt;CRLF&gt; and RFC 2821 EHLO. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The host name or IP to connect to @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="733" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="733" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a16a15ec2e5bf36519815f7a0160b7ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::mail</definition>
+        <argsstring>($from)</argsstring>
+        <name>mail</name>
+        <param>
+          <declname>$from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> MAIL command. Starts a mail transaction from the email address specified in $from. Returns true if successful or false otherwise. If True the mail transaction is started and then one or more recipient commands may be called followed by a data command. Implements rfc 821: MAIL &lt;SP&gt; FROM:&lt;reverse-path&gt; &lt;CRLF&gt; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source address of this message @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="813" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="813" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a4125d346dff5846eb228cc3db180b254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::quit</definition>
+        <argsstring>($close_on_error=true)</argsstring>
+        <name>quit</name>
+        <param>
+          <declname>$close_on_error</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> QUIT command. Closes the socket if there is no error or the $close_on_error argument is true. Implements from rfc 821: QUIT &lt;CRLF&gt; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>boolean</parametertype>
+<parametername>$close_on_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should the connection close if an error occurs? @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="831" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="831" bodyend="840"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ae81a24cd96bcd70612f7ee66c03576f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::recipient</definition>
+        <argsstring>($address)</argsstring>
+        <name>recipient</name>
+        <param>
+          <declname>$address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> RCPT command. Sets the TO argument to $toaddr. Returns true if the recipient was accepted false if it was rejected. Implements from rfc 821: RCPT &lt;SP&gt; TO:&lt;forward-path&gt; &lt;CRLF&gt; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The address the message is being sent to @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="851" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="851" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a921087a737bbc78e78bbe798de7e4273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> RSET command. Abort any transaction that is currently in progress. Implements rfc 821: RSET &lt;CRLF&gt; @access public <simplesect kind="return"><para>boolean True on success. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="867" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="867" bodyend="870"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a5ccb22f089373bf27e9968f4cc5cfcf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::sendAndMail</definition>
+        <argsstring>($from)</argsstring>
+        <name>sendAndMail</name>
+        <param>
+          <declname>$from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> SAML command. Starts a mail transaction from the email address specified in $from. Returns true if successful or false otherwise. If True the mail transaction is started and then one or more recipient commands may be called followed by a data command. This command will send the message to the users terminal if they are logged in and send them an email. Implements rfc 821: SAML &lt;SP&gt; FROM:&lt;reverse-path&gt; &lt;CRLF&gt; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The address the message is from @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="946" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="946" bodyend="949"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ab7bf68a2c0027e8c7a99476d93590489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::verify</definition>
+        <argsstring>($name)</argsstring>
+        <name>verify</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> VRFY command. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name to verify @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="957" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="957" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a8e5454df733f222c1deb352f05ddf82d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::noop</definition>
+        <argsstring>()</argsstring>
+        <name>noop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> NOOP command. Used to keep keep-alives alive, doesn&apos;t actually do anything @access public <simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="968" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="968" bodyend="971"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a23432be779cb9f81f0d87b71533d18da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::turn</definition>
+        <argsstring>()</argsstring>
+        <name>turn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send an <ref refid="classSMTP" kindref="compound">SMTP</ref> TURN command. This is an optional command for <ref refid="classSMTP" kindref="compound">SMTP</ref> that this class does not support. This method is here to make the RFC821 Definition complete for this class and <emphasis>may</emphasis> be implemented in future Implements from rfc 821: TURN &lt;CRLF&gt; @access public <simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="982" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="982" bodyend="987"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a766aff65780ee6afe43c18e4c4f07a72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::client_send</definition>
+        <argsstring>($data)</argsstring>
+        <name>client_send</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send raw data to the server. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to send @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>integer|boolean The number of bytes sent to the server or false on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="995" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="995" bodyend="1002"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ae69932e8666ab3e15c22ea4d9f03909f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getError</definition>
+        <argsstring>()</argsstring>
+        <name>getError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the latest error. @access public <simplesect kind="return"><para>array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1009" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1009" bodyend="1012"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a2d392b500c5aa5abc020d15215fd38e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getServerExtList</definition>
+        <argsstring>()</argsstring>
+        <name>getServerExtList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get <ref refid="classSMTP" kindref="compound">SMTP</ref> extensions available on the server @access public <simplesect kind="return"><para>array|null </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1019" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1019" bodyend="1022"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ac2b1d73e9fde787c2be1ede45aba7ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getServerExt</definition>
+        <argsstring>($name)</argsstring>
+        <name>getServerExt</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A multipurpose method The method works in three ways, dependent on argument value and current state<orderedlist>
+<listitem><para>HELO/EHLO was not sent - returns null and set up $this-&gt;error</para>
+</listitem><listitem><para>HELO was sent $name = &apos;HELO&apos;: returns server name $name = &apos;EHLO&apos;: returns boolean false $name = any string: returns null and set up $this-&gt;error</para>
+</listitem><listitem><para>EHLO was sent $name = &apos;HELO&apos;|&apos;EHLO&apos;: returns server name $name = any string: if extension $name exists, returns boolean True or its options. Otherwise returns boolean False In other words, one can use this method to detect 3 conditions:</para>
+</listitem></orderedlist>
+</para>
+<para>null returned: handshake was not or we don&apos;t know about ext (refer to $this-&gt;error)<itemizedlist>
+<listitem><para>false returned: the requested feature exactly not exists</para>
+</listitem><listitem><para>positive value returned: the requested feature exists <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of <ref refid="classSMTP" kindref="compound">SMTP</ref> extension or &apos;HELO&apos;|&apos;EHLO&apos; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para>
+</simplesect>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1043" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1043" bodyend="1063"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a13044af4796d17fb77b5787c113aab55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getLastReply</definition>
+        <argsstring>()</argsstring>
+        <name>getLastReply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the last reply from the server. @access public <simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1070" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1070" bodyend="1073"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a8c80ad0d0e5c35fc48220ec09ea05c89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::setVerp</definition>
+        <argsstring>($enabled=false)</argsstring>
+        <name>setVerp</name>
+        <param>
+          <declname>$enabled</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enable or disable VERP address generation. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>boolean</parametertype>
+<parametername>$enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1133" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1133" bodyend="1136"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a3793e37459c62d9b9aecfd9259609cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getVerp</definition>
+        <argsstring>()</argsstring>
+        <name>getVerp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get VERP address generation mode. <simplesect kind="return"><para>boolean </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1142" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1142" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a02967d173ffe3360a21681063bf492ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::setDebugOutput</definition>
+        <argsstring>($method=&apos;echo&apos;)</argsstring>
+        <name>setDebugOutput</name>
+        <param>
+          <declname>$method</declname>
+          <defval>&apos;echo&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set debug output method. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>callable</parametertype>
+<parametername>$method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the mechanism to use for debugging output, or a callable to handle it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1168" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1168" bodyend="1171"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1aad1ba3fd91de65a4925981257f058c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getDebugOutput</definition>
+        <argsstring>()</argsstring>
+        <name>getDebugOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get debug output method. <simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1177" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1177" bodyend="1180"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1abc3c6e130e15cbaeee22fa4afc0f5551" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::setDebugLevel</definition>
+        <argsstring>($level=0)</argsstring>
+        <name>setDebugLevel</name>
+        <param>
+          <declname>$level</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set debug output level. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1186" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1186" bodyend="1189"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1a6f20b9bdfa51d8f8c9f5dfa9a84de47e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getDebugLevel</definition>
+        <argsstring>()</argsstring>
+        <name>getDebugLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get debug output level. <simplesect kind="return"><para>integer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1195" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1195" bodyend="1198"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1aa56bc611cc6ee9c0d46a8b3ef31de79f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::setTimeout</definition>
+        <argsstring>($timeout=0)</argsstring>
+        <name>setTimeout</name>
+        <param>
+          <declname>$timeout</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classSMTP" kindref="compound">SMTP</ref> timeout. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1204" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1204" bodyend="1207"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1ae17f9c997dd105baa3301fcdcc66fc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getTimeout</definition>
+        <argsstring>()</argsstring>
+        <name>getTimeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get <ref refid="classSMTP" kindref="compound">SMTP</ref> timeout. <simplesect kind="return"><para>integer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1213" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1213" bodyend="1216"/>
+      </memberdef>
+      <memberdef kind="function" id="classSMTP_1af9226bb26b40f9c999cfdb90f23c050c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SMTP::getLastTransactionID</definition>
+        <argsstring>()</argsstring>
+        <name>getLastTransactionID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the queue/transaction ID of the last <ref refid="classSMTP" kindref="compound">SMTP</ref> transaction If no reply has been received yet, it will return null. If no pattern was matched, it will return false. <simplesect kind="return"><para>bool|null|string </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classSMTP_1aeaab0ef8b62065afdac54e190783008a" kindref="member">recordLastTransactionID()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="1272" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="1272" bodyend="1275"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" line="28" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php" bodystart="27" bodyend="1276"/>
+    <listofallmembers>
+      <member refid="classSMTP_1ab92088467c740f1c76ef8a54c30bd955" prot="public" virt="non-virtual"><scope>SMTP</scope><name>$CRLF</name></member>
+      <member refid="classSMTP_1a0ce9e88c86073a74f12385375129caf9" prot="public" virt="non-virtual"><scope>SMTP</scope><name>$Debugoutput</name></member>
+      <member refid="classSMTP_1aecf5a15107efffb004210746eb3e58bf" prot="public" virt="non-virtual"><scope>SMTP</scope><name>$do_debug</name></member>
+      <member refid="classSMTP_1ac682fd7712ecbd5f11917c99d173de43" prot="public" virt="non-virtual"><scope>SMTP</scope><name>$do_verp</name></member>
+      <member refid="classSMTP_1aa6229ff080afe81bfddd45951952ad99" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>$error</name></member>
+      <member refid="classSMTP_1a13804c297a331da2de5543fd1da0443e" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>$helo_rply</name></member>
+      <member refid="classSMTP_1a73c7c5a610d1b947b010e2ee669ec044" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>$last_reply</name></member>
+      <member refid="classSMTP_1a024a10a48df1df4d66038fe763cc3d5f" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>$last_smtp_transaction_id</name></member>
+      <member refid="classSMTP_1a1edb50d3625d2c45672f463cdea12cf2" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>$server_caps</name></member>
+      <member refid="classSMTP_1a489b5e4392d1fe7cc9e380c9f59fb40e" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>$smtp_conn</name></member>
+      <member refid="classSMTP_1ab18d9e6b53ece65286ba6a83af7f9576" prot="public" virt="non-virtual"><scope>SMTP</scope><name>$SMTP_PORT</name></member>
+      <member refid="classSMTP_1ac74373625726cb6de37b88d8b1b64cce" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>$smtp_transaction_id_patterns</name></member>
+      <member refid="classSMTP_1a8ba184f9b746339c2281a90e6af61e5b" prot="public" virt="non-virtual"><scope>SMTP</scope><name>$Timelimit</name></member>
+      <member refid="classSMTP_1ab06eec525b731db7d69082f974239ecc" prot="public" virt="non-virtual"><scope>SMTP</scope><name>$Timeout</name></member>
+      <member refid="classSMTP_1afcbef3beaf3b796ded3f4e672719e06a" prot="public" virt="non-virtual"><scope>SMTP</scope><name>$Version</name></member>
+      <member refid="classSMTP_1ad440c7b08d3cefc810df92cb187fe665" prot="public" virt="non-virtual"><scope>SMTP</scope><name>authenticate</name></member>
+      <member refid="classSMTP_1a766aff65780ee6afe43c18e4c4f07a72" prot="public" virt="non-virtual"><scope>SMTP</scope><name>client_send</name></member>
+      <member refid="classSMTP_1a3195ed3234db281e18a203013c286bbf" prot="public" virt="non-virtual"><scope>SMTP</scope><name>close</name></member>
+      <member refid="classSMTP_1a99878ea0fb6aac693f8d91cc3b7d1944" prot="public" virt="non-virtual"><scope>SMTP</scope><name>connect</name></member>
+      <member refid="classSMTP_1a36ba343057efdbb7bec92a37539b8c8d" prot="public" virt="non-virtual"><scope>SMTP</scope><name>connected</name></member>
+      <member refid="classSMTP_1a243b2f12eee92be5a67bef4fcc30f207" prot="public" virt="non-virtual"><scope>SMTP</scope><name>CRLF</name></member>
+      <member refid="classSMTP_1ae5ae69f15530c34b0d40db955a83679c" prot="public" virt="non-virtual"><scope>SMTP</scope><name>data</name></member>
+      <member refid="classSMTP_1ad58261e598847b386d3646cb1d8bc178" prot="public" virt="non-virtual"><scope>SMTP</scope><name>DEBUG_CLIENT</name></member>
+      <member refid="classSMTP_1a61d2988ca01403ead2417bcf79ec5092" prot="public" virt="non-virtual"><scope>SMTP</scope><name>DEBUG_CONNECTION</name></member>
+      <member refid="classSMTP_1a955e01b87400d0495c4ea3ba70228d89" prot="public" virt="non-virtual"><scope>SMTP</scope><name>DEBUG_LOWLEVEL</name></member>
+      <member refid="classSMTP_1acb8c406fba86fbb2531dd98f22c6aeb1" prot="public" virt="non-virtual"><scope>SMTP</scope><name>DEBUG_OFF</name></member>
+      <member refid="classSMTP_1a95ba76d2b5ef58318d4ac64eb0d2e981" prot="public" virt="non-virtual"><scope>SMTP</scope><name>DEBUG_SERVER</name></member>
+      <member refid="classSMTP_1a947c8362d8a0b1a18b87279e3c109c94" prot="public" virt="non-virtual"><scope>SMTP</scope><name>DEFAULT_SMTP_PORT</name></member>
+      <member refid="classSMTP_1a9651e3051d912d24b722199a51245f0d" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>edebug</name></member>
+      <member refid="classSMTP_1ac725d705609a6d6f589bb4f35f9647d6" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>errorHandler</name></member>
+      <member refid="classSMTP_1aac2979bf3894af90e6b228c418358f54" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>get_lines</name></member>
+      <member refid="classSMTP_1a6f20b9bdfa51d8f8c9f5dfa9a84de47e" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getDebugLevel</name></member>
+      <member refid="classSMTP_1aad1ba3fd91de65a4925981257f058c56" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getDebugOutput</name></member>
+      <member refid="classSMTP_1ae69932e8666ab3e15c22ea4d9f03909f" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getError</name></member>
+      <member refid="classSMTP_1a13044af4796d17fb77b5787c113aab55" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getLastReply</name></member>
+      <member refid="classSMTP_1af9226bb26b40f9c999cfdb90f23c050c" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getLastTransactionID</name></member>
+      <member refid="classSMTP_1ac2b1d73e9fde787c2be1ede45aba7ace" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getServerExt</name></member>
+      <member refid="classSMTP_1a2d392b500c5aa5abc020d15215fd38e7" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getServerExtList</name></member>
+      <member refid="classSMTP_1ae17f9c997dd105baa3301fcdcc66fc8a" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getTimeout</name></member>
+      <member refid="classSMTP_1a3793e37459c62d9b9aecfd9259609cee" prot="public" virt="non-virtual"><scope>SMTP</scope><name>getVerp</name></member>
+      <member refid="classSMTP_1af1bb1a12327aa53955758265a10f5d05" prot="public" virt="non-virtual"><scope>SMTP</scope><name>hello</name></member>
+      <member refid="classSMTP_1a657747e7a6bb2f2bb35e7e637ffe5877" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>hmac</name></member>
+      <member refid="classSMTP_1a16a15ec2e5bf36519815f7a0160b7ec1" prot="public" virt="non-virtual"><scope>SMTP</scope><name>mail</name></member>
+      <member refid="classSMTP_1affd1bb47a138d642d9860a96a63eac6e" prot="public" virt="non-virtual"><scope>SMTP</scope><name>MAX_LINE_LENGTH</name></member>
+      <member refid="classSMTP_1a8e5454df733f222c1deb352f05ddf82d" prot="public" virt="non-virtual"><scope>SMTP</scope><name>noop</name></member>
+      <member refid="classSMTP_1ab2b2c38a7d482ba6693aefd9c436fc94" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>parseHelloFields</name></member>
+      <member refid="classSMTP_1a4125d346dff5846eb228cc3db180b254" prot="public" virt="non-virtual"><scope>SMTP</scope><name>quit</name></member>
+      <member refid="classSMTP_1ae81a24cd96bcd70612f7ee66c03576f5" prot="public" virt="non-virtual"><scope>SMTP</scope><name>recipient</name></member>
+      <member refid="classSMTP_1aeaab0ef8b62065afdac54e190783008a" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>recordLastTransactionID</name></member>
+      <member refid="classSMTP_1a921087a737bbc78e78bbe798de7e4273" prot="public" virt="non-virtual"><scope>SMTP</scope><name>reset</name></member>
+      <member refid="classSMTP_1a5ccb22f089373bf27e9968f4cc5cfcf5" prot="public" virt="non-virtual"><scope>SMTP</scope><name>sendAndMail</name></member>
+      <member refid="classSMTP_1a87e84c6756c5dcf01c9d8c6c185786a1" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>sendCommand</name></member>
+      <member refid="classSMTP_1af08470e72404fac3c15daecb270b7a75" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>sendHello</name></member>
+      <member refid="classSMTP_1abc3c6e130e15cbaeee22fa4afc0f5551" prot="public" virt="non-virtual"><scope>SMTP</scope><name>setDebugLevel</name></member>
+      <member refid="classSMTP_1a02967d173ffe3360a21681063bf492ef" prot="public" virt="non-virtual"><scope>SMTP</scope><name>setDebugOutput</name></member>
+      <member refid="classSMTP_1a1c7ce9a21d7e4fd5281b7115d81dd0d2" prot="protected" virt="non-virtual"><scope>SMTP</scope><name>setError</name></member>
+      <member refid="classSMTP_1aa56bc611cc6ee9c0d46a8b3ef31de79f" prot="public" virt="non-virtual"><scope>SMTP</scope><name>setTimeout</name></member>
+      <member refid="classSMTP_1a8c80ad0d0e5c35fc48220ec09ea05c89" prot="public" virt="non-virtual"><scope>SMTP</scope><name>setVerp</name></member>
+      <member refid="classSMTP_1af073b18f8e00a63c94c04ac77b21343d" prot="public" virt="non-virtual"><scope>SMTP</scope><name>startTLS</name></member>
+      <member refid="classSMTP_1a23432be779cb9f81f0d87b71533d18da" prot="public" virt="non-virtual"><scope>SMTP</scope><name>turn</name></member>
+      <member refid="classSMTP_1ab7bf68a2c0027e8c7a99476d93590489" prot="public" virt="non-virtual"><scope>SMTP</scope><name>verify</name></member>
+      <member refid="classSMTP_1a41fdd77beca2b15c059b4f214b5cbbc7" prot="public" virt="non-virtual"><scope>SMTP</scope><name>VERSION</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

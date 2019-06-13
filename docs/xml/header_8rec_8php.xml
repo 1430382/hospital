@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="header_8rec_8php" kind="file" language="PHP">
+    <compoundname>header.rec.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;!DOCTYPE<sp/>html&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;html&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;head&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/>&lt;title&gt;Hospital<sp/>Apolo&lt;/title&gt;&lt;meta<sp/>charset=</highlight><highlight class="stringliteral">&quot;utf-8&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/>&lt;meta<sp/>http-equiv=</highlight><highlight class="stringliteral">&quot;Content-type&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;text/html;<sp/>charset=utf-8&quot;</highlight><highlight class="normal"><sp/>/&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/>&lt;!--Indica<sp/>al<sp/>navegador<sp/>que<sp/>es<sp/>una<sp/>página<sp/>responsiva--&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/>&lt;meta<sp/>name=</highlight><highlight class="stringliteral">&quot;viewport&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;width=device-width,<sp/>user-scalable=no,<sp/>initial-scale=1.0,<sp/>maximum-scale1.0,<sp/>minimum-scale=1.0&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>&lt;!--Importa<sp/>JQuery<sp/>y<sp/>JavaScript<sp/>de<sp/>Materialize<sp/>--&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;https://code.jquery.com/jquery-3.2.1.min.js&quot;</highlight><highlight class="normal">&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;../js/materialize.js&quot;</highlight><highlight class="normal">&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>&lt;!--Importa<sp/>el<sp/>css<sp/>de<sp/>Materialize--&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>&lt;link<sp/>type=</highlight><highlight class="stringliteral">&quot;text/css&quot;</highlight><highlight class="normal"><sp/>rel=</highlight><highlight class="stringliteral">&quot;stylesheet&quot;</highlight><highlight class="normal"><sp/>href=</highlight><highlight class="stringliteral">&quot;../css/materialize.min.css&quot;</highlight><highlight class="normal"><sp/><sp/>media=</highlight><highlight class="stringliteral">&quot;screen,projection&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>&lt;link<sp/>rel=</highlight><highlight class="stringliteral">&quot;stylesheet&quot;</highlight><highlight class="normal"><sp/>href=</highlight><highlight class="stringliteral">&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>&lt;!--Importa<sp/>iconos<sp/>de<sp/>google--&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>&lt;link<sp/>href=</highlight><highlight class="stringliteral">&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot;</highlight><highlight class="normal"><sp/>rel=</highlight><highlight class="stringliteral">&quot;stylesheet&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>&lt;!--Navegador<sp/>optimizado<sp/>para<sp/>dispositivos<sp/>móviles--&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>&lt;meta<sp/>name=</highlight><highlight class="stringliteral">&quot;viewport&quot;</highlight><highlight class="normal"><sp/>content=</highlight><highlight class="stringliteral">&quot;width=device-width,<sp/>initial-scale=1.0&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>&lt;style<sp/>type=</highlight><highlight class="stringliteral">&quot;text/css&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>body<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>display:<sp/>flex;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>min-height:<sp/>100vh;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>flex-direction:<sp/>column;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/>main<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>flex:<sp/>1<sp/>0<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">&lt;/style&gt;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">&lt;/head&gt;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">&lt;body&gt;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">&lt;header&gt;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">&lt;nav<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;blue<sp/>darken-4&quot;</highlight><highlight class="normal"><sp/>role=</highlight><highlight class="stringliteral">&quot;navigation&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;nav-wrapper&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;#&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;brand-logo&quot;</highlight><highlight class="normal">&gt;&amp;nbsp;&amp;nbsp;&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;../images/logo.png&quot;</highlight><highlight class="normal">&gt;<sp/>&lt;/a&gt;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ul<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;nav-mobile&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;right<sp/>hide-on-med-and-down&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;!--<sp/><sp/>&lt;li&gt;&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;recepcionista.view.php&quot;</highlight><highlight class="normal">&gt;Clientes&lt;/a&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;recepcionista.view2.php&quot;</highlight><highlight class="normal">&gt;Personal<sp/>Apolo&lt;/a&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;ver_citas.rec.php&quot;</highlight><highlight class="normal">&gt;Visualizar<sp/>Citas&lt;/a&gt;&lt;/li&gt;<sp/><sp/><sp/><sp/>--&gt;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;!--<sp/><sp/>&lt;li&gt;&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;web.view.php&quot;</highlight><highlight class="normal">&gt;Pagina<sp/>Principal&lt;/a&gt;&lt;/li&gt;--&gt;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;ver_citas_anon.php&quot;</highlight><highlight class="normal">&gt;Visualizar<sp/>citas&lt;/a&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;agendar_citas.php&quot;</highlight><highlight class="normal">&gt;Agendar<sp/>citas&lt;/a&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;login.view.php&quot;</highlight><highlight class="normal">&gt;Login&lt;/a&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;web.view.php&quot;</highlight><highlight class="normal">&gt;Regresar&lt;/a&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/>&lt;/nav&gt;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/>&lt;/header&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/var/www/html/trabajos/hospital/views/header.rec.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Member <ref refid="classPHPMailer_1ad067c5c7e93929bf4d0a5d46bc422aef" kindref="member">PHPMailer::encodeQPphp</ref>  ( $string, $line_max=76, $space_conv=false)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000003"/>Use encodeQP instead. </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

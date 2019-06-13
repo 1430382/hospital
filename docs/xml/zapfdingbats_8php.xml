@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="zapfdingbats_8php" kind="file" language="PHP">
+    <compoundname>zapfdingbats.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="zapfdingbats_8php_1a9a4a6fba2208984cabb3afacadf33919" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$type</definition>
+        <argsstring></argsstring>
+        <name>$type</name>
+        <initializer>= &apos;Core&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/zapfdingbats.php" line="2" column="1" bodyfile="/var/www/html/trabajos/hospital/font/zapfdingbats.php" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="zapfdingbats_8php_1ab2fc40d43824ea3e1ce5d86dee0d763b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$name</definition>
+        <argsstring></argsstring>
+        <name>$name</name>
+        <initializer>= &apos;ZapfDingbats&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/zapfdingbats.php" line="3" column="1" bodyfile="/var/www/html/trabajos/hospital/font/zapfdingbats.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="zapfdingbats_8php_1a6b5ad2ac55f9df46e8f34e78fbd6f176" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$up</definition>
+        <argsstring></argsstring>
+        <name>$up</name>
+        <initializer>= -100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/zapfdingbats.php" line="4" column="1" bodyfile="/var/www/html/trabajos/hospital/font/zapfdingbats.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="zapfdingbats_8php_1aadd3f841051043ee58e587e840e8dd0b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ut</definition>
+        <argsstring></argsstring>
+        <name>$ut</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/zapfdingbats.php" line="5" column="1" bodyfile="/var/www/html/trabajos/hospital/font/zapfdingbats.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="zapfdingbats_8php_1ac2951b03dbb0317e6c61ec920b7479dc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cw</definition>
+        <argsstring></argsstring>
+        <name>$cw</name>
+        <initializer>= array(
+	chr(0)=&gt;0,chr(1)=&gt;0,chr(2)=&gt;0,chr(3)=&gt;0,chr(4)=&gt;0,chr(5)=&gt;0,chr(6)=&gt;0,chr(7)=&gt;0,chr(8)=&gt;0,chr(9)=&gt;0,chr(10)=&gt;0,chr(11)=&gt;0,chr(12)=&gt;0,chr(13)=&gt;0,chr(14)=&gt;0,chr(15)=&gt;0,chr(16)=&gt;0,chr(17)=&gt;0,chr(18)=&gt;0,chr(19)=&gt;0,chr(20)=&gt;0,chr(21)=&gt;0,
+	chr(22)=&gt;0,chr(23)=&gt;0,chr(24)=&gt;0,chr(25)=&gt;0,chr(26)=&gt;0,chr(27)=&gt;0,chr(28)=&gt;0,chr(29)=&gt;0,chr(30)=&gt;0,chr(31)=&gt;0,&apos; &apos;=&gt;278,&apos;!&apos;=&gt;974,&apos;&quot;&apos;=&gt;961,&apos;#&apos;=&gt;974,&apos;$&apos;=&gt;980,&apos;%&apos;=&gt;719,&apos;&amp;&apos;=&gt;789,&apos;\&apos;&apos;=&gt;790,&apos;(&apos;=&gt;791,&apos;)&apos;=&gt;690,&apos;*&apos;=&gt;960,&apos;+&apos;=&gt;939,
+	&apos;,&apos;=&gt;549,&apos;-&apos;=&gt;855,&apos;.&apos;=&gt;911,&apos;/&apos;=&gt;933,&apos;0&apos;=&gt;911,&apos;1&apos;=&gt;945,&apos;2&apos;=&gt;974,&apos;3&apos;=&gt;755,&apos;4&apos;=&gt;846,&apos;5&apos;=&gt;762,&apos;6&apos;=&gt;761,&apos;7&apos;=&gt;571,&apos;8&apos;=&gt;677,&apos;9&apos;=&gt;763,&apos;:&apos;=&gt;760,&apos;;&apos;=&gt;759,&apos;&lt;&apos;=&gt;754,&apos;=&apos;=&gt;494,&apos;&gt;&apos;=&gt;552,&apos;?&apos;=&gt;537,&apos;@&apos;=&gt;577,&apos;A&apos;=&gt;692,
+	&apos;B&apos;=&gt;786,&apos;C&apos;=&gt;788,&apos;D&apos;=&gt;788,&apos;E&apos;=&gt;790,&apos;F&apos;=&gt;793,&apos;G&apos;=&gt;794,&apos;H&apos;=&gt;816,&apos;I&apos;=&gt;823,&apos;J&apos;=&gt;789,&apos;K&apos;=&gt;841,&apos;L&apos;=&gt;823,&apos;M&apos;=&gt;833,&apos;N&apos;=&gt;816,&apos;O&apos;=&gt;831,&apos;P&apos;=&gt;923,&apos;Q&apos;=&gt;744,&apos;R&apos;=&gt;723,&apos;S&apos;=&gt;749,&apos;T&apos;=&gt;790,&apos;U&apos;=&gt;792,&apos;V&apos;=&gt;695,&apos;W&apos;=&gt;776,
+	&apos;X&apos;=&gt;768,&apos;Y&apos;=&gt;792,&apos;Z&apos;=&gt;759,&apos;[&apos;=&gt;707,&apos;\\&apos;=&gt;708,&apos;]&apos;=&gt;682,&apos;^&apos;=&gt;701,&apos;_&apos;=&gt;826,&apos;`&apos;=&gt;815,&apos;a&apos;=&gt;789,&apos;b&apos;=&gt;789,&apos;c&apos;=&gt;707,&apos;d&apos;=&gt;687,&apos;e&apos;=&gt;696,&apos;f&apos;=&gt;689,&apos;g&apos;=&gt;786,&apos;h&apos;=&gt;787,&apos;i&apos;=&gt;713,&apos;j&apos;=&gt;791,&apos;k&apos;=&gt;785,&apos;l&apos;=&gt;791,&apos;m&apos;=&gt;873,
+	&apos;n&apos;=&gt;761,&apos;o&apos;=&gt;762,&apos;p&apos;=&gt;762,&apos;q&apos;=&gt;759,&apos;r&apos;=&gt;759,&apos;s&apos;=&gt;892,&apos;t&apos;=&gt;892,&apos;u&apos;=&gt;788,&apos;v&apos;=&gt;784,&apos;w&apos;=&gt;438,&apos;x&apos;=&gt;138,&apos;y&apos;=&gt;277,&apos;z&apos;=&gt;415,&apos;{&apos;=&gt;392,&apos;|&apos;=&gt;392,&apos;}&apos;=&gt;668,&apos;~&apos;=&gt;668,chr(127)=&gt;0,chr(128)=&gt;390,chr(129)=&gt;390,chr(130)=&gt;317,chr(131)=&gt;317,
+	chr(132)=&gt;276,chr(133)=&gt;276,chr(134)=&gt;509,chr(135)=&gt;509,chr(136)=&gt;410,chr(137)=&gt;410,chr(138)=&gt;234,chr(139)=&gt;234,chr(140)=&gt;334,chr(141)=&gt;334,chr(142)=&gt;0,chr(143)=&gt;0,chr(144)=&gt;0,chr(145)=&gt;0,chr(146)=&gt;0,chr(147)=&gt;0,chr(148)=&gt;0,chr(149)=&gt;0,chr(150)=&gt;0,chr(151)=&gt;0,chr(152)=&gt;0,chr(153)=&gt;0,
+	chr(154)=&gt;0,chr(155)=&gt;0,chr(156)=&gt;0,chr(157)=&gt;0,chr(158)=&gt;0,chr(159)=&gt;0,chr(160)=&gt;0,chr(161)=&gt;732,chr(162)=&gt;544,chr(163)=&gt;544,chr(164)=&gt;910,chr(165)=&gt;667,chr(166)=&gt;760,chr(167)=&gt;760,chr(168)=&gt;776,chr(169)=&gt;595,chr(170)=&gt;694,chr(171)=&gt;626,chr(172)=&gt;788,chr(173)=&gt;788,chr(174)=&gt;788,chr(175)=&gt;788,
+	chr(176)=&gt;788,chr(177)=&gt;788,chr(178)=&gt;788,chr(179)=&gt;788,chr(180)=&gt;788,chr(181)=&gt;788,chr(182)=&gt;788,chr(183)=&gt;788,chr(184)=&gt;788,chr(185)=&gt;788,chr(186)=&gt;788,chr(187)=&gt;788,chr(188)=&gt;788,chr(189)=&gt;788,chr(190)=&gt;788,chr(191)=&gt;788,chr(192)=&gt;788,chr(193)=&gt;788,chr(194)=&gt;788,chr(195)=&gt;788,chr(196)=&gt;788,chr(197)=&gt;788,
+	chr(198)=&gt;788,chr(199)=&gt;788,chr(200)=&gt;788,chr(201)=&gt;788,chr(202)=&gt;788,chr(203)=&gt;788,chr(204)=&gt;788,chr(205)=&gt;788,chr(206)=&gt;788,chr(207)=&gt;788,chr(208)=&gt;788,chr(209)=&gt;788,chr(210)=&gt;788,chr(211)=&gt;788,chr(212)=&gt;894,chr(213)=&gt;838,chr(214)=&gt;1016,chr(215)=&gt;458,chr(216)=&gt;748,chr(217)=&gt;924,chr(218)=&gt;748,chr(219)=&gt;918,
+	chr(220)=&gt;927,chr(221)=&gt;928,chr(222)=&gt;928,chr(223)=&gt;834,chr(224)=&gt;873,chr(225)=&gt;828,chr(226)=&gt;924,chr(227)=&gt;924,chr(228)=&gt;917,chr(229)=&gt;930,chr(230)=&gt;931,chr(231)=&gt;463,chr(232)=&gt;883,chr(233)=&gt;836,chr(234)=&gt;836,chr(235)=&gt;867,chr(236)=&gt;867,chr(237)=&gt;696,chr(238)=&gt;696,chr(239)=&gt;874,chr(240)=&gt;0,chr(241)=&gt;874,
+	chr(242)=&gt;760,chr(243)=&gt;946,chr(244)=&gt;771,chr(245)=&gt;865,chr(246)=&gt;771,chr(247)=&gt;888,chr(248)=&gt;967,chr(249)=&gt;888,chr(250)=&gt;831,chr(251)=&gt;873,chr(252)=&gt;927,chr(253)=&gt;970,chr(254)=&gt;918,chr(255)=&gt;0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/zapfdingbats.php" line="6" column="1" bodyfile="/var/www/html/trabajos/hospital/font/zapfdingbats.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="zapfdingbats_8php_1a6002e8c8e44c609c5087ce9b1c5867de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$uv</definition>
+        <argsstring></argsstring>
+        <name>$uv</name>
+        <initializer>= array(32=&gt;32,33=&gt;array(9985,4),37=&gt;9742,38=&gt;array(9990,4),42=&gt;9755,43=&gt;9758,44=&gt;array(9996,28),72=&gt;9733,73=&gt;array(10025,35),108=&gt;9679,109=&gt;10061,110=&gt;9632,111=&gt;array(10063,4),115=&gt;9650,116=&gt;9660,117=&gt;9670,118=&gt;10070,119=&gt;9687,120=&gt;array(10072,7),128=&gt;array(10088,14),161=&gt;array(10081,7),168=&gt;9827,169=&gt;9830,170=&gt;9829,171=&gt;9824,172=&gt;array(9312,10),182=&gt;array(10102,31),213=&gt;8594,214=&gt;array(8596,2),216=&gt;array(10136,24),241=&gt;array(10161,14))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/font/zapfdingbats.php" line="19" column="1" bodyfile="/var/www/html/trabajos/hospital/font/zapfdingbats.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">$type<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Core&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">$name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ZapfDingbats&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">$up<sp/>=<sp/>-100;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">$ut<sp/>=<sp/>50;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">$cw<sp/>=<sp/>array(</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>chr(0)=&gt;0,chr(1)=&gt;0,chr(2)=&gt;0,chr(3)=&gt;0,chr(4)=&gt;0,chr(5)=&gt;0,chr(6)=&gt;0,chr(7)=&gt;0,chr(8)=&gt;0,chr(9)=&gt;0,chr(10)=&gt;0,chr(11)=&gt;0,chr(12)=&gt;0,chr(13)=&gt;0,chr(14)=&gt;0,chr(15)=&gt;0,chr(16)=&gt;0,chr(17)=&gt;0,chr(18)=&gt;0,chr(19)=&gt;0,chr(20)=&gt;0,chr(21)=&gt;0,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>chr(22)=&gt;0,chr(23)=&gt;0,chr(24)=&gt;0,chr(25)=&gt;0,chr(26)=&gt;0,chr(27)=&gt;0,chr(28)=&gt;0,chr(29)=&gt;0,chr(30)=&gt;0,chr(31)=&gt;0,</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">=&gt;278,</highlight><highlight class="charliteral">&apos;!&apos;</highlight><highlight class="normal">=&gt;974,</highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">=&gt;961,</highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">=&gt;974,</highlight><highlight class="charliteral">&apos;$&apos;</highlight><highlight class="normal">=&gt;980,</highlight><highlight class="charliteral">&apos;%&apos;</highlight><highlight class="normal">=&gt;719,</highlight><highlight class="charliteral">&apos;&amp;&apos;</highlight><highlight class="normal">=&gt;789,</highlight><highlight class="charliteral">&apos;\&apos;&apos;</highlight><highlight class="normal">=&gt;790,</highlight><highlight class="charliteral">&apos;(&apos;</highlight><highlight class="normal">=&gt;791,</highlight><highlight class="charliteral">&apos;)&apos;</highlight><highlight class="normal">=&gt;690,</highlight><highlight class="charliteral">&apos;*&apos;</highlight><highlight class="normal">=&gt;960,</highlight><highlight class="charliteral">&apos;+&apos;</highlight><highlight class="normal">=&gt;939,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">=&gt;549,</highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">=&gt;855,</highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">=&gt;911,</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">=&gt;933,</highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal">=&gt;911,</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">=&gt;945,</highlight><highlight class="charliteral">&apos;2&apos;</highlight><highlight class="normal">=&gt;974,</highlight><highlight class="charliteral">&apos;3&apos;</highlight><highlight class="normal">=&gt;755,</highlight><highlight class="charliteral">&apos;4&apos;</highlight><highlight class="normal">=&gt;846,</highlight><highlight class="charliteral">&apos;5&apos;</highlight><highlight class="normal">=&gt;762,</highlight><highlight class="charliteral">&apos;6&apos;</highlight><highlight class="normal">=&gt;761,</highlight><highlight class="charliteral">&apos;7&apos;</highlight><highlight class="normal">=&gt;571,</highlight><highlight class="charliteral">&apos;8&apos;</highlight><highlight class="normal">=&gt;677,</highlight><highlight class="charliteral">&apos;9&apos;</highlight><highlight class="normal">=&gt;763,</highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">=&gt;760,</highlight><highlight class="charliteral">&apos;;&apos;</highlight><highlight class="normal">=&gt;759,</highlight><highlight class="charliteral">&apos;&lt;&apos;</highlight><highlight class="normal">=&gt;754,</highlight><highlight class="charliteral">&apos;=&apos;</highlight><highlight class="normal">=&gt;494,</highlight><highlight class="charliteral">&apos;&gt;&apos;</highlight><highlight class="normal">=&gt;552,</highlight><highlight class="charliteral">&apos;?&apos;</highlight><highlight class="normal">=&gt;537,</highlight><highlight class="charliteral">&apos;@&apos;</highlight><highlight class="normal">=&gt;577,</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">=&gt;692,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">=&gt;786,</highlight><highlight class="charliteral">&apos;C&apos;</highlight><highlight class="normal">=&gt;788,</highlight><highlight class="charliteral">&apos;D&apos;</highlight><highlight class="normal">=&gt;788,</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">=&gt;790,</highlight><highlight class="charliteral">&apos;F&apos;</highlight><highlight class="normal">=&gt;793,</highlight><highlight class="charliteral">&apos;G&apos;</highlight><highlight class="normal">=&gt;794,</highlight><highlight class="charliteral">&apos;H&apos;</highlight><highlight class="normal">=&gt;816,</highlight><highlight class="charliteral">&apos;I&apos;</highlight><highlight class="normal">=&gt;823,</highlight><highlight class="charliteral">&apos;J&apos;</highlight><highlight class="normal">=&gt;789,</highlight><highlight class="charliteral">&apos;K&apos;</highlight><highlight class="normal">=&gt;841,</highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">=&gt;823,</highlight><highlight class="charliteral">&apos;M&apos;</highlight><highlight class="normal">=&gt;833,</highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">=&gt;816,</highlight><highlight class="charliteral">&apos;O&apos;</highlight><highlight class="normal">=&gt;831,</highlight><highlight class="charliteral">&apos;P&apos;</highlight><highlight class="normal">=&gt;923,</highlight><highlight class="charliteral">&apos;Q&apos;</highlight><highlight class="normal">=&gt;744,</highlight><highlight class="charliteral">&apos;R&apos;</highlight><highlight class="normal">=&gt;723,</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal">=&gt;749,</highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">=&gt;790,</highlight><highlight class="charliteral">&apos;U&apos;</highlight><highlight class="normal">=&gt;792,</highlight><highlight class="charliteral">&apos;V&apos;</highlight><highlight class="normal">=&gt;695,</highlight><highlight class="charliteral">&apos;W&apos;</highlight><highlight class="normal">=&gt;776,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="charliteral">&apos;X&apos;</highlight><highlight class="normal">=&gt;768,</highlight><highlight class="charliteral">&apos;Y&apos;</highlight><highlight class="normal">=&gt;792,</highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">=&gt;759,</highlight><highlight class="charliteral">&apos;[&apos;</highlight><highlight class="normal">=&gt;707,</highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">=&gt;708,</highlight><highlight class="charliteral">&apos;]&apos;</highlight><highlight class="normal">=&gt;682,</highlight><highlight class="charliteral">&apos;^&apos;</highlight><highlight class="normal">=&gt;701,</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">=&gt;826,</highlight><highlight class="charliteral">&apos;`&apos;</highlight><highlight class="normal">=&gt;815,</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">=&gt;789,</highlight><highlight class="charliteral">&apos;b&apos;</highlight><highlight class="normal">=&gt;789,</highlight><highlight class="charliteral">&apos;c&apos;</highlight><highlight class="normal">=&gt;707,</highlight><highlight class="charliteral">&apos;d&apos;</highlight><highlight class="normal">=&gt;687,</highlight><highlight class="charliteral">&apos;e&apos;</highlight><highlight class="normal">=&gt;696,</highlight><highlight class="charliteral">&apos;f&apos;</highlight><highlight class="normal">=&gt;689,</highlight><highlight class="charliteral">&apos;g&apos;</highlight><highlight class="normal">=&gt;786,</highlight><highlight class="charliteral">&apos;h&apos;</highlight><highlight class="normal">=&gt;787,</highlight><highlight class="charliteral">&apos;i&apos;</highlight><highlight class="normal">=&gt;713,</highlight><highlight class="charliteral">&apos;j&apos;</highlight><highlight class="normal">=&gt;791,</highlight><highlight class="charliteral">&apos;k&apos;</highlight><highlight class="normal">=&gt;785,</highlight><highlight class="charliteral">&apos;l&apos;</highlight><highlight class="normal">=&gt;791,</highlight><highlight class="charliteral">&apos;m&apos;</highlight><highlight class="normal">=&gt;873,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="charliteral">&apos;n&apos;</highlight><highlight class="normal">=&gt;761,</highlight><highlight class="charliteral">&apos;o&apos;</highlight><highlight class="normal">=&gt;762,</highlight><highlight class="charliteral">&apos;p&apos;</highlight><highlight class="normal">=&gt;762,</highlight><highlight class="charliteral">&apos;q&apos;</highlight><highlight class="normal">=&gt;759,</highlight><highlight class="charliteral">&apos;r&apos;</highlight><highlight class="normal">=&gt;759,</highlight><highlight class="charliteral">&apos;s&apos;</highlight><highlight class="normal">=&gt;892,</highlight><highlight class="charliteral">&apos;t&apos;</highlight><highlight class="normal">=&gt;892,</highlight><highlight class="charliteral">&apos;u&apos;</highlight><highlight class="normal">=&gt;788,</highlight><highlight class="charliteral">&apos;v&apos;</highlight><highlight class="normal">=&gt;784,</highlight><highlight class="charliteral">&apos;w&apos;</highlight><highlight class="normal">=&gt;438,</highlight><highlight class="charliteral">&apos;x&apos;</highlight><highlight class="normal">=&gt;138,</highlight><highlight class="charliteral">&apos;y&apos;</highlight><highlight class="normal">=&gt;277,</highlight><highlight class="charliteral">&apos;z&apos;</highlight><highlight class="normal">=&gt;415,</highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">=&gt;392,</highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal">=&gt;392,</highlight><highlight class="charliteral">&apos;}&apos;</highlight><highlight class="normal">=&gt;668,</highlight><highlight class="charliteral">&apos;~&apos;</highlight><highlight class="normal">=&gt;668,chr(127)=&gt;0,chr(128)=&gt;390,chr(129)=&gt;390,chr(130)=&gt;317,chr(131)=&gt;317,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>chr(132)=&gt;276,chr(133)=&gt;276,chr(134)=&gt;509,chr(135)=&gt;509,chr(136)=&gt;410,chr(137)=&gt;410,chr(138)=&gt;234,chr(139)=&gt;234,chr(140)=&gt;334,chr(141)=&gt;334,chr(142)=&gt;0,chr(143)=&gt;0,chr(144)=&gt;0,chr(145)=&gt;0,chr(146)=&gt;0,chr(147)=&gt;0,chr(148)=&gt;0,chr(149)=&gt;0,chr(150)=&gt;0,chr(151)=&gt;0,chr(152)=&gt;0,chr(153)=&gt;0,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>chr(154)=&gt;0,chr(155)=&gt;0,chr(156)=&gt;0,chr(157)=&gt;0,chr(158)=&gt;0,chr(159)=&gt;0,chr(160)=&gt;0,chr(161)=&gt;732,chr(162)=&gt;544,chr(163)=&gt;544,chr(164)=&gt;910,chr(165)=&gt;667,chr(166)=&gt;760,chr(167)=&gt;760,chr(168)=&gt;776,chr(169)=&gt;595,chr(170)=&gt;694,chr(171)=&gt;626,chr(172)=&gt;788,chr(173)=&gt;788,chr(174)=&gt;788,chr(175)=&gt;788,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>chr(176)=&gt;788,chr(177)=&gt;788,chr(178)=&gt;788,chr(179)=&gt;788,chr(180)=&gt;788,chr(181)=&gt;788,chr(182)=&gt;788,chr(183)=&gt;788,chr(184)=&gt;788,chr(185)=&gt;788,chr(186)=&gt;788,chr(187)=&gt;788,chr(188)=&gt;788,chr(189)=&gt;788,chr(190)=&gt;788,chr(191)=&gt;788,chr(192)=&gt;788,chr(193)=&gt;788,chr(194)=&gt;788,chr(195)=&gt;788,chr(196)=&gt;788,chr(197)=&gt;788,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>chr(198)=&gt;788,chr(199)=&gt;788,chr(200)=&gt;788,chr(201)=&gt;788,chr(202)=&gt;788,chr(203)=&gt;788,chr(204)=&gt;788,chr(205)=&gt;788,chr(206)=&gt;788,chr(207)=&gt;788,chr(208)=&gt;788,chr(209)=&gt;788,chr(210)=&gt;788,chr(211)=&gt;788,chr(212)=&gt;894,chr(213)=&gt;838,chr(214)=&gt;1016,chr(215)=&gt;458,chr(216)=&gt;748,chr(217)=&gt;924,chr(218)=&gt;748,chr(219)=&gt;918,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>chr(220)=&gt;927,chr(221)=&gt;928,chr(222)=&gt;928,chr(223)=&gt;834,chr(224)=&gt;873,chr(225)=&gt;828,chr(226)=&gt;924,chr(227)=&gt;924,chr(228)=&gt;917,chr(229)=&gt;930,chr(230)=&gt;931,chr(231)=&gt;463,chr(232)=&gt;883,chr(233)=&gt;836,chr(234)=&gt;836,chr(235)=&gt;867,chr(236)=&gt;867,chr(237)=&gt;696,chr(238)=&gt;696,chr(239)=&gt;874,chr(240)=&gt;0,chr(241)=&gt;874,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>chr(242)=&gt;760,chr(243)=&gt;946,chr(244)=&gt;771,chr(245)=&gt;865,chr(246)=&gt;771,chr(247)=&gt;888,chr(248)=&gt;967,chr(249)=&gt;888,chr(250)=&gt;831,chr(251)=&gt;873,chr(252)=&gt;927,chr(253)=&gt;970,chr(254)=&gt;918,chr(255)=&gt;0);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">$uv<sp/>=<sp/>array(32=&gt;32,33=&gt;array(9985,4),37=&gt;9742,38=&gt;array(9990,4),42=&gt;9755,43=&gt;9758,44=&gt;array(9996,28),72=&gt;9733,73=&gt;array(10025,35),108=&gt;9679,109=&gt;10061,110=&gt;9632,111=&gt;array(10063,4),115=&gt;9650,116=&gt;9660,117=&gt;9670,118=&gt;10070,119=&gt;9687,120=&gt;array(10072,7),128=&gt;array(10088,14),161=&gt;array(10081,7),168=&gt;9827,169=&gt;9830,170=&gt;9829,171=&gt;9824,172=&gt;array(9312,10),182=&gt;array(10102,31),213=&gt;8594,214=&gt;array(8596,2),216=&gt;array(10136,24),241=&gt;array(10161,14));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/var/www/html/trabajos/hospital/font/zapfdingbats.php"/>
+  </compounddef>
+</doxygen>

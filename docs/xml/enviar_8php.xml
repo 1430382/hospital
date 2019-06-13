@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="enviar_8php" kind="file" language="PHP">
+    <compoundname>enviar.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="enviar_8php_1ac409786c163a1974d1e24a6767a95166" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mail</definition>
+        <argsstring></argsstring>
+        <name>$mail</name>
+        <initializer>= new <ref refid="classPHPMailer" kindref="compound">PHPMailer</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/enviar.php" line="15" column="1" bodyfile="/var/www/html/trabajos/hospital/views/enviar.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enviar_8php_1addad0e78c84e636e25ff0ac55d658fb4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$fechactual</definition>
+        <argsstring></argsstring>
+        <name>$fechactual</name>
+        <initializer>=date(&apos;y-m-d&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/enviar.php" line="19" column="1" bodyfile="/var/www/html/trabajos/hospital/views/enviar.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//Documentos<sp/>de<sp/>conexión<sp/>y<sp/>header</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//error_reporting(E_ALL);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//ini_set(&apos;display_errors&apos;,<sp/>&apos;1&apos;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//Codigo<sp/>para<sp/>el<sp/>cron<sp/>que<sp/>manda<sp/>correo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">require<sp/></highlight><highlight class="stringliteral">&apos;header.med.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">include<sp/></highlight><highlight class="stringliteral">&apos;../functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">include<sp/></highlight><highlight class="stringliteral">&apos;../conexion.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//librerias</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//se<sp/>carga<sp/>la<sp/>libreria<sp/>necesaria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">require<sp/></highlight><highlight class="stringliteral">&apos;PHPMailer/PHPMailerAutoload.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//Create<sp/>a<sp/>new<sp/>PHPMailer<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">$mail<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="namespacePHPMailer" kindref="compound">PHPMailer</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">$mail-&gt;IsSMTP();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//Configuracion<sp/>servidor<sp/>mail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">date_default_timezone_set(</highlight><highlight class="stringliteral">&quot;America/Monterrey&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">$fechactual=date(</highlight><highlight class="stringliteral">&apos;y-m-d&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">$fechactual=date(</highlight><highlight class="stringliteral">&apos;Y-m-d&apos;</highlight><highlight class="normal">,<sp/>strtotime($fechactual));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//if<sp/>(isset($_POST[&apos;sendemail&apos;]))<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//en<sp/>base<sp/>a<sp/>la<sp/>consulta<sp/>si<sp/>la<sp/>fecha<sp/>es<sp/>igual<sp/>a<sp/>la<sp/>fecha<sp/>actual<sp/>manda<sp/>correo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!($res=$con-&gt;query(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>email<sp/>FROM<sp/>cita<sp/>where<sp/>fecha=&apos;$fechactual&apos;&quot;</highlight><highlight class="normal">)))<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*E<sp/>imprimimos<sp/>el<sp/>resultado<sp/>para<sp/>ver<sp/>que<sp/>el<sp/>ejemplo<sp/>ha<sp/>funcionado*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($row<sp/>=<sp/>$res-&gt;fetch_assoc()){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Se<sp/>asigna<sp/>la<sp/>variable<sp/>email<sp/>a<sp/>sesion<sp/>por<sp/>si<sp/>se<sp/>ocupa<sp/>despues</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>$_SESSION[</highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal">]=$row[</highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>var_dump($_SESSION[</highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;From<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;pruebasmedicohospital@gmail.com&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//remitente</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;SMTPAuth<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;SMTPSecure<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;tls&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//seguridad</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;Host<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;smtp.gmail.com&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>servidor<sp/>smtp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;Port<sp/>=<sp/>587;<sp/></highlight><highlight class="comment">//puerto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;Username<sp/>=</highlight><highlight class="stringliteral">&apos;pruebasmedicohospital@gmail.com&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//nombre<sp/>usuario</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;Password<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Lololol1&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//contraseña</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Agregar<sp/>destinatario</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Campos<sp/>del<sp/>correo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>$subject=</highlight><highlight class="stringliteral">&apos;Ya<sp/>casi<sp/>es<sp/>su<sp/>cita&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>$message=</highlight><highlight class="stringliteral">&apos;Este<sp/>correo<sp/>se<sp/>manda<sp/>con<sp/>tiempo<sp/>de<sp/>anticipacion&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;AddAddress($_SESSION[</highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;Subject<sp/>=<sp/>$subject;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>$mail-&gt;Body<sp/>=<sp/>$message;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Avisar<sp/>si<sp/>fue<sp/>enviado<sp/>o<sp/>no<sp/>y<sp/>dirigir<sp/>al<sp/>index</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($mail-&gt;Send())<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo</highlight><highlight class="stringliteral">&apos;&lt;script<sp/>type=&quot;text/javascript&quot;&gt;</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>alert(&quot;Enviado<sp/>Correctamente&quot;);</highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/script&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/var/www/html/trabajos/hospital/views/enviar.php"/>
+  </compounddef>
+</doxygen>

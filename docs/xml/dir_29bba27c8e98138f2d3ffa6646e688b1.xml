@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_29bba27c8e98138f2d3ffa6646e688b1" kind="dir">
+    <compoundname>/var/www/html/trabajos/hospital/views/PHPMailer/extras</compoundname>
+    <innerfile refid="EasyPeasyICS_8php">EasyPeasyICS.php</innerfile>
+    <innerfile refid="htmlfilter_8php">htmlfilter.php</innerfile>
+    <innerfile refid="ntlm__sasl__client_8php">ntlm_sasl_client.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/"/>
+  </compounddef>
+</doxygen>

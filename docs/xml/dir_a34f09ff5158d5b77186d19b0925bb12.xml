@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_a34f09ff5158d5b77186d19b0925bb12" kind="dir">
+    <compoundname>/var/www/html/trabajos/hospital/views/PHPMailer</compoundname>
+    <innerdir refid="dir_29bba27c8e98138f2d3ffa6646e688b1">/var/www/html/trabajos/hospital/views/PHPMailer/extras</innerdir>
+    <innerdir refid="dir_5429161ecd8d9091d693776ed282184f">/var/www/html/trabajos/hospital/views/PHPMailer/language</innerdir>
+    <innerfile refid="class_8phpmailer_8php">class.phpmailer.php</innerfile>
+    <innerfile refid="class_8phpmaileroauth_8php">class.phpmaileroauth.php</innerfile>
+    <innerfile refid="class_8phpmaileroauthgoogle_8php">class.phpmaileroauthgoogle.php</innerfile>
+    <innerfile refid="class_8pop3_8php">class.pop3.php</innerfile>
+    <innerfile refid="class_8smtp_8php">class.smtp.php</innerfile>
+    <innerfile refid="get__oauth__token_8php">get_oauth_token.php</innerfile>
+    <innerfile refid="PHPMailerAutoload_8php">PHPMailerAutoload.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/"/>
+  </compounddef>
+</doxygen>

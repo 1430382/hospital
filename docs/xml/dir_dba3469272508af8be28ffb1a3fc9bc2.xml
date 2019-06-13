@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_dba3469272508af8be28ffb1a3fc9bc2" kind="dir">
+    <compoundname>/var/www/html/trabajos/hospital/makefont</compoundname>
+    <innerfile refid="makefont_8php">makefont.php</innerfile>
+    <innerfile refid="ttfparser_8php">ttfparser.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/makefont/"/>
+  </compounddef>
+</doxygen>

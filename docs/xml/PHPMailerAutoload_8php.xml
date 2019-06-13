@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="PHPMailerAutoload_8php" kind="file" language="PHP">
+    <compoundname>PHPMailerAutoload.php</compoundname>
+    <innernamespace refid="namespacePHPMailer">PHPMailer</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="PHPMailerAutoload_8php_1af6e0f80216cdaccd0c1949b9e5ab7ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PHPMailerAutoload</definition>
+        <argsstring>($classname)</argsstring>
+        <name>PHPMailerAutoload</name>
+        <param>
+          <declname>$classname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classPHPMailer" kindref="compound">PHPMailer</ref> SPL autoloader. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$classname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the class to load </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php" line="24" column="10" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php" bodystart="24" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="24"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>PHPMailerAutoload($classname)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Can&apos;t<sp/>use<sp/>__DIR__<sp/>as<sp/>it&apos;s<sp/>only<sp/>in<sp/>PHP<sp/>5.3+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>$filename<sp/>=<sp/>dirname(__FILE__).DIRECTORY_SEPARATOR.</highlight><highlight class="stringliteral">&apos;class.&apos;</highlight><highlight class="normal">.strtolower($classname).</highlight><highlight class="stringliteral">&apos;.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_readable($filename))<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>require<sp/>$filename;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(version_compare(PHP_VERSION,<sp/></highlight><highlight class="stringliteral">&apos;5.1.2&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&gt;=&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SPL<sp/>autoloading<sp/>was<sp/>introduced<sp/>in<sp/>PHP<sp/>5.1.2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(version_compare(PHP_VERSION,<sp/></highlight><highlight class="stringliteral">&apos;5.3.0&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&gt;=&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spl_autoload_register(</highlight><highlight class="stringliteral">&apos;PHPMailerAutoload&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spl_autoload_register(</highlight><highlight class="stringliteral">&apos;PHPMailerAutoload&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__autoload($classname)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PHPMailerAutoload($classname);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php"/>
+  </compounddef>
+</doxygen>

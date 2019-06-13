@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google" kind="class" language="PHP" prot="public">
+    <compoundname>League::OAuth2::Client::Provider::Google</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractProvider</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1ab0fa895f4f9413031a59ff32e469a9b2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const League\OAuth2\Client\Provider\Google::ACCESS_TOKEN_RESOURCE_OWNER_ID</definition>
+        <argsstring></argsstring>
+        <name>ACCESS_TOKEN_RESOURCE_OWNER_ID</name>
+        <initializer>= &apos;id&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="39" column="11" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a44a7f2e0d2122988a612bd427c0a4128" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::$accessType</definition>
+        <argsstring></argsstring>
+        <name>$accessType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="45" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a4374e33ba245790e37313b8fac37bb96" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::$hostedDomain</definition>
+        <argsstring></argsstring>
+        <name>$hostedDomain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="51" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a753ee4e101f5fb5479629beb788b402a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::$scope</definition>
+        <argsstring></argsstring>
+        <name>$scope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="57" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a14a7790da6f92b4b8c90f82e59eaaf42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::getBaseAuthorizationUrl</definition>
+        <argsstring>()</argsstring>
+        <name>getBaseAuthorizationUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="59" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1af1ba9f35ff3065cfed58894318cb31e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::getBaseAccessTokenUrl</definition>
+        <argsstring>(array $params)</argsstring>
+        <name>getBaseAccessTokenUrl</name>
+        <param>
+          <type>array</type>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="64" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a9c5bc413db642ec521f930c96b338389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::getResourceOwnerDetailsUrl</definition>
+        <argsstring>(AccessToken $token)</argsstring>
+        <name>getResourceOwnerDetailsUrl</name>
+        <param>
+          <type>AccessToken</type>
+          <declname>$token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="69" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="69" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a4e816e467e27e0bb470fd5b122b9266f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::getAuthorizationParameters</definition>
+        <argsstring>(array $options)</argsstring>
+        <name>getAuthorizationParameters</name>
+        <param>
+          <type>array</type>
+          <declname>$options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="74" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="74" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a43b9d4679eeb1d240ded46c58001d8a3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::getDefaultScopes</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultScopes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="94" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="94" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a70095cd986798746c713e6bb62aa0cfc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::getScopeSeparator</definition>
+        <argsstring>()</argsstring>
+        <name>getScopeSeparator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="103" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1aea48b92d0b76963b20aa6017ed8b3744" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::checkResponse</definition>
+        <argsstring>(ResponseInterface $response, $data)</argsstring>
+        <name>checkResponse</name>
+        <param>
+          <type>ResponseInterface</type>
+          <declname>$response</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="108" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="108" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a63a4c2505f1281129de1db4110cce053" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>League\OAuth2\Client\Provider\Google::createResourceOwner</definition>
+        <argsstring>(array $response, AccessToken $token)</argsstring>
+        <name>createResourceOwner</name>
+        <param>
+          <type>array</type>
+          <declname>$response</declname>
+        </param>
+        <param>
+          <type>AccessToken</type>
+          <declname>$token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="123" column="24" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="123" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>AbstractProvider</label>
+      </node>
+      <node id="4">
+        <label>League\OAuth2\Client\Provider\Google</label>
+        <link refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>AbstractProvider</label>
+      </node>
+      <node id="6">
+        <label>League\OAuth2\Client\Provider\Google</label>
+        <link refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="36" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="35" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a44a7f2e0d2122988a612bd427c0a4128" prot="protected" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>$accessType</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a4374e33ba245790e37313b8fac37bb96" prot="protected" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>$hostedDomain</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a753ee4e101f5fb5479629beb788b402a" prot="protected" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>$scope</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1ab0fa895f4f9413031a59ff32e469a9b2" prot="public" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>ACCESS_TOKEN_RESOURCE_OWNER_ID</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1aea48b92d0b76963b20aa6017ed8b3744" prot="protected" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>checkResponse</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a63a4c2505f1281129de1db4110cce053" prot="protected" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>createResourceOwner</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a4e816e467e27e0bb470fd5b122b9266f" prot="protected" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>getAuthorizationParameters</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1af1ba9f35ff3065cfed58894318cb31e1" prot="public" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>getBaseAccessTokenUrl</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a14a7790da6f92b4b8c90f82e59eaaf42" prot="public" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>getBaseAuthorizationUrl</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a43b9d4679eeb1d240ded46c58001d8a3" prot="protected" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>getDefaultScopes</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a9c5bc413db642ec521f930c96b338389" prot="public" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>getResourceOwnerDetailsUrl</name></member>
+      <member refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google_1a70095cd986798746c713e6bb62aa0cfc" prot="protected" virt="non-virtual"><scope>League::OAuth2::Client::Provider::Google</scope><name>getScopeSeparator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,2482 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classFPDF" kind="class" language="PHP" prot="public">
+    <compoundname>FPDF</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classFPDF_1ab36ea1d04d26856c68ed3021b56eec5b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$page</definition>
+        <argsstring></argsstring>
+        <name>$page</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="14" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a718a78c2c592d0a027429947df12d161" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$n</definition>
+        <argsstring></argsstring>
+        <name>$n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="15" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a15347dda89239d5fa79ead40a72e0e34" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$offsets</definition>
+        <argsstring></argsstring>
+        <name>$offsets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="16" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1aa5e639d922350949dc1a58a4597c58bb" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$buffer</definition>
+        <argsstring></argsstring>
+        <name>$buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="17" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a43708e8b1a7d9c88f08982c4473d7767" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$pages</definition>
+        <argsstring></argsstring>
+        <name>$pages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="18" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a8aef065fb2791fd919608521a801b7d3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$state</definition>
+        <argsstring></argsstring>
+        <name>$state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="19" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a6effca6f281458983c61647878f6dc18" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$compress</definition>
+        <argsstring></argsstring>
+        <name>$compress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="20" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1adadc589358125e9865dc6565722b7a08" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$k</definition>
+        <argsstring></argsstring>
+        <name>$k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="21" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ad1640384fda9ee53cf7295eb823a31dc" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$DefOrientation</definition>
+        <argsstring></argsstring>
+        <name>$DefOrientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="22" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a40250e931a9dd32601bbe2a5a1eaf492" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$CurOrientation</definition>
+        <argsstring></argsstring>
+        <name>$CurOrientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="23" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a8cfbaabd6e5ec70a7d074323f2295a41" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$StdPageSizes</definition>
+        <argsstring></argsstring>
+        <name>$StdPageSizes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="24" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a25da1996ae79613866cd98df244b43ba" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$DefPageSize</definition>
+        <argsstring></argsstring>
+        <name>$DefPageSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="25" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a1d6aba267d684bb14898c66ab6ecc292" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$CurPageSize</definition>
+        <argsstring></argsstring>
+        <name>$CurPageSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="26" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a0c059ffdbd096efbdb18f84c114f15df" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$CurRotation</definition>
+        <argsstring></argsstring>
+        <name>$CurRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="27" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a02eaef1f2b452f10b1a6f297c200e622" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$PageInfo</definition>
+        <argsstring></argsstring>
+        <name>$PageInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="28" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a7b22f93934a55c4d60d730ae69d94b6c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$wPt</definition>
+        <argsstring></argsstring>
+        <name>$wPt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="29" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1adcb78dac68c4b261fab2a9c03de77177" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$w</definition>
+        <argsstring></argsstring>
+        <name>$w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="30" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a52016e769b24e87eae66b3f3a7e9eb97" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$lMargin</definition>
+        <argsstring></argsstring>
+        <name>$lMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="31" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a89d24fb15623f31293ef11860ec53a77" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$tMargin</definition>
+        <argsstring></argsstring>
+        <name>$tMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="32" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a380553db1fe34ac31eab846ec98a366a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$rMargin</definition>
+        <argsstring></argsstring>
+        <name>$rMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="33" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a45f713138b48185ffb8d6952158275b6" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$bMargin</definition>
+        <argsstring></argsstring>
+        <name>$bMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="34" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1af17b206c29beaba34856e916a2baf227" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$cMargin</definition>
+        <argsstring></argsstring>
+        <name>$cMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="35" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a84095b43bfc305f0b52c02075cb8674c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$x</definition>
+        <argsstring></argsstring>
+        <name>$x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="36" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a95a0a41b723b698af4b1e4a08e443388" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$lasth</definition>
+        <argsstring></argsstring>
+        <name>$lasth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="37" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a563f4dec18a06abc382f2e31fe456fe8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$LineWidth</definition>
+        <argsstring></argsstring>
+        <name>$LineWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="38" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ab3884861f6396ba263c88adc1644f61f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$fontpath</definition>
+        <argsstring></argsstring>
+        <name>$fontpath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="39" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a59722e9eb7f9a67dbe330d93723204a6" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$CoreFonts</definition>
+        <argsstring></argsstring>
+        <name>$CoreFonts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="40" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ad9fe36831d63d0ef57539a0cccef2b49" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$fonts</definition>
+        <argsstring></argsstring>
+        <name>$fonts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="41" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a84252c77b8f99df59e282bb23e7c9194" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$FontFiles</definition>
+        <argsstring></argsstring>
+        <name>$FontFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="42" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a55823b6bca0de6b39b91c706e4684cc3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$encodings</definition>
+        <argsstring></argsstring>
+        <name>$encodings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="43" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1af1ed9a0f6a3449b164c20c7623b0d61e" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$cmaps</definition>
+        <argsstring></argsstring>
+        <name>$cmaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="44" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a5f8c02cd5e40614758f3ffc421e06b78" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$FontFamily</definition>
+        <argsstring></argsstring>
+        <name>$FontFamily</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="45" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a20531c00b4f38558ee888a16e16ef768" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$FontStyle</definition>
+        <argsstring></argsstring>
+        <name>$FontStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="46" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a2d65d65ac5a4d1f173a2d61bfc7ca621" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$underline</definition>
+        <argsstring></argsstring>
+        <name>$underline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="47" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a48fd94c929ceac390039ac4928fd8110" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$CurrentFont</definition>
+        <argsstring></argsstring>
+        <name>$CurrentFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="48" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ad7b6864ec7f83300c00ae1a1c9123c0b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$FontSizePt</definition>
+        <argsstring></argsstring>
+        <name>$FontSizePt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="49" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ab99639f298b8daefa72e6fbc487eeae6" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$FontSize</definition>
+        <argsstring></argsstring>
+        <name>$FontSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="50" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a80a2ec9b8a4e1104bc093c0856766db3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$DrawColor</definition>
+        <argsstring></argsstring>
+        <name>$DrawColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="51" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a75f15d0e648b984c9209c32388912aeb" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$FillColor</definition>
+        <argsstring></argsstring>
+        <name>$FillColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="52" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a258b7f98af80620e2d2425f75c1734ac" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$TextColor</definition>
+        <argsstring></argsstring>
+        <name>$TextColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="53" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ae9a2ff1c3ff43210435b4276e579498a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$ColorFlag</definition>
+        <argsstring></argsstring>
+        <name>$ColorFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="54" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a297d000e17861cbd536f23eb037df75f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$WithAlpha</definition>
+        <argsstring></argsstring>
+        <name>$WithAlpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="55" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a05ee8f35c8f7e1d15680d28bb40eddf6" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$ws</definition>
+        <argsstring></argsstring>
+        <name>$ws</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="56" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1afc8b2e219390a60499ed3d6a28b31f2d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$images</definition>
+        <argsstring></argsstring>
+        <name>$images</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="57" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a3e93616a74e983712775cb72a00fed38" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$PageLinks</definition>
+        <argsstring></argsstring>
+        <name>$PageLinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="58" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ad75c5e32c5417504ba4d351e0383869f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$links</definition>
+        <argsstring></argsstring>
+        <name>$links</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="59" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ad196be21405b44433e08efedf63fcf27" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$AutoPageBreak</definition>
+        <argsstring></argsstring>
+        <name>$AutoPageBreak</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="60" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a1a0fd03d8f95b0119fed813fe5c980a8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$PageBreakTrigger</definition>
+        <argsstring></argsstring>
+        <name>$PageBreakTrigger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="61" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1ad826d8f87302ffc1b53c3af9b32509e2" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$InHeader</definition>
+        <argsstring></argsstring>
+        <name>$InHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="62" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a9550396e618abf65f024fb07b4c31bdd" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$InFooter</definition>
+        <argsstring></argsstring>
+        <name>$InFooter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="63" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a8ca11347db37499aaf473e390db7459b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$AliasNbPages</definition>
+        <argsstring></argsstring>
+        <name>$AliasNbPages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="64" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1afc97ebf2f645908e261c641fbf48be92" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$ZoomMode</definition>
+        <argsstring></argsstring>
+        <name>$ZoomMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="65" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a8a1b8f011e83924e04fd4868e6a0fd25" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$LayoutMode</definition>
+        <argsstring></argsstring>
+        <name>$LayoutMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="66" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a50f76504973b7e2c53d99e8364500c99" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$metadata</definition>
+        <argsstring></argsstring>
+        <name>$metadata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="67" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a5d794ad25d8bbf69f42452deb7e1a2be" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$PDFVersion</definition>
+        <argsstring></argsstring>
+        <name>$PDFVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="68" column="11" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFPDF_1ac49ef47de69b357309f22c19231863e8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$hPt</definition>
+        <argsstring></argsstring>
+        <name>$hPt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="29" column="16" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a6bb420fc8cb8cf3d2218bb9148394999" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$h</definition>
+        <argsstring></argsstring>
+        <name>$h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="30" column="14" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFPDF_1a9183f42c12c75728174c0e36aefc3144" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>FPDF::$y</definition>
+        <argsstring></argsstring>
+        <name>$y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="36" column="14" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFPDF_1ade2bb382f41b77098b52b0b26e54ca83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::__construct</definition>
+        <argsstring>($orientation=&apos;P&apos;, $unit=&apos;mm&apos;, $size=&apos;A4&apos;)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$orientation</declname>
+          <defval>&apos;P&apos;</defval>
+        </param>
+        <param>
+          <declname>$unit</declname>
+          <defval>&apos;mm&apos;</defval>
+        </param>
+        <param>
+          <declname>$size</declname>
+          <defval>&apos;A4&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="74" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="74" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a03ee8480b6a0b9362820d225c309f603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetMargins</definition>
+        <argsstring>($left, $top, $right=null)</argsstring>
+        <name>SetMargins</name>
+        <param>
+          <declname>$left</declname>
+        </param>
+        <param>
+          <declname>$top</declname>
+        </param>
+        <param>
+          <declname>$right</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="172" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="172" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a64306dab17b5156dbb09151818ebf98b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetLeftMargin</definition>
+        <argsstring>($margin)</argsstring>
+        <name>SetLeftMargin</name>
+        <param>
+          <declname>$margin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="182" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="182" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aeb7511c3d686e2aa9f9496f1b1ec147f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetTopMargin</definition>
+        <argsstring>($margin)</argsstring>
+        <name>SetTopMargin</name>
+        <param>
+          <declname>$margin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="190" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="190" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a1008ef2dbf448c60dd2f9324bcc6601a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetRightMargin</definition>
+        <argsstring>($margin)</argsstring>
+        <name>SetRightMargin</name>
+        <param>
+          <declname>$margin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="196" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="196" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a55c2e62a11e10dd7bc0c8aa089ba1c5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetAutoPageBreak</definition>
+        <argsstring>($auto, $margin=0)</argsstring>
+        <name>SetAutoPageBreak</name>
+        <param>
+          <declname>$auto</declname>
+        </param>
+        <param>
+          <declname>$margin</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="202" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="202" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aa0695aab6e2889198e94a48b87ddaae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetDisplayMode</definition>
+        <argsstring>($zoom, $layout=&apos;default&apos;)</argsstring>
+        <name>SetDisplayMode</name>
+        <param>
+          <declname>$zoom</declname>
+        </param>
+        <param>
+          <declname>$layout</declname>
+          <defval>&apos;default&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="210" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="210" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ab56cc065fff6c44c473c7f0428876486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetCompression</definition>
+        <argsstring>($compress)</argsstring>
+        <name>SetCompression</name>
+        <param>
+          <declname>$compress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="223" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="223" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a8a8a4c77944aae4ac0219fefbe53b494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetTitle</definition>
+        <argsstring>($title, $isUTF8=false)</argsstring>
+        <name>SetTitle</name>
+        <param>
+          <declname>$title</declname>
+        </param>
+        <param>
+          <declname>$isUTF8</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="232" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="232" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a2448f729ffdee950dca638910a31a206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetAuthor</definition>
+        <argsstring>($author, $isUTF8=false)</argsstring>
+        <name>SetAuthor</name>
+        <param>
+          <declname>$author</declname>
+        </param>
+        <param>
+          <declname>$isUTF8</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="238" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="238" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a29e614b472d76809a7f24d8382b2aec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetSubject</definition>
+        <argsstring>($subject, $isUTF8=false)</argsstring>
+        <name>SetSubject</name>
+        <param>
+          <declname>$subject</declname>
+        </param>
+        <param>
+          <declname>$isUTF8</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="244" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="244" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a97c034e7f4c04395a54f09f582544a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetKeywords</definition>
+        <argsstring>($keywords, $isUTF8=false)</argsstring>
+        <name>SetKeywords</name>
+        <param>
+          <declname>$keywords</declname>
+        </param>
+        <param>
+          <declname>$isUTF8</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="250" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="250" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ad528c02fc9104993d5b8c4d3f4a5ae00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetCreator</definition>
+        <argsstring>($creator, $isUTF8=false)</argsstring>
+        <name>SetCreator</name>
+        <param>
+          <declname>$creator</declname>
+        </param>
+        <param>
+          <declname>$isUTF8</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="256" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="256" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a519cf01024f5981364ec7cd2d5281253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::AliasNbPages</definition>
+        <argsstring>($alias=&apos;{nb}&apos;)</argsstring>
+        <name>AliasNbPages</name>
+        <param>
+          <declname>$alias</declname>
+          <defval>&apos;{nb}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="262" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="262" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1abbf9af8630c425b22b9199cc906ee1bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Error</definition>
+        <argsstring>($msg)</argsstring>
+        <name>Error</name>
+        <param>
+          <declname>$msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="268" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="268" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1af6bcdd2acb114191b61065e85ff0b62c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="274" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="274" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a492d53d9fa740318b264eaf8912e32b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::AddPage</definition>
+        <argsstring>($orientation=&apos;&apos;, $size=&apos;&apos;, $rotation=0)</argsstring>
+        <name>AddPage</name>
+        <param>
+          <declname>$orientation</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$size</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$rotation</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="291" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="291" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ab1bedba6d1753b9e3f18ed3820743fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Header</definition>
+        <argsstring>()</argsstring>
+        <name>Header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="360" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="360" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aaa8da01869c5e5a75ff9150016dad08d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Footer</definition>
+        <argsstring>()</argsstring>
+        <name>Footer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="365" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="365" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1af97a0239f79f597b5c88cc68b385f7af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::PageNo</definition>
+        <argsstring>()</argsstring>
+        <name>PageNo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="370" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="370" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a2699cc6ff46c7cf2953e5e740f456d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetDrawColor</definition>
+        <argsstring>($r, $g=null, $b=null)</argsstring>
+        <name>SetDrawColor</name>
+        <param>
+          <declname>$r</declname>
+        </param>
+        <param>
+          <declname>$g</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$b</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="376" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="376" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ac01941b00b99afca24dec97591665a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetFillColor</definition>
+        <argsstring>($r, $g=null, $b=null)</argsstring>
+        <name>SetFillColor</name>
+        <param>
+          <declname>$r</declname>
+        </param>
+        <param>
+          <declname>$g</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$b</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="387" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="387" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a59f12883ff2b60013eb0fe2c8c7e2dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetTextColor</definition>
+        <argsstring>($r, $g=null, $b=null)</argsstring>
+        <name>SetTextColor</name>
+        <param>
+          <declname>$r</declname>
+        </param>
+        <param>
+          <declname>$g</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$b</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="399" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="399" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a55c99f3416c3788c759249b6315c948a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::GetStringWidth</definition>
+        <argsstring>($s)</argsstring>
+        <name>GetStringWidth</name>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="409" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="409" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ac8e8290a814b06303c1dfff06ee24acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetLineWidth</definition>
+        <argsstring>($width)</argsstring>
+        <name>SetLineWidth</name>
+        <param>
+          <declname>$width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="421" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="421" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a408bfb653ed942e1e00d80ea9cdc139b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Line</definition>
+        <argsstring>($x1, $y1, $x2, $y2)</argsstring>
+        <name>Line</name>
+        <param>
+          <declname>$x1</declname>
+        </param>
+        <param>
+          <declname>$y1</declname>
+        </param>
+        <param>
+          <declname>$x2</declname>
+        </param>
+        <param>
+          <declname>$y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="429" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="429" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1af6b45f243c32ec04f1be28823b0cf15c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Rect</definition>
+        <argsstring>($x, $y, $w, $h, $style=&apos;&apos;)</argsstring>
+        <name>Rect</name>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <param>
+          <declname>$y</declname>
+        </param>
+        <param>
+          <declname>$w</declname>
+        </param>
+        <param>
+          <declname>$h</declname>
+        </param>
+        <param>
+          <declname>$style</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="435" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="435" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a7bfe3e0ed15ed966d8c41e36fb16553c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::AddFont</definition>
+        <argsstring>($family, $style=&apos;&apos;, $file=&apos;&apos;)</argsstring>
+        <name>AddFont</name>
+        <param>
+          <declname>$family</declname>
+        </param>
+        <param>
+          <declname>$style</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$file</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="447" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="447" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a82acf7b1322a634829b56bb209045e1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetFont</definition>
+        <argsstring>($family, $style=&apos;&apos;, $size=0)</argsstring>
+        <name>SetFont</name>
+        <param>
+          <declname>$family</declname>
+        </param>
+        <param>
+          <declname>$style</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$size</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="472" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="472" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a47d041deb672f69250c936a234eead14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetFontSize</definition>
+        <argsstring>($size)</argsstring>
+        <name>SetFontSize</name>
+        <param>
+          <declname>$size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="522" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="522" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aa4784e97caa10d7b5bd5b37cdb8de523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::AddLink</definition>
+        <argsstring>()</argsstring>
+        <name>AddLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="533" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="533" bodyend="539"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ab0137580cd5c01b4a48f4aec276706d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetLink</definition>
+        <argsstring>($link, $y=0, $page=-1)</argsstring>
+        <name>SetLink</name>
+        <param>
+          <declname>$link</declname>
+        </param>
+        <param>
+          <declname>$y</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$page</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="541" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="541" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a50de51eae9ed1dab3a448491fcbbdde5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Link</definition>
+        <argsstring>($x, $y, $w, $h, $link)</argsstring>
+        <name>Link</name>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <param>
+          <declname>$y</declname>
+        </param>
+        <param>
+          <declname>$w</declname>
+        </param>
+        <param>
+          <declname>$h</declname>
+        </param>
+        <param>
+          <declname>$link</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="551" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="551" bodyend="555"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1af3354d9f93d576837fba5b157a1a7e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Text</definition>
+        <argsstring>($x, $y, $txt)</argsstring>
+        <name>Text</name>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <param>
+          <declname>$y</declname>
+        </param>
+        <param>
+          <declname>$txt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="557" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="557" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1acb406647f47041ae06ec01324e6a2377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::AcceptPageBreak</definition>
+        <argsstring>()</argsstring>
+        <name>AcceptPageBreak</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="570" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="570" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a37c88a6a7daf937b3dd88a903ccbfa64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Cell</definition>
+        <argsstring>($w, $h=0, $txt=&apos;&apos;, $border=0, $ln=0, $align=&apos;&apos;, $fill=false, $link=&apos;&apos;)</argsstring>
+        <name>Cell</name>
+        <param>
+          <declname>$w</declname>
+        </param>
+        <param>
+          <declname>$h</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$txt</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$border</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$ln</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$align</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$fill</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$link</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="576" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="576" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aaa047bd8692257bb2962d5d65c090319" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::MultiCell</definition>
+        <argsstring>($w, $h, $txt, $border=0, $align=&apos;J&apos;, $fill=false)</argsstring>
+        <name>MultiCell</name>
+        <param>
+          <declname>$w</declname>
+        </param>
+        <param>
+          <declname>$h</declname>
+        </param>
+        <param>
+          <declname>$txt</declname>
+        </param>
+        <param>
+          <declname>$border</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$align</declname>
+          <defval>&apos;J&apos;</defval>
+        </param>
+        <param>
+          <declname>$fill</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="656" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="656" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a75beddaabec9e3d2b8939bd46f99e615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Write</definition>
+        <argsstring>($h, $txt, $link=&apos;&apos;)</argsstring>
+        <name>Write</name>
+        <param>
+          <declname>$h</declname>
+        </param>
+        <param>
+          <declname>$txt</declname>
+        </param>
+        <param>
+          <declname>$link</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="771" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="771" bodyend="852"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a445e0364c7fa330c415495bb31f5651c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Ln</definition>
+        <argsstring>($h=null)</argsstring>
+        <name>Ln</name>
+        <param>
+          <declname>$h</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="854" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="854" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a680c80cc244b5636db22994cf1b27a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Image</definition>
+        <argsstring>($file, $x=null, $y=null, $w=0, $h=0, $type=&apos;&apos;, $link=&apos;&apos;)</argsstring>
+        <name>Image</name>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <param>
+          <declname>$x</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$y</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$w</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$h</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$link</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="864" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="864" bodyend="927"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a962e816444c454cd54cfd47c4ee88b7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::GetPageWidth</definition>
+        <argsstring>()</argsstring>
+        <name>GetPageWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="929" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="929" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a8d1d545bca607acd20c9783dd98acb2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::GetPageHeight</definition>
+        <argsstring>()</argsstring>
+        <name>GetPageHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="935" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="935" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a8b7bbc6309142f76ec2a78815f2f700f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::GetX</definition>
+        <argsstring>()</argsstring>
+        <name>GetX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="941" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="941" bodyend="945"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a2bfd055c0ed78a7929fa17ba64f9cf65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetX</definition>
+        <argsstring>($x)</argsstring>
+        <name>SetX</name>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="947" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="947" bodyend="954"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a7a0b514eaa73283268ac14e9f0d7f0c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::GetY</definition>
+        <argsstring>()</argsstring>
+        <name>GetY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="956" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="956" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a4768e6a2e16609de970c365bb9f25ed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetY</definition>
+        <argsstring>($y, $resetX=true)</argsstring>
+        <name>SetY</name>
+        <param>
+          <declname>$y</declname>
+        </param>
+        <param>
+          <declname>$resetX</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="962" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="962" bodyend="971"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a2c191daee30b7ea3a66696bd0be92a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::SetXY</definition>
+        <argsstring>($x, $y)</argsstring>
+        <name>SetXY</name>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <param>
+          <declname>$y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="973" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="973" bodyend="978"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ae5700d4b1acede42262d383d9986de90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::Output</definition>
+        <argsstring>($dest=&apos;&apos;, $name=&apos;&apos;, $isUTF8=false)</argsstring>
+        <name>Output</name>
+        <param>
+          <declname>$dest</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$name</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$isUTF8</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="980" column="10" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="980" bodyend="1031"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classFPDF_1a1ce404a00709a07ca9851b91aefbb0c4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_dochecks</definition>
+        <argsstring>()</argsstring>
+        <name>_dochecks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1037" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1037" bodyend="1045"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aae8f75d4fcd8774b6663c378cf2a32e4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_checkoutput</definition>
+        <argsstring>()</argsstring>
+        <name>_checkoutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1047" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1047" bodyend="1065"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aca25fc93dd33864413e1bfb8665ccc2a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_getpagesize</definition>
+        <argsstring>($size)</argsstring>
+        <name>_getpagesize</name>
+        <param>
+          <declname>$size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1067" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1067" bodyend="1084"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1acbbdac1880bb508196d248987bcf9045" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_beginpage</definition>
+        <argsstring>($orientation, $size, $rotation)</argsstring>
+        <name>_beginpage</name>
+        <param>
+          <declname>$orientation</declname>
+        </param>
+        <param>
+          <declname>$size</declname>
+        </param>
+        <param>
+          <declname>$rotation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1086" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1086" bodyend="1131"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a0c727a46d970b65e123da12e3cb34b58" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_endpage</definition>
+        <argsstring>()</argsstring>
+        <name>_endpage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1133" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1133" bodyend="1136"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a17b92aa9a0bf565520693a801edab6aa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_loadfont</definition>
+        <argsstring>($font)</argsstring>
+        <name>_loadfont</name>
+        <param>
+          <declname>$font</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1138" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1138" bodyend="1151"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a7de56b83bea44afb0149676532234659" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_isascii</definition>
+        <argsstring>($s)</argsstring>
+        <name>_isascii</name>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1153" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1153" bodyend="1163"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a2ab5b59f645d5067c1b08f1f7905b734" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_httpencode</definition>
+        <argsstring>($param, $value, $isUTF8)</argsstring>
+        <name>_httpencode</name>
+        <param>
+          <declname>$param</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$isUTF8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1165" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1165" bodyend="1176"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ae0d452fb23ac5d8bf11c17fbb96824ac" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_UTF8toUTF16</definition>
+        <argsstring>($s)</argsstring>
+        <name>_UTF8toUTF16</name>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1178" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1178" bodyend="1209"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a315a57aaf556052008dd99ff196b812e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_escape</definition>
+        <argsstring>($s)</argsstring>
+        <name>_escape</name>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1211" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1211" bodyend="1218"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a7a9f870d2548f450a8bc90f59b96656d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_textstring</definition>
+        <argsstring>($s)</argsstring>
+        <name>_textstring</name>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1220" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1220" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a35c042a9f396daa571e91a16ea65edc4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_dounderline</definition>
+        <argsstring>($x, $y, $txt)</argsstring>
+        <name>_dounderline</name>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <param>
+          <declname>$y</declname>
+        </param>
+        <param>
+          <declname>$txt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1228" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1228" bodyend="1235"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aa0f75e695bf426888c0dc7d3a9635e22" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_parsejpg</definition>
+        <argsstring>($file)</argsstring>
+        <name>_parsejpg</name>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1237" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1237" bodyend="1254"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a5d9bff475aeba54667a4dbc058b1517b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_parsepng</definition>
+        <argsstring>($file)</argsstring>
+        <name>_parsepng</name>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1256" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1256" bodyend="1265"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a2fa338357dd39cbbaa69c8a1d811745e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_parsepngstream</definition>
+        <argsstring>($f, $file)</argsstring>
+        <name>_parsepngstream</name>
+        <param>
+          <declname>$f</declname>
+        </param>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1267" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1267" bodyend="1391"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1abdc4f5232eab0e2bfc86570c07d44688" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_readstream</definition>
+        <argsstring>($f, $n)</argsstring>
+        <name>_readstream</name>
+        <param>
+          <declname>$f</declname>
+        </param>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1393" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1393" bodyend="1408"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a0d76d528045f895215a9bc0c16c8aad5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_readint</definition>
+        <argsstring>($f)</argsstring>
+        <name>_readint</name>
+        <param>
+          <declname>$f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1410" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1410" bodyend="1415"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a3c95d5d6ce5651c4cf53cd88e82982b8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_parsegif</definition>
+        <argsstring>($file)</argsstring>
+        <name>_parsegif</name>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1417" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1417" bodyend="1440"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a01f1638c57a38691668dbf5a7bdf9852" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_out</definition>
+        <argsstring>($s)</argsstring>
+        <name>_out</name>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1442" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1442" bodyend="1453"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1acfeafc55e4fb0bda46ba6a48869e8b70" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_put</definition>
+        <argsstring>($s)</argsstring>
+        <name>_put</name>
+        <param>
+          <declname>$s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1455" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1455" bodyend="1458"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a2fb565c393ea60b222188c5330e66af4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_getoffset</definition>
+        <argsstring>()</argsstring>
+        <name>_getoffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1460" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1460" bodyend="1463"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a24e3ec793a213bd5492c1d8e2c5838bd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_newobj</definition>
+        <argsstring>($n=null)</argsstring>
+        <name>_newobj</name>
+        <param>
+          <declname>$n</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1465" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1465" bodyend="1472"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1aa8d99b3ff3053b19a646bdde9db4f071" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putstream</definition>
+        <argsstring>($data)</argsstring>
+        <name>_putstream</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1474" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1474" bodyend="1479"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1abefd0843fdc9d3680b4d5193cd3d7ef7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putstreamobject</definition>
+        <argsstring>($data)</argsstring>
+        <name>_putstreamobject</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1481" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1481" bodyend="1495"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a82ec337a9fefb892db0a395df94e7d2b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putpage</definition>
+        <argsstring>($n)</argsstring>
+        <name>_putpage</name>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1497" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1497" bodyend="1537"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a01951b3fad634e87f5ab6763d6444476" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putpages</definition>
+        <argsstring>()</argsstring>
+        <name>_putpages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1539" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1539" bodyend="1567"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a283308a9c41ca18f57649d60f312d7d1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putfonts</definition>
+        <argsstring>()</argsstring>
+        <name>_putfonts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1569" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1569" bodyend="1684"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1af37fbc973613a223cc40e519ddd21383" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_tounicodecmap</definition>
+        <argsstring>($uv)</argsstring>
+        <name>_tounicodecmap</name>
+        <param>
+          <declname>$uv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1686" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1686" bodyend="1735"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ab1f143c4ef408cb6287fa60b8dbdd8c4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putimages</definition>
+        <argsstring>()</argsstring>
+        <name>_putimages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1737" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1737" bodyend="1745"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1ac00fdb8b339c9b9ef3556515979bc7b7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putimage</definition>
+        <argsstring>(&amp;$info)</argsstring>
+        <name>_putimage</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1747" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1747" bodyend="1790"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a61df2cca07c80226d3b671b8ac208214" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putxobjectdict</definition>
+        <argsstring>()</argsstring>
+        <name>_putxobjectdict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1792" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1792" bodyend="1796"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a7681576bf6a875238ecdabd5fb4f36b8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putresourcedict</definition>
+        <argsstring>()</argsstring>
+        <name>_putresourcedict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1798" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1798" bodyend="1808"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a2fb9db0c32c794a2535eb445b7fcaaca" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putresources</definition>
+        <argsstring>()</argsstring>
+        <name>_putresources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1810" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1810" bodyend="1820"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1adeada505b347aa76ae6f1522b4219fe0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putinfo</definition>
+        <argsstring>()</argsstring>
+        <name>_putinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1822" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1822" bodyend="1828"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1af31a901fbed24337636bd85634042060" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putcatalog</definition>
+        <argsstring>()</argsstring>
+        <name>_putcatalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1830" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1830" bodyend="1849"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a132522bbceb722a3181fc216f93bd9a9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_putheader</definition>
+        <argsstring>()</argsstring>
+        <name>_putheader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1851" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1851" bodyend="1854"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a977c65c92c43a052d2ec4b1e80a2a7dd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_puttrailer</definition>
+        <argsstring>()</argsstring>
+        <name>_puttrailer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1856" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1856" bodyend="1861"/>
+      </memberdef>
+      <memberdef kind="function" id="classFPDF_1a5872b1a94bcd6c00a0bdd2ece02409ac" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPDF::_enddoc</definition>
+        <argsstring>()</argsstring>
+        <name>_enddoc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/fpdf.php" line="1863" column="20" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="1863" bodyend="1896"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/fpdf.php" line="13" column="1" bodyfile="/var/www/html/trabajos/hospital/fpdf.php" bodystart="12" bodyend="1897"/>
+    <listofallmembers>
+      <member refid="classFPDF_1a8ca11347db37499aaf473e390db7459b" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$AliasNbPages</name></member>
+      <member refid="classFPDF_1ad196be21405b44433e08efedf63fcf27" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$AutoPageBreak</name></member>
+      <member refid="classFPDF_1a45f713138b48185ffb8d6952158275b6" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$bMargin</name></member>
+      <member refid="classFPDF_1aa5e639d922350949dc1a58a4597c58bb" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$buffer</name></member>
+      <member refid="classFPDF_1af1ed9a0f6a3449b164c20c7623b0d61e" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$cmaps</name></member>
+      <member refid="classFPDF_1af17b206c29beaba34856e916a2baf227" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$cMargin</name></member>
+      <member refid="classFPDF_1ae9a2ff1c3ff43210435b4276e579498a" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$ColorFlag</name></member>
+      <member refid="classFPDF_1a6effca6f281458983c61647878f6dc18" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$compress</name></member>
+      <member refid="classFPDF_1a59722e9eb7f9a67dbe330d93723204a6" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$CoreFonts</name></member>
+      <member refid="classFPDF_1a40250e931a9dd32601bbe2a5a1eaf492" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$CurOrientation</name></member>
+      <member refid="classFPDF_1a1d6aba267d684bb14898c66ab6ecc292" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$CurPageSize</name></member>
+      <member refid="classFPDF_1a48fd94c929ceac390039ac4928fd8110" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$CurrentFont</name></member>
+      <member refid="classFPDF_1a0c059ffdbd096efbdb18f84c114f15df" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$CurRotation</name></member>
+      <member refid="classFPDF_1ad1640384fda9ee53cf7295eb823a31dc" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$DefOrientation</name></member>
+      <member refid="classFPDF_1a25da1996ae79613866cd98df244b43ba" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$DefPageSize</name></member>
+      <member refid="classFPDF_1a80a2ec9b8a4e1104bc093c0856766db3" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$DrawColor</name></member>
+      <member refid="classFPDF_1a55823b6bca0de6b39b91c706e4684cc3" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$encodings</name></member>
+      <member refid="classFPDF_1a75f15d0e648b984c9209c32388912aeb" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$FillColor</name></member>
+      <member refid="classFPDF_1a5f8c02cd5e40614758f3ffc421e06b78" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$FontFamily</name></member>
+      <member refid="classFPDF_1a84252c77b8f99df59e282bb23e7c9194" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$FontFiles</name></member>
+      <member refid="classFPDF_1ab3884861f6396ba263c88adc1644f61f" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$fontpath</name></member>
+      <member refid="classFPDF_1ad9fe36831d63d0ef57539a0cccef2b49" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$fonts</name></member>
+      <member refid="classFPDF_1ab99639f298b8daefa72e6fbc487eeae6" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$FontSize</name></member>
+      <member refid="classFPDF_1ad7b6864ec7f83300c00ae1a1c9123c0b" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$FontSizePt</name></member>
+      <member refid="classFPDF_1a20531c00b4f38558ee888a16e16ef768" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$FontStyle</name></member>
+      <member refid="classFPDF_1a6bb420fc8cb8cf3d2218bb9148394999" prot="public" virt="non-virtual"><scope>FPDF</scope><name>$h</name></member>
+      <member refid="classFPDF_1ac49ef47de69b357309f22c19231863e8" prot="public" virt="non-virtual"><scope>FPDF</scope><name>$hPt</name></member>
+      <member refid="classFPDF_1afc8b2e219390a60499ed3d6a28b31f2d" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$images</name></member>
+      <member refid="classFPDF_1a9550396e618abf65f024fb07b4c31bdd" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$InFooter</name></member>
+      <member refid="classFPDF_1ad826d8f87302ffc1b53c3af9b32509e2" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$InHeader</name></member>
+      <member refid="classFPDF_1adadc589358125e9865dc6565722b7a08" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$k</name></member>
+      <member refid="classFPDF_1a95a0a41b723b698af4b1e4a08e443388" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$lasth</name></member>
+      <member refid="classFPDF_1a8a1b8f011e83924e04fd4868e6a0fd25" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$LayoutMode</name></member>
+      <member refid="classFPDF_1a563f4dec18a06abc382f2e31fe456fe8" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$LineWidth</name></member>
+      <member refid="classFPDF_1ad75c5e32c5417504ba4d351e0383869f" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$links</name></member>
+      <member refid="classFPDF_1a52016e769b24e87eae66b3f3a7e9eb97" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$lMargin</name></member>
+      <member refid="classFPDF_1a50f76504973b7e2c53d99e8364500c99" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$metadata</name></member>
+      <member refid="classFPDF_1a718a78c2c592d0a027429947df12d161" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$n</name></member>
+      <member refid="classFPDF_1a15347dda89239d5fa79ead40a72e0e34" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$offsets</name></member>
+      <member refid="classFPDF_1ab36ea1d04d26856c68ed3021b56eec5b" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$page</name></member>
+      <member refid="classFPDF_1a1a0fd03d8f95b0119fed813fe5c980a8" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$PageBreakTrigger</name></member>
+      <member refid="classFPDF_1a02eaef1f2b452f10b1a6f297c200e622" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$PageInfo</name></member>
+      <member refid="classFPDF_1a3e93616a74e983712775cb72a00fed38" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$PageLinks</name></member>
+      <member refid="classFPDF_1a43708e8b1a7d9c88f08982c4473d7767" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$pages</name></member>
+      <member refid="classFPDF_1a5d794ad25d8bbf69f42452deb7e1a2be" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$PDFVersion</name></member>
+      <member refid="classFPDF_1a380553db1fe34ac31eab846ec98a366a" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$rMargin</name></member>
+      <member refid="classFPDF_1a8aef065fb2791fd919608521a801b7d3" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$state</name></member>
+      <member refid="classFPDF_1a8cfbaabd6e5ec70a7d074323f2295a41" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$StdPageSizes</name></member>
+      <member refid="classFPDF_1a258b7f98af80620e2d2425f75c1734ac" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$TextColor</name></member>
+      <member refid="classFPDF_1a89d24fb15623f31293ef11860ec53a77" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$tMargin</name></member>
+      <member refid="classFPDF_1a2d65d65ac5a4d1f173a2d61bfc7ca621" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$underline</name></member>
+      <member refid="classFPDF_1adcb78dac68c4b261fab2a9c03de77177" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$w</name></member>
+      <member refid="classFPDF_1a297d000e17861cbd536f23eb037df75f" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$WithAlpha</name></member>
+      <member refid="classFPDF_1a7b22f93934a55c4d60d730ae69d94b6c" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$wPt</name></member>
+      <member refid="classFPDF_1a05ee8f35c8f7e1d15680d28bb40eddf6" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$ws</name></member>
+      <member refid="classFPDF_1a84095b43bfc305f0b52c02075cb8674c" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$x</name></member>
+      <member refid="classFPDF_1a9183f42c12c75728174c0e36aefc3144" prot="public" virt="non-virtual"><scope>FPDF</scope><name>$y</name></member>
+      <member refid="classFPDF_1afc97ebf2f645908e261c641fbf48be92" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>$ZoomMode</name></member>
+      <member refid="classFPDF_1ade2bb382f41b77098b52b0b26e54ca83" prot="public" virt="non-virtual"><scope>FPDF</scope><name>__construct</name></member>
+      <member refid="classFPDF_1acbbdac1880bb508196d248987bcf9045" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_beginpage</name></member>
+      <member refid="classFPDF_1aae8f75d4fcd8774b6663c378cf2a32e4" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_checkoutput</name></member>
+      <member refid="classFPDF_1a1ce404a00709a07ca9851b91aefbb0c4" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_dochecks</name></member>
+      <member refid="classFPDF_1a35c042a9f396daa571e91a16ea65edc4" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_dounderline</name></member>
+      <member refid="classFPDF_1a5872b1a94bcd6c00a0bdd2ece02409ac" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_enddoc</name></member>
+      <member refid="classFPDF_1a0c727a46d970b65e123da12e3cb34b58" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_endpage</name></member>
+      <member refid="classFPDF_1a315a57aaf556052008dd99ff196b812e" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_escape</name></member>
+      <member refid="classFPDF_1a2fb565c393ea60b222188c5330e66af4" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_getoffset</name></member>
+      <member refid="classFPDF_1aca25fc93dd33864413e1bfb8665ccc2a" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_getpagesize</name></member>
+      <member refid="classFPDF_1a2ab5b59f645d5067c1b08f1f7905b734" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_httpencode</name></member>
+      <member refid="classFPDF_1a7de56b83bea44afb0149676532234659" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_isascii</name></member>
+      <member refid="classFPDF_1a17b92aa9a0bf565520693a801edab6aa" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_loadfont</name></member>
+      <member refid="classFPDF_1a24e3ec793a213bd5492c1d8e2c5838bd" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_newobj</name></member>
+      <member refid="classFPDF_1a01f1638c57a38691668dbf5a7bdf9852" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_out</name></member>
+      <member refid="classFPDF_1a3c95d5d6ce5651c4cf53cd88e82982b8" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_parsegif</name></member>
+      <member refid="classFPDF_1aa0f75e695bf426888c0dc7d3a9635e22" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_parsejpg</name></member>
+      <member refid="classFPDF_1a5d9bff475aeba54667a4dbc058b1517b" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_parsepng</name></member>
+      <member refid="classFPDF_1a2fa338357dd39cbbaa69c8a1d811745e" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_parsepngstream</name></member>
+      <member refid="classFPDF_1acfeafc55e4fb0bda46ba6a48869e8b70" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_put</name></member>
+      <member refid="classFPDF_1af31a901fbed24337636bd85634042060" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putcatalog</name></member>
+      <member refid="classFPDF_1a283308a9c41ca18f57649d60f312d7d1" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putfonts</name></member>
+      <member refid="classFPDF_1a132522bbceb722a3181fc216f93bd9a9" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putheader</name></member>
+      <member refid="classFPDF_1ac00fdb8b339c9b9ef3556515979bc7b7" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putimage</name></member>
+      <member refid="classFPDF_1ab1f143c4ef408cb6287fa60b8dbdd8c4" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putimages</name></member>
+      <member refid="classFPDF_1adeada505b347aa76ae6f1522b4219fe0" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putinfo</name></member>
+      <member refid="classFPDF_1a82ec337a9fefb892db0a395df94e7d2b" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putpage</name></member>
+      <member refid="classFPDF_1a01951b3fad634e87f5ab6763d6444476" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putpages</name></member>
+      <member refid="classFPDF_1a7681576bf6a875238ecdabd5fb4f36b8" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putresourcedict</name></member>
+      <member refid="classFPDF_1a2fb9db0c32c794a2535eb445b7fcaaca" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putresources</name></member>
+      <member refid="classFPDF_1aa8d99b3ff3053b19a646bdde9db4f071" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putstream</name></member>
+      <member refid="classFPDF_1abefd0843fdc9d3680b4d5193cd3d7ef7" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putstreamobject</name></member>
+      <member refid="classFPDF_1a977c65c92c43a052d2ec4b1e80a2a7dd" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_puttrailer</name></member>
+      <member refid="classFPDF_1a61df2cca07c80226d3b671b8ac208214" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_putxobjectdict</name></member>
+      <member refid="classFPDF_1a0d76d528045f895215a9bc0c16c8aad5" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_readint</name></member>
+      <member refid="classFPDF_1abdc4f5232eab0e2bfc86570c07d44688" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_readstream</name></member>
+      <member refid="classFPDF_1a7a9f870d2548f450a8bc90f59b96656d" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_textstring</name></member>
+      <member refid="classFPDF_1af37fbc973613a223cc40e519ddd21383" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_tounicodecmap</name></member>
+      <member refid="classFPDF_1ae0d452fb23ac5d8bf11c17fbb96824ac" prot="protected" virt="non-virtual"><scope>FPDF</scope><name>_UTF8toUTF16</name></member>
+      <member refid="classFPDF_1acb406647f47041ae06ec01324e6a2377" prot="public" virt="non-virtual"><scope>FPDF</scope><name>AcceptPageBreak</name></member>
+      <member refid="classFPDF_1a7bfe3e0ed15ed966d8c41e36fb16553c" prot="public" virt="non-virtual"><scope>FPDF</scope><name>AddFont</name></member>
+      <member refid="classFPDF_1aa4784e97caa10d7b5bd5b37cdb8de523" prot="public" virt="non-virtual"><scope>FPDF</scope><name>AddLink</name></member>
+      <member refid="classFPDF_1a492d53d9fa740318b264eaf8912e32b3" prot="public" virt="non-virtual"><scope>FPDF</scope><name>AddPage</name></member>
+      <member refid="classFPDF_1a519cf01024f5981364ec7cd2d5281253" prot="public" virt="non-virtual"><scope>FPDF</scope><name>AliasNbPages</name></member>
+      <member refid="classFPDF_1a37c88a6a7daf937b3dd88a903ccbfa64" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Cell</name></member>
+      <member refid="classFPDF_1af6bcdd2acb114191b61065e85ff0b62c" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Close</name></member>
+      <member refid="classFPDF_1abbf9af8630c425b22b9199cc906ee1bb" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Error</name></member>
+      <member refid="classFPDF_1aaa8da01869c5e5a75ff9150016dad08d" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Footer</name></member>
+      <member refid="classFPDF_1a8d1d545bca607acd20c9783dd98acb2a" prot="public" virt="non-virtual"><scope>FPDF</scope><name>GetPageHeight</name></member>
+      <member refid="classFPDF_1a962e816444c454cd54cfd47c4ee88b7e" prot="public" virt="non-virtual"><scope>FPDF</scope><name>GetPageWidth</name></member>
+      <member refid="classFPDF_1a55c99f3416c3788c759249b6315c948a" prot="public" virt="non-virtual"><scope>FPDF</scope><name>GetStringWidth</name></member>
+      <member refid="classFPDF_1a8b7bbc6309142f76ec2a78815f2f700f" prot="public" virt="non-virtual"><scope>FPDF</scope><name>GetX</name></member>
+      <member refid="classFPDF_1a7a0b514eaa73283268ac14e9f0d7f0c4" prot="public" virt="non-virtual"><scope>FPDF</scope><name>GetY</name></member>
+      <member refid="classFPDF_1ab1bedba6d1753b9e3f18ed3820743fd6" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Header</name></member>
+      <member refid="classFPDF_1a680c80cc244b5636db22994cf1b27a68" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Image</name></member>
+      <member refid="classFPDF_1a408bfb653ed942e1e00d80ea9cdc139b" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Line</name></member>
+      <member refid="classFPDF_1a50de51eae9ed1dab3a448491fcbbdde5" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Link</name></member>
+      <member refid="classFPDF_1a445e0364c7fa330c415495bb31f5651c" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Ln</name></member>
+      <member refid="classFPDF_1aaa047bd8692257bb2962d5d65c090319" prot="public" virt="non-virtual"><scope>FPDF</scope><name>MultiCell</name></member>
+      <member refid="classFPDF_1ae5700d4b1acede42262d383d9986de90" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Output</name></member>
+      <member refid="classFPDF_1af97a0239f79f597b5c88cc68b385f7af" prot="public" virt="non-virtual"><scope>FPDF</scope><name>PageNo</name></member>
+      <member refid="classFPDF_1af6b45f243c32ec04f1be28823b0cf15c" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Rect</name></member>
+      <member refid="classFPDF_1a2448f729ffdee950dca638910a31a206" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetAuthor</name></member>
+      <member refid="classFPDF_1a55c2e62a11e10dd7bc0c8aa089ba1c5e" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetAutoPageBreak</name></member>
+      <member refid="classFPDF_1ab56cc065fff6c44c473c7f0428876486" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetCompression</name></member>
+      <member refid="classFPDF_1ad528c02fc9104993d5b8c4d3f4a5ae00" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetCreator</name></member>
+      <member refid="classFPDF_1aa0695aab6e2889198e94a48b87ddaae6" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetDisplayMode</name></member>
+      <member refid="classFPDF_1a2699cc6ff46c7cf2953e5e740f456d75" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetDrawColor</name></member>
+      <member refid="classFPDF_1ac01941b00b99afca24dec97591665a3c" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetFillColor</name></member>
+      <member refid="classFPDF_1a82acf7b1322a634829b56bb209045e1c" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetFont</name></member>
+      <member refid="classFPDF_1a47d041deb672f69250c936a234eead14" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetFontSize</name></member>
+      <member refid="classFPDF_1a97c034e7f4c04395a54f09f582544a97" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetKeywords</name></member>
+      <member refid="classFPDF_1a64306dab17b5156dbb09151818ebf98b" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetLeftMargin</name></member>
+      <member refid="classFPDF_1ac8e8290a814b06303c1dfff06ee24acb" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetLineWidth</name></member>
+      <member refid="classFPDF_1ab0137580cd5c01b4a48f4aec276706d4" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetLink</name></member>
+      <member refid="classFPDF_1a03ee8480b6a0b9362820d225c309f603" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetMargins</name></member>
+      <member refid="classFPDF_1a1008ef2dbf448c60dd2f9324bcc6601a" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetRightMargin</name></member>
+      <member refid="classFPDF_1a29e614b472d76809a7f24d8382b2aec8" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetSubject</name></member>
+      <member refid="classFPDF_1a59f12883ff2b60013eb0fe2c8c7e2dd5" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetTextColor</name></member>
+      <member refid="classFPDF_1a8a8a4c77944aae4ac0219fefbe53b494" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetTitle</name></member>
+      <member refid="classFPDF_1aeb7511c3d686e2aa9f9496f1b1ec147f" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetTopMargin</name></member>
+      <member refid="classFPDF_1a2bfd055c0ed78a7929fa17ba64f9cf65" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetX</name></member>
+      <member refid="classFPDF_1a2c191daee30b7ea3a66696bd0be92a3e" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetXY</name></member>
+      <member refid="classFPDF_1a4768e6a2e16609de970c365bb9f25ed8" prot="public" virt="non-virtual"><scope>FPDF</scope><name>SetY</name></member>
+      <member refid="classFPDF_1af3354d9f93d576837fba5b157a1a7e37" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Text</name></member>
+      <member refid="classFPDF_1a75beddaabec9e3d2b8939bd46f99e615" prot="public" virt="non-virtual"><scope>FPDF</scope><name>Write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1134 @@
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:31: warning: Compound POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:27: warning: Compound PHPMailerOAuth is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:29: warning: Compound PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:36: warning: Compound League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php:21: warning: Compound EasyPeasyICS is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:13: warning: Compound FPDF is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:4051: warning: Compound phpmailerException is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:17: warning: Compound ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:28: warning: Compound SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php:28: warning: Compound PHPMailerOAuthGoogle is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:11: warning: Compound TTFParser is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:31: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:39: warning: documented symbol `PHPMailer::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:45: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:51: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:58: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:64: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:70: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:76: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:83: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:90: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:99: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:106: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:115: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:125: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:132: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:138: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:145: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:153: warning: documented symbol `PHPMailer::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:160: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:166: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:173: warning: documented symbol `PHPMailer::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:180: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:187: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:196: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:206: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:213: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:225: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:232: warning: documented symbol `PHPMailer::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:241: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:249: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:257: warning: documented symbol `PHPMailer::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:264: warning: documented symbol `PHPMailer::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:272: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:278: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:284: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:291: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:298: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:305: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:312: warning: documented symbol `PHPMailer::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:325: warning: documented symbol `PHPMailer::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:341: warning: documented symbol `string PHPMailer::callable' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:350: warning: documented symbol `PHPMailer::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:358: warning: documented symbol `PHPMailer::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:364: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:374: warning: documented symbol `PHPMailer::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:380: warning: documented symbol `PHPMailer::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:388: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:394: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:401: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:408: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:415: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:421: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:428: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:448: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:455: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:463: warning: documented symbol `string PHPMailer::callable' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:470: warning: documented symbol `PHPMailer::SMTP' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:477: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:484: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:491: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:498: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:506: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:517: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:528: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:536: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:543: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:550: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:557: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:564: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:571: warning: documented symbol `PHPMailer::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:578: warning: documented symbol `PHPMailer::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:585: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:592: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:599: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:607: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:614: warning: documented symbol `PHPMailer::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:621: warning: documented symbol `PHPMailer::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:648: warning: documented symbol `PHPMailer::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:29: warning: documented symbol `PHPMailerOAuth::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:35: warning: documented symbol `PHPMailerOAuth::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:41: warning: documented symbol `PHPMailerOAuth::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:47: warning: documented symbol `PHPMailerOAuth::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:53: warning: documented symbol `PHPMailerOAuth::PHPMailerOAuthGoogle' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:33: warning: documented symbol `POP3::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:40: warning: documented symbol `POP3::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:47: warning: documented symbol `POP3::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:54: warning: documented symbol `POP3::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:63: warning: documented symbol `POP3::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:70: warning: documented symbol `POP3::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:77: warning: documented symbol `POP3::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:84: warning: documented symbol `POP3::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:91: warning: documented symbol `POP3::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:98: warning: documented symbol `POP3::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:105: warning: documented symbol `POP3::resource' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:112: warning: documented symbol `POP3::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:119: warning: documented symbol `POP3::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:30: warning: documented symbol `SMTP::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:36: warning: documented symbol `SMTP::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:42: warning: documented symbol `SMTP::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:48: warning: documented symbol `SMTP::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:79: warning: documented symbol `SMTP::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:87: warning: documented symbol `SMTP::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:95: warning: documented symbol `SMTP::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:109: warning: documented symbol `SMTP::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:124: warning: documented symbol `string SMTP::callable' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:132: warning: documented symbol `SMTP::boolean' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:141: warning: documented symbol `SMTP::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:148: warning: documented symbol `SMTP::integer' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:153: warning: documented symbol `array Patterns to extract an SMTP transaction id from reply to a DATA SMTP::command' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:163: warning: documented symbol `string The last transaction ID issued in response to a DATA SMTP::command' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:170: warning: documented symbol `SMTP::resource' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:176: warning: documented symbol `SMTP::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:188: warning: documented symbol `string SMTP::null' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:199: warning: documented symbol `array SMTP::null' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:205: warning: documented symbol `SMTP::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php:23: warning: documented symbol `EasyPeasyICS::string' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php:28: warning: documented symbol `EasyPeasyICS::array' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:41: warning: documented symbol `string If set this will be sent to google as the access_type League\OAuth2\Client\Provider\Google::parameter' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:47: warning: documented symbol `string If set this will be sent to google as the hd League\OAuth2\Client\Provider\Google::parameter' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:53: warning: documented symbol `string If set this will be sent to google as the scope League\OAuth2\Client\Provider\Google::parameter' was not declared or defined.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:417: warning: included file example.com is not found. Check your EXAMPLE_PATH
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/README.md:8: warning: found subsection command outside of section context!
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/README.md:12: warning: found subsection command outside of section context!
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/README.md:16: warning: found subsection command outside of section context!
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php:26: warning: Member $calendarName (variable) of class EasyPeasyICS is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php:31: warning: Member $events (variable) of class EasyPeasyICS is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:74: warning: Member __construct($orientation='P', $unit='mm', $size='A4') (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:172: warning: Member SetMargins($left, $top, $right=null) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:182: warning: Member SetLeftMargin($margin) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:190: warning: Member SetTopMargin($margin) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:196: warning: Member SetRightMargin($margin) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:202: warning: Member SetAutoPageBreak($auto, $margin=0) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:210: warning: Member SetDisplayMode($zoom, $layout='default') (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:223: warning: Member SetCompression($compress) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:232: warning: Member SetTitle($title, $isUTF8=false) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:238: warning: Member SetAuthor($author, $isUTF8=false) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:244: warning: Member SetSubject($subject, $isUTF8=false) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:250: warning: Member SetKeywords($keywords, $isUTF8=false) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:256: warning: Member SetCreator($creator, $isUTF8=false) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:262: warning: Member AliasNbPages($alias='{nb}') (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:268: warning: Member Error($msg) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:274: warning: Member Close() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:291: warning: Member AddPage($orientation='', $size='', $rotation=0) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:360: warning: Member Header() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:365: warning: Member Footer() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:370: warning: Member PageNo() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:376: warning: Member SetDrawColor($r, $g=null, $b=null) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:387: warning: Member SetFillColor($r, $g=null, $b=null) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:399: warning: Member SetTextColor($r, $g=null, $b=null) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:409: warning: Member GetStringWidth($s) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:421: warning: Member SetLineWidth($width) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:429: warning: Member Line($x1, $y1, $x2, $y2) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:435: warning: Member Rect($x, $y, $w, $h, $style='') (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:447: warning: Member AddFont($family, $style='', $file='') (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:472: warning: Member SetFont($family, $style='', $size=0) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:522: warning: Member SetFontSize($size) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:533: warning: Member AddLink() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:541: warning: Member SetLink($link, $y=0, $page=-1) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:551: warning: Member Link($x, $y, $w, $h, $link) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:557: warning: Member Text($x, $y, $txt) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:570: warning: Member AcceptPageBreak() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:576: warning: Member Cell($w, $h=0, $txt='', $border=0, $ln=0, $align='', $fill=false, $link='') (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:656: warning: Member MultiCell($w, $h, $txt, $border=0, $align='J', $fill=false) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:771: warning: Member Write($h, $txt, $link='') (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:854: warning: Member Ln($h=null) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:864: warning: Member Image($file, $x=null, $y=null, $w=0, $h=0, $type='', $link='') (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:929: warning: Member GetPageWidth() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:935: warning: Member GetPageHeight() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:941: warning: Member GetX() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:947: warning: Member SetX($x) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:956: warning: Member GetY() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:962: warning: Member SetY($y, $resetX=true) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:973: warning: Member SetXY($x, $y) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:980: warning: Member Output($dest='', $name='', $isUTF8=false) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:29: warning: Member $hPt (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:30: warning: Member $h (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:36: warning: Member $y (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1037: warning: Member _dochecks() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1047: warning: Member _checkoutput() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1067: warning: Member _getpagesize($size) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1086: warning: Member _beginpage($orientation, $size, $rotation) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1133: warning: Member _endpage() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1138: warning: Member _loadfont($font) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1153: warning: Member _isascii($s) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1165: warning: Member _httpencode($param, $value, $isUTF8) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1178: warning: Member _UTF8toUTF16($s) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1211: warning: Member _escape($s) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1220: warning: Member _textstring($s) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1228: warning: Member _dounderline($x, $y, $txt) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1237: warning: Member _parsejpg($file) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1256: warning: Member _parsepng($file) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1267: warning: Member _parsepngstream($f, $file) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1393: warning: Member _readstream($f, $n) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1410: warning: Member _readint($f) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1417: warning: Member _parsegif($file) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1442: warning: Member _out($s) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1455: warning: Member _put($s) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1460: warning: Member _getoffset() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1465: warning: Member _newobj($n=null) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1474: warning: Member _putstream($data) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1481: warning: Member _putstreamobject($data) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1497: warning: Member _putpage($n) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1539: warning: Member _putpages() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1569: warning: Member _putfonts() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1686: warning: Member _tounicodecmap($uv) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1737: warning: Member _putimages() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1747: warning: Member _putimage(&$info) (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1792: warning: Member _putxobjectdict() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1798: warning: Member _putresourcedict() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1810: warning: Member _putresources() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1822: warning: Member _putinfo() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1830: warning: Member _putcatalog() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1851: warning: Member _putheader() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1856: warning: Member _puttrailer() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:1863: warning: Member _enddoc() (function) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:14: warning: Member $page (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:15: warning: Member $n (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:16: warning: Member $offsets (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:17: warning: Member $buffer (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:18: warning: Member $pages (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:19: warning: Member $state (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:20: warning: Member $compress (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:21: warning: Member $k (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:22: warning: Member $DefOrientation (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:23: warning: Member $CurOrientation (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:24: warning: Member $StdPageSizes (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:25: warning: Member $DefPageSize (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:26: warning: Member $CurPageSize (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:27: warning: Member $CurRotation (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:28: warning: Member $PageInfo (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:29: warning: Member $wPt (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:30: warning: Member $w (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:31: warning: Member $lMargin (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:32: warning: Member $tMargin (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:33: warning: Member $rMargin (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:34: warning: Member $bMargin (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:35: warning: Member $cMargin (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:36: warning: Member $x (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:37: warning: Member $lasth (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:38: warning: Member $LineWidth (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:39: warning: Member $fontpath (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:40: warning: Member $CoreFonts (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:41: warning: Member $fonts (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:42: warning: Member $FontFiles (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:43: warning: Member $encodings (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:44: warning: Member $cmaps (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:45: warning: Member $FontFamily (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:46: warning: Member $FontStyle (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:47: warning: Member $underline (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:48: warning: Member $CurrentFont (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:49: warning: Member $FontSizePt (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:50: warning: Member $FontSize (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:51: warning: Member $DrawColor (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:52: warning: Member $FillColor (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:53: warning: Member $TextColor (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:54: warning: Member $ColorFlag (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:55: warning: Member $WithAlpha (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:56: warning: Member $ws (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:57: warning: Member $images (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:58: warning: Member $PageLinks (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:59: warning: Member $links (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:60: warning: Member $AutoPageBreak (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:61: warning: Member $PageBreakTrigger (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:62: warning: Member $InHeader (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:63: warning: Member $InFooter (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:64: warning: Member $AliasNbPages (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:65: warning: Member $ZoomMode (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:66: warning: Member $LayoutMode (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:67: warning: Member $metadata (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/fpdf.php:68: warning: Member $PDFVersion (variable) of class FPDF is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:21: warning: Member initialize(&$client) (function) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:37: warning: Member ASCIIToUnicode($ascii) (function) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:45: warning: Member typeMsg1($domain, $workstation) (function) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:66: warning: Member NTLMResponse($challenge, $password) (function) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:88: warning: Member typeMsg3($ntlm_response, $user, $domain, $workstation) (function) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:138: warning: Member start(&$client, &$message, &$interactions) (function) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:159: warning: Member step(&$client, $response, &$message, &$interactions) (function) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:18: warning: Member $credentials (variable) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/ntlm_sasl_client.php:19: warning: Member $state (variable) of class ntlm_sasl_client_class is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:34: warning: Member $Version (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:42: warning: Member $Priority (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:48: warning: Member $CharSet (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:54: warning: Member $ContentType (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:61: warning: Member $Encoding (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:67: warning: Member $ErrorInfo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:73: warning: Member $From (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:79: warning: Member $FromName (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:86: warning: Member $Sender (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:96: warning: Member $ReturnPath (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:102: warning: Member $Subject (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:109: warning: Member $Body (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:118: warning: Member $AltBody (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:128: warning: Member $Ical (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:156: warning: Member $WordWrap (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:163: warning: Member $Mailer (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:169: warning: Member $Sendmail (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:176: warning: Member $UseSendmailOptions (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:184: warning: Member $PluginDir (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:190: warning: Member $ConfirmReadingTo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:199: warning: Member $Hostname (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:209: warning: Member $MessageID (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:216: warning: Member $MessageDate (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:229: warning: Member $Host (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:236: warning: Member $Port (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:245: warning: Member $Helo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:252: warning: Member $SMTPSecure (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:260: warning: Member $SMTPAutoTLS (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:269: warning: Member $SMTPAuth (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:275: warning: Member $SMTPOptions (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:281: warning: Member $Username (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:287: warning: Member $Password (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:294: warning: Member $AuthType (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:301: warning: Member $Realm (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:308: warning: Member $Workstation (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:315: warning: Member $Timeout (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:329: warning: Member $SMTPDebug (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:345: warning: Member $Debugoutput (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:353: warning: Member $SMTPKeepAlive (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:361: warning: Member $SingleTo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:368: warning: Member $SingleToArray (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:377: warning: Member $do_verp (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:383: warning: Member $AllowEmpty (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:391: warning: Member $LE (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:397: warning: Member $DKIM_selector (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:404: warning: Member $DKIM_identity (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:411: warning: Member $DKIM_passphrase (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:418: warning: Member $DKIM_domain (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:424: warning: Member $DKIM_private (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:431: warning: Member $DKIM_private_string (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:451: warning: Member $action_function (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:458: warning: Member $XMailer (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:651: warning: Member MAX_LINE_LENGTH (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:467: warning: Member $validator (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:135: warning: Member $MIMEBody (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:142: warning: Member $MIMEHeader (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:149: warning: Member $mailHeader (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:474: warning: Member $smtp (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:481: warning: Member $to (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:488: warning: Member $cc (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:495: warning: Member $bcc (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:502: warning: Member $ReplyTo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:511: warning: Member $all_recipients (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:523: warning: Member $RecipientsQueue (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:533: warning: Member $ReplyToQueue (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:540: warning: Member $attachment (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:547: warning: Member $CustomHeader (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:554: warning: Member $lastMessageID (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:561: warning: Member $message_type (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:568: warning: Member $boundary (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:575: warning: Member $language (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:582: warning: Member $error_count (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:589: warning: Member $sign_cert_file (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:596: warning: Member $sign_key_file (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:603: warning: Member $sign_extracerts_file (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:611: warning: Member $sign_key_pass (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:618: warning: Member $exceptions (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:625: warning: Member $uniqueid (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3527: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:912: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3378: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:868: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1831: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1850: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2577: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2871: warning: unable to resolve link to `http://www.php.net/manual/en/function.mb-encode-mimeheader.php#60283' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2872: warning: Illegal command access as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2873: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2874: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2875: warning: Illegal command return as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2876: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3164: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2211: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2042: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3881: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3860: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3840: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3773: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3793: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2704: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2779: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2801: warning: Found unknown command `\noinspection'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2954: warning: unable to resolve link to `http://tools.ietf.org/html/rfc2047' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2955: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2956: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2957: warning: Illegal command access as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2958: warning: Illegal command return as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2959: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2971: warning: Found unknown command `\noinspection'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2913: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2917: warning: unable to resolve link to `http://www.php.net/manual/en/function.quoted-printable-decode.php#89417' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2918: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2937: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2935: warning: Found unknown command `\noinspection'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2945: warning: The following parameters of PHPMailer\encodeQPphp($string, $line_max=76, $space_conv=false) are not documented:
+  parameter '$string'
+  parameter '$line_max'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2745: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2455: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3359: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:4018: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3996: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2422: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3985: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2137: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:4007: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2192: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3974: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2844: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2491: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3126: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3348: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1440: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3322: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1484: warning: unable to resolve link to `http://www.php.net/manual/en/book.mail.php' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1485: warning: Illegal command throws as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1486: warning: Illegal command access as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1487: warning: Illegal command return as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1488: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3661: warning: unable to resolve link to `http://www.php.net/manual/en/function.pathinfo.php#107461' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3662: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3663: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3665: warning: Illegal command return as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3666: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3411: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3747: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:957: warning: unable to resolve link to `http://www.andrew.cmu.edu/user/agreen1/testing/mrbs/web/Mail/RFC822.php' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:958: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3287: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3731: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1366: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3302: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3712: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3716: warning: Found unknown command `\TODO'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3260: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1755: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2467: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2018: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3757: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1611: warning: Found unknown command `\uses'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1612: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1549: warning: Found unknown command `\uses'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1550: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2503: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1971: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1067: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1107: warning: unable to resolve link to `http://squiloople.com/2009/12/20/email-address-validation/' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1108: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1113: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1115: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1874: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:32: warning: Member $oauthUserEmail (variable) of class PHPMailerOAuth is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:38: warning: Member $oauthRefreshToken (variable) of class PHPMailerOAuth is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:44: warning: Member $oauthClientId (variable) of class PHPMailerOAuth is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:50: warning: Member $oauthClientSecret (variable) of class PHPMailerOAuth is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:34: warning: Member $Version (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:42: warning: Member $Priority (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:48: warning: Member $CharSet (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:54: warning: Member $ContentType (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:61: warning: Member $Encoding (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:67: warning: Member $ErrorInfo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:73: warning: Member $From (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:79: warning: Member $FromName (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:86: warning: Member $Sender (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:96: warning: Member $ReturnPath (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:102: warning: Member $Subject (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:109: warning: Member $Body (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:118: warning: Member $AltBody (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:128: warning: Member $Ical (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:156: warning: Member $WordWrap (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:163: warning: Member $Mailer (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:169: warning: Member $Sendmail (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:176: warning: Member $UseSendmailOptions (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:184: warning: Member $PluginDir (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:190: warning: Member $ConfirmReadingTo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:199: warning: Member $Hostname (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:209: warning: Member $MessageID (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:216: warning: Member $MessageDate (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:229: warning: Member $Host (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:236: warning: Member $Port (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:245: warning: Member $Helo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:252: warning: Member $SMTPSecure (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:260: warning: Member $SMTPAutoTLS (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:269: warning: Member $SMTPAuth (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:275: warning: Member $SMTPOptions (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:281: warning: Member $Username (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:287: warning: Member $Password (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:294: warning: Member $AuthType (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:301: warning: Member $Realm (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:308: warning: Member $Workstation (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:315: warning: Member $Timeout (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:329: warning: Member $SMTPDebug (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:345: warning: Member $Debugoutput (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:353: warning: Member $SMTPKeepAlive (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:361: warning: Member $SingleTo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:368: warning: Member $SingleToArray (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:377: warning: Member $do_verp (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:383: warning: Member $AllowEmpty (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:391: warning: Member $LE (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:397: warning: Member $DKIM_selector (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:404: warning: Member $DKIM_identity (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:411: warning: Member $DKIM_passphrase (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:418: warning: Member $DKIM_domain (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:424: warning: Member $DKIM_private (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:431: warning: Member $DKIM_private_string (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:451: warning: Member $action_function (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:458: warning: Member $XMailer (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:651: warning: Member MAX_LINE_LENGTH (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:57: warning: Member $oauth (variable) of class PHPMailerOAuth is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:135: warning: Member $MIMEBody (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:142: warning: Member $MIMEHeader (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:149: warning: Member $mailHeader (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:474: warning: Member $smtp (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:481: warning: Member $to (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:488: warning: Member $cc (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:495: warning: Member $bcc (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:502: warning: Member $ReplyTo (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:511: warning: Member $all_recipients (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:523: warning: Member $RecipientsQueue (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:533: warning: Member $ReplyToQueue (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:540: warning: Member $attachment (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:547: warning: Member $CustomHeader (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:554: warning: Member $lastMessageID (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:561: warning: Member $message_type (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:568: warning: Member $boundary (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:575: warning: Member $language (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:582: warning: Member $error_count (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:589: warning: Member $sign_cert_file (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:596: warning: Member $sign_key_file (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:603: warning: Member $sign_extracerts_file (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:611: warning: Member $sign_key_pass (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:618: warning: Member $exceptions (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:625: warning: Member $uniqueid (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:467: warning: Member $validator (variable) of class PHPMailer is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:79: warning: Found unknown command `\uses'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:80: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauthgoogle.php:72: warning: Member getOauth64() (function) of class PHPMailerOAuthGoogle is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:37: warning: Member $Version (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:44: warning: Member $POP3_PORT (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:51: warning: Member $POP3_TIMEOUT (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:59: warning: Member $CRLF (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:67: warning: Member $do_debug (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:74: warning: Member $host (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:81: warning: Member $port (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:88: warning: Member $tval (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:95: warning: Member $username (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:102: warning: Member $password (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:109: warning: Member $pop_conn (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:116: warning: Member $connected (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:123: warning: Member $errors (variable) of class POP3 is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:155: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:394: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:345: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:200: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:293: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:312: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:260: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:327: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:365: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:33: warning: Member VERSION (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:39: warning: Member CRLF (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:45: warning: Member DEFAULT_SMTP_PORT (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:51: warning: Member MAX_LINE_LENGTH (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:84: warning: Member $Version (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:92: warning: Member $SMTP_PORT (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:100: warning: Member $CRLF (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:112: warning: Member $do_debug (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:127: warning: Member $Debugoutput (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:135: warning: Member $do_verp (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:144: warning: Member $Timeout (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:151: warning: Member $Timelimit (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:157: warning: Member $smtp_transaction_id_patterns (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:167: warning: Member $last_smtp_transaction_id (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:173: warning: Member $smtp_conn (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:179: warning: Member $error (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:191: warning: Member $helo_rply (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:202: warning: Member $server_caps (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:208: warning: Member $last_reply (variable) of class SMTP is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:389: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:991: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:614: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:258: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:589: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:635: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:636: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:637: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:639: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1080: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1005: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1066: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1036: warning: Invalid list item found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1015: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:726: warning: Unsupported xml/html tag <SP> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:726: warning: Unsupported xml/html tag <domain> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:726: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:729: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:557: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:807: warning: Unsupported xml/html tag <SP> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:807: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:809: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:964: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:762: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:825: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:827: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:845: warning: Unsupported xml/html tag <SP> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:845: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:847: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:862: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:863: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:940: warning: Unsupported xml/html tag <SP> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:940: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:942: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:876: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:744: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:349: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:977: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:978: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:953: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:35: warning: Member __construct($file) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:48: warning: Member Parse() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:63: warning: Member ParseOffsetTable() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:83: warning: Member ParseHead() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:101: warning: Member ParseHhea() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:108: warning: Member ParseMaxp() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:115: warning: Member ParseHmtx() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:132: warning: Member ParseLoca() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:155: warning: Member ParseGlyf() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:194: warning: Member ParseCmap() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:262: warning: Member ParseName() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:291: warning: Member ParseOS2() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:313: warning: Member ParsePost() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:355: warning: Member Subset($chars) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:378: warning: Member AddGlyph($id) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:392: warning: Member Build() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:404: warning: Member BuildCmap() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:489: warning: Member BuildHhea() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:497: warning: Member BuildHmtx() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:508: warning: Member BuildLoca() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:527: warning: Member BuildGlyf() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:550: warning: Member BuildMaxp() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:558: warning: Member BuildPost() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:593: warning: Member BuildFont() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:646: warning: Member LoadTable($tag) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:656: warning: Member SetTable($tag, $data) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:667: warning: Member Seek($tag) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:674: warning: Member Skip($n) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:679: warning: Member Read($n) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:684: warning: Member ReadUShort() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:690: warning: Member ReadShort() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:699: warning: Member ReadULong() (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:705: warning: Member CheckSum($s) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:718: warning: Member Error($msg) (function) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:20: warning: Member $chars (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:21: warning: Member $glyphs (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:22: warning: Member $unitsPerEm (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:23: warning: Member $xMin (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:23: warning: Member $yMin (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:23: warning: Member $xMax (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:23: warning: Member $yMax (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:24: warning: Member $postScriptName (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:25: warning: Member $embeddable (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:26: warning: Member $bold (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:27: warning: Member $typoAscender (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:28: warning: Member $typoDescender (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:29: warning: Member $capHeight (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:30: warning: Member $italicAngle (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:31: warning: Member $underlinePosition (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:32: warning: Member $underlineThickness (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:33: warning: Member $isFixedPitch (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:12: warning: Member $f (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:13: warning: Member $tables (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:14: warning: Member $numberOfHMetrics (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:15: warning: Member $numGlyphs (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:16: warning: Member $glyphNames (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:17: warning: Member $indexToLocFormat (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:18: warning: Member $subsettedChars (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/makefont/ttfparser.php:19: warning: Member $subsettedGlyphs (variable) of class TTFParser is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:28: warning: Member $redirectUri (variable) of namespace League::OAuth2::Client::Provider is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:32: warning: Member $clientId (variable) of namespace League::OAuth2::Client::Provider is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:33: warning: Member $clientSecret (variable) of namespace League::OAuth2::Client::Provider is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:131: warning: Member $provider (variable) of namespace League::OAuth2::Client::Provider is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:151: warning: Member else (variable) of namespace League::OAuth2::Client::Provider is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:4: warning: Unsupported xml/html tag <yourdomain> found
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:4: warning: Unsupported xml/html tag <folder> found
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:59: warning: Member getBaseAuthorizationUrl() (function) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:64: warning: Member getBaseAccessTokenUrl(array $params) (function) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:69: warning: Member getResourceOwnerDetailsUrl(AccessToken $token) (function) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:39: warning: Member ACCESS_TOKEN_RESOURCE_OWNER_ID (variable) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:74: warning: Member getAuthorizationParameters(array $options) (function) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:94: warning: Member getDefaultScopes() (function) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:103: warning: Member getScopeSeparator() (function) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:108: warning: Member checkResponse(ResponseInterface $response, $data) (function) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:123: warning: Member createResourceOwner(array $response, AccessToken $token) (function) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:45: warning: Member $accessType (variable) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:51: warning: Member $hostedDomain (variable) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:57: warning: Member $scope (variable) of class League::OAuth2::Client::Provider::Google is not documented.
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php:25: warning: Found unknown command `\subpackage'
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:5: warning: unable to resolve link to `https://github.com/PHPMailer/PHPMailer/' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:6: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:7: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:8: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:9: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:10: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:11: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:12: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:13: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:14: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:20: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:21: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:22: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:23: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:30: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:31: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:32: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:33: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:34: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:35: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:36: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:37: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:38: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:39: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:45: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:45: warning: Illegal command sherryl4george as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:46: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:46: warning: Illegal command Synchro as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:50: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:50: warning: Illegal command sherryl4george as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:51: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:51: warning: Illegal command Synchro as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:52: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:57: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:58: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:59: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:60: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:61: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:62: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:63: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:64: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:65: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:66: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:74: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:75: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:76: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:77: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:82: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:83: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:84: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:85: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:86: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:87: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:88: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:89: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:90: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:91: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:98: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:99: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:103: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:107: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:111: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:111: warning: Illegal command mirjalal as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:115: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:119: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:123: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:127: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:127: warning: Unexpected xml/html command web found as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:172: warning: unable to resolve link to `http://unicode.org/udhr/n/notes_fra.html' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:176: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:180: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:184: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:188: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:188: warning: Illegal command dominicus as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:192: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:196: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:197: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:201: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:202: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:206: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:210: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:214: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:218: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:222: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:228: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:234: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:238: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:239: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:240: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:241: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:245: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:249: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:253: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:254: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:258: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:262: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:266: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:270: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:271: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:272: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:273: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:273: warning: Illegal command yasinaydin as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:274: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:278: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:279: warning: Illegal command fixed as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:283: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:287: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:288: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:288: warning: Illegal command PeterDaveHello as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:289: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:293: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:294: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:295: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:300: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:301: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:302: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:303: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:304: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:305: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:306: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:307: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:308: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:309: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:312: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:957: warning: unable to resolve link to `http://www.andrew.cmu.edu/user/agreen1/testing/mrbs/web/Mail/RFC822.php' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:958: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1611: warning: Found unknown command `\uses'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1612: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1755: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1831: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1850: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1874: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1971: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2018: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2042: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2137: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2192: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2211: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2491: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2503: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2745: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2779: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2801: warning: Found unknown command `\noinspection'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2844: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2871: warning: unable to resolve link to `http://www.php.net/manual/en/function.mb-encode-mimeheader.php#60283' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2872: warning: Illegal command access as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2873: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2874: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2875: warning: Illegal command return as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2876: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2913: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2917: warning: unable to resolve link to `http://www.php.net/manual/en/function.quoted-printable-decode.php#89417' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2918: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2945: warning: Found unknown command `\noinspection'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2937: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2954: warning: unable to resolve link to `http://tools.ietf.org/html/rfc2047' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2955: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2956: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2957: warning: Illegal command access as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2958: warning: Illegal command return as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2959: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2971: warning: Found unknown command `\noinspection'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3126: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3164: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3348: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3359: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3378: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3411: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3712: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3716: warning: Found unknown command `\TODO'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3731: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3757: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3773: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3793: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3840: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3860: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3881: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3974: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3985: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3996: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:4007: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:4018: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:684: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:868: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:912: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1366: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1484: warning: unable to resolve link to `http://www.php.net/manual/en/book.mail.php' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1485: warning: Illegal command throws as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1486: warning: Illegal command access as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1487: warning: Illegal command return as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1488: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1549: warning: Found unknown command `\uses'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1550: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2422: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2455: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2467: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2577: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:2704: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3260: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3302: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3322: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1067: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1107: warning: unable to resolve link to `http://squiloople.com/2009/12/20/email-address-validation/' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1108: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1113: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1115: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3287: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3527: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3661: warning: unable to resolve link to `http://www.php.net/manual/en/function.pathinfo.php#107461' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3662: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3663: warning: Illegal command param as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3665: warning: Illegal command return as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3666: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:3747: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:1440: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:79: warning: Found unknown command `\uses'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php:80: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:155: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:200: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:260: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:293: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:312: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:327: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:345: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:365: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.pop3.php:394: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:557: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:744: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:762: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:876: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1080: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:258: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:349: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:389: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:589: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:614: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:635: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:636: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:637: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:639: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:726: warning: Unsupported xml/html tag <SP> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:726: warning: Unsupported xml/html tag <domain> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:726: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:729: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:807: warning: Unsupported xml/html tag <SP> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:807: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:809: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:825: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:827: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:845: warning: Unsupported xml/html tag <SP> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:845: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:847: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:862: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:863: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:940: warning: Unsupported xml/html tag <SP> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:940: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:942: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:953: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:964: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:977: warning: Unsupported xml/html tag <CRLF> found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:978: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:991: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1005: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1015: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1036: warning: Invalid list item found
+/var/www/html/trabajos/hospital/views/PHPMailer/class.smtp.php:1066: warning: Found unknown command `\access'
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:4: warning: Unsupported xml/html tag <yourdomain> found
+/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php:4: warning: Unsupported xml/html tag <folder> found
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php:25: warning: Found unknown command `\subpackage'
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:5: warning: unable to resolve link to `https://github.com/PHPMailer/PHPMailer/' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:6: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:7: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:8: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:9: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:10: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:11: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:12: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:13: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:14: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:20: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:21: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:22: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:23: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:30: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:31: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:32: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:33: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:34: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:35: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:36: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:37: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:38: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:39: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:45: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:45: warning: Illegal command sherryl4george as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:46: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:46: warning: Illegal command Synchro as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:50: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:50: warning: Illegal command sherryl4george as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:51: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:51: warning: Illegal command Synchro as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:52: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:57: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:58: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:59: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:60: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:61: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:62: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:63: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:64: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:65: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:66: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:74: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:75: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:76: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:77: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:82: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:83: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:84: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:85: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:86: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:87: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:88: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:89: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:90: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:91: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:98: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:99: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:103: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:107: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:111: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:111: warning: Illegal command mirjalal as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:115: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:119: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:123: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:127: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:127: warning: Unexpected xml/html command web found as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:172: warning: unable to resolve link to `http://unicode.org/udhr/n/notes_fra.html' for \link command
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:176: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:180: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:184: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:188: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:188: warning: Illegal command dominicus as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:192: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:196: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:197: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:201: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:202: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:206: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:210: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:214: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:218: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:222: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:228: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:234: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:238: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:239: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:240: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:241: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:245: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:249: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:253: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:254: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:258: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:262: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:266: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:270: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:271: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:272: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:273: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:273: warning: Illegal command yasinaydin as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:274: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:278: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:279: warning: Illegal command fixed as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:283: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:287: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:288: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:288: warning: Illegal command PeterDaveHello as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:289: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:293: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:294: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:295: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:300: warning: Illegal command link as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:301: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:302: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:303: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:304: warning: Illegal command author as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:305: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:306: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:307: warning: Illegal command copyright as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:308: warning: Illegal command license as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:309: warning: Illegal command note as part of a \link
+/var/www/html/trabajos/hospital/views/PHPMailer/PHPMailerAutoload.php:312: warning: Unexpected end of comment while inside link command
+
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:32: warning: found subsection command outside of section context!
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:54: warning: Found unknown command `\Author'
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:55: warning: Found unknown command `\Author'
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:56: warning: Found unknown command `\Version'
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:167: warning: Unsupported xml/html tag <tag> found
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:174: warning: Unexpected token TK_LISTITEM found as part of a <a>..</a> block
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:187: warning: Found unknown command `\W'
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:192: warning: Found unknown command `\s'
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:210: warning: Unsupported xml/html tag <tagname> found
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:250: warning: Found unknown command `\s'
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:264: warning: Found unknown command `\w'
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:276: warning: Found unknown command `\s'
+<tln_fixstyle>:742: warning: end of comment block while expecting command </div>
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/htmlfilter.php:866: warning: Unsupported xml/html tag <style> found
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/README.md:8: warning: found subsection command outside of section context!
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/README.md:12: warning: found subsection command outside of section context!
+/var/www/html/trabajos/hospital/views/PHPMailer/extras/README.md:16: warning: found subsection command outside of section context!
+/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmailer.php:416: warning: included file example.com is not found. Check your EXAMPLE_PATH

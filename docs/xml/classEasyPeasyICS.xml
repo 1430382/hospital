@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classEasyPeasyICS" kind="class" language="PHP" prot="public">
+    <compoundname>EasyPeasyICS</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classEasyPeasyICS_1aa7fb91848a1e428c721b718b7a3f14ea" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>EasyPeasyICS::$calendarName</definition>
+        <argsstring></argsstring>
+        <name>$calendarName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="26" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEasyPeasyICS_1a5567b64be041cc7d5e09ab1381ffe28b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>EasyPeasyICS::$events</definition>
+        <argsstring></argsstring>
+        <name>$events</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="31" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEasyPeasyICS_1ab2e67a334ef9f0636f287eff56f534d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EasyPeasyICS::__construct</definition>
+        <argsstring>($calendarName=&quot;&quot;)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$calendarName</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$calendarName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="37" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classEasyPeasyICS_1a7ddc2c4db51af8ac050a84cac9a1bb3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EasyPeasyICS::addEvent</definition>
+        <argsstring>($start, $end, $summary=&apos;&apos;, $description=&apos;&apos;, $url=&apos;&apos;, $uid=&apos;&apos;)</argsstring>
+        <name>addEvent</name>
+        <param>
+          <declname>$start</declname>
+        </param>
+        <param>
+          <declname>$end</declname>
+        </param>
+        <param>
+          <declname>$summary</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$description</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$url</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$uid</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add an event to this calendar. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The start date and time as a unix timestamp </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The end date and time as a unix timestamp </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$summary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A summary or title for the event </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A description of the event </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A URL for the event </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique identifier for the event - generated automatically if not provided </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array An array of event details, including any generated UID </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="52" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="52" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classEasyPeasyICS_1a7e5915cc04284faff4212364767199df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EasyPeasyICS::getEvents</definition>
+        <argsstring>()</argsstring>
+        <name>getEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array Get the array of events. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="72" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classEasyPeasyICS_1a3e65c1f33ee518c65da9fcfddfa39fc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EasyPeasyICS::clearEvents</definition>
+        <argsstring>()</argsstring>
+        <name>clearEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clear all events. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="80" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classEasyPeasyICS_1a3bb8a214cf48d1e7d2a9ed2977517d7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EasyPeasyICS::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the name of the calendar. <simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="89" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classEasyPeasyICS_1abad9d0c3179560a812e723bdcd66bc87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EasyPeasyICS::setName</definition>
+        <argsstring>($name)</argsstring>
+        <name>setName</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the name of the calendar. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="98" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classEasyPeasyICS_1ad7da24308fc03c7f92fd4dc8b2985b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EasyPeasyICS::render</definition>
+        <argsstring>($output=true)</argsstring>
+        <name>render</name>
+        <param>
+          <declname>$output</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Render and optionally output a vcal string. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to output the calendar data directly (the default). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string The complete rendered vlal </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="108" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="108" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" line="21" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/extras/EasyPeasyICS.php" bodystart="20" bodyend="148"/>
+    <listofallmembers>
+      <member refid="classEasyPeasyICS_1aa7fb91848a1e428c721b718b7a3f14ea" prot="protected" virt="non-virtual"><scope>EasyPeasyICS</scope><name>$calendarName</name></member>
+      <member refid="classEasyPeasyICS_1a5567b64be041cc7d5e09ab1381ffe28b" prot="protected" virt="non-virtual"><scope>EasyPeasyICS</scope><name>$events</name></member>
+      <member refid="classEasyPeasyICS_1ab2e67a334ef9f0636f287eff56f534d9" prot="public" virt="non-virtual"><scope>EasyPeasyICS</scope><name>__construct</name></member>
+      <member refid="classEasyPeasyICS_1a7ddc2c4db51af8ac050a84cac9a1bb3a" prot="public" virt="non-virtual"><scope>EasyPeasyICS</scope><name>addEvent</name></member>
+      <member refid="classEasyPeasyICS_1a3e65c1f33ee518c65da9fcfddfa39fc0" prot="public" virt="non-virtual"><scope>EasyPeasyICS</scope><name>clearEvents</name></member>
+      <member refid="classEasyPeasyICS_1a7e5915cc04284faff4212364767199df" prot="public" virt="non-virtual"><scope>EasyPeasyICS</scope><name>getEvents</name></member>
+      <member refid="classEasyPeasyICS_1a3bb8a214cf48d1e7d2a9ed2977517d7c" prot="public" virt="non-virtual"><scope>EasyPeasyICS</scope><name>getName</name></member>
+      <member refid="classEasyPeasyICS_1ad7da24308fc03c7f92fd4dc8b2985b75" prot="public" virt="non-virtual"><scope>EasyPeasyICS</scope><name>render</name></member>
+      <member refid="classEasyPeasyICS_1abad9d0c3179560a812e723bdcd66bc87" prot="public" virt="non-virtual"><scope>EasyPeasyICS</scope><name>setName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

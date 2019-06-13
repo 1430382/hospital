@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="functions_8php" kind="file" language="PHP">
+    <compoundname>functions.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="functions_8php_1a7e16d374abaede0adb9dced5519ca28d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fecha</definition>
+        <argsstring>($fecha)</argsstring>
+        <name>fecha</name>
+        <param>
+          <declname>$fecha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/functions.php" line="2" column="10" bodyfile="/var/www/html/trabajos/hospital/functions.php" bodystart="2" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>fecha($fecha){</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$timestamp<sp/>=<sp/>strtotime($fecha);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$meses<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;Enero&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Febrero&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Marzo&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Abril&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Mayo&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Junio&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Julio&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Agosto&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Septiembre&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Octubre&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Noviembre&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Diciembre&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dia<sp/>=<sp/>date(</highlight><highlight class="charliteral">&apos;d&apos;</highlight><highlight class="normal">,<sp/>$timestamp)<sp/>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$mes<sp/>=<sp/>date(</highlight><highlight class="charliteral">&apos;m&apos;</highlight><highlight class="normal">,<sp/>$timestamp)<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$year<sp/>=<sp/>date(</highlight><highlight class="charliteral">&apos;Y&apos;</highlight><highlight class="normal">,<sp/>$timestamp);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fecha<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;$dia<sp/>de<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>$meses[$mes]<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;<sp/>del<sp/>$year&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$fecha;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">function<sp/>obtener_post($limite,<sp/>$conexion){</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$query<sp/>=<sp/>&quot;SELECT<sp/>*<sp/>FROM<sp/>articulo;&quot;;</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$conexion-&gt;query($query);</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>mysqli_fetch_all($result,MYSQLI_ASSOC);</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/>?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="/var/www/html/trabajos/hospital/functions.php"/>
+  </compounddef>
+</doxygen>

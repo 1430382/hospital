@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="autotoc_md2" kind="page">
+    <compoundname>autotoc_md2</compoundname>
+    <title>PHPMailer Extras</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>These classes provide optional additional functions to <ref refid="classPHPMailer" kindref="compound">PHPMailer</ref>.</para>
+<para>These are not loaded by the <ref refid="classPHPMailer" kindref="compound">PHPMailer</ref> autoloader, so in some cases you may need to <computeroutput>require</computeroutput> them yourself before using them.</para>
+<para>This class was originally written by Manuel Reinhard and provides a simple means of generating ICS/vCal files that are used in sending calendar events. <ref refid="classPHPMailer" kindref="compound">PHPMailer</ref> does not use it directly, but you can use it to generate content appropriate for placing in the <computeroutput>Ical</computeroutput> property of <ref refid="classPHPMailer" kindref="compound">PHPMailer</ref>. The <ref refid="classPHPMailer" kindref="compound">PHPMailer</ref> project is now its official home as Manuel has given permission for that and is no longer maintaining it himself.</para>
+<para>This class by Konstantin Riabitsev and Jim Jagielski implements HTML filtering to remove potentially malicious tags, such as <computeroutput>&lt;script&gt;</computeroutput> or <computeroutput>onclick=</computeroutput> attributes that can result in XSS attacks. This is a simple filter and is not as comprehensive as <ulink url="http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/">HTMLawed</ulink> or <ulink url="http://htmlpurifier.org">HTMLPurifier</ulink>, but it&apos;s easier to use and considerably better than nothing! <ref refid="classPHPMailer" kindref="compound">PHPMailer</ref> does not use it directly, but you may want to apply it to user-supplied HTML before using it as a message body.</para>
+<para>This class by Manuel Lemos (bundled with permission) adds the ability to authenticate with Microsoft Windows mail servers that use NTLM-based authentication. It is used by <ref refid="classPHPMailer" kindref="compound">PHPMailer</ref> if you send via <ref refid="classSMTP" kindref="compound">SMTP</ref> and set the <computeroutput>AuthType</computeroutput> property to <computeroutput>NTLM</computeroutput>; you will also need to use the <computeroutput>Realm</computeroutput> and <computeroutput>Workstation</computeroutput> properties. The original source is <ulink url="http://www.phpclasses.org/browse/file/7495.html">here</ulink>. </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

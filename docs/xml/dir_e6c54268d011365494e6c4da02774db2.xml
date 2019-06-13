@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_e6c54268d011365494e6c4da02774db2" kind="dir">
+    <compoundname>/var/www/html/trabajos/hospital/font</compoundname>
+    <innerfile refid="courier_8php">courier.php</innerfile>
+    <innerfile refid="courierb_8php">courierb.php</innerfile>
+    <innerfile refid="courierbi_8php">courierbi.php</innerfile>
+    <innerfile refid="courieri_8php">courieri.php</innerfile>
+    <innerfile refid="helvetica_8php">helvetica.php</innerfile>
+    <innerfile refid="helveticab_8php">helveticab.php</innerfile>
+    <innerfile refid="helveticabi_8php">helveticabi.php</innerfile>
+    <innerfile refid="helveticai_8php">helveticai.php</innerfile>
+    <innerfile refid="symbol_8php">symbol.php</innerfile>
+    <innerfile refid="times_8php">times.php</innerfile>
+    <innerfile refid="timesb_8php">timesb.php</innerfile>
+    <innerfile refid="timesbi_8php">timesbi.php</innerfile>
+    <innerfile refid="timesi_8php">timesi.php</innerfile>
+    <innerfile refid="zapfdingbats_8php">zapfdingbats.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/font/"/>
+  </compounddef>
+</doxygen>

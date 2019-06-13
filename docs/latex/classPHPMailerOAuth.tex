@@ -1,0 +1,77 @@
+\hypertarget{classPHPMailerOAuth}{}\doxysection{P\+H\+P\+Mailer\+O\+Auth Class Reference}
+\label{classPHPMailerOAuth}\index{PHPMailerOAuth@{PHPMailerOAuth}}
+Inheritance diagram for P\+H\+P\+Mailer\+O\+Auth\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classPHPMailerOAuth}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPHPMailerOAuth_ae7d734fcdd7bacd45e93338169716a35}{get\+O\+A\+U\+T\+H\+Instance}} ()
+\item 
+\mbox{\hyperlink{classPHPMailerOAuth_a627c5750045635a95a201e3113ed6a8b}{smtp\+Connect}} (\$options=array())
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPHPMailerOAuth_a75ed27da698ba5304f69bf6c66316521}\label{classPHPMailerOAuth_a75ed27da698ba5304f69bf6c66316521}} 
+{\bfseries \$oauth\+User\+Email} = \textquotesingle{}\textquotesingle{}
+\item 
+\mbox{\Hypertarget{classPHPMailerOAuth_a983cf308e5b00447d76a4780f0760945}\label{classPHPMailerOAuth_a983cf308e5b00447d76a4780f0760945}} 
+{\bfseries \$oauth\+Refresh\+Token} = \textquotesingle{}\textquotesingle{}
+\item 
+\mbox{\Hypertarget{classPHPMailerOAuth_af97fd6a79483001680b9dda1897b868b}\label{classPHPMailerOAuth_af97fd6a79483001680b9dda1897b868b}} 
+{\bfseries \$oauth\+Client\+Id} = \textquotesingle{}\textquotesingle{}
+\item 
+\mbox{\Hypertarget{classPHPMailerOAuth_a248a3f9ab1117fc4513105f4e69c8a3b}\label{classPHPMailerOAuth_a248a3f9ab1117fc4513105f4e69c8a3b}} 
+{\bfseries \$oauth\+Client\+Secret} = \textquotesingle{}\textquotesingle{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPHPMailerOAuth_a16ffe78e5bbb1f64dd2bb316d9957974}\label{classPHPMailerOAuth_a16ffe78e5bbb1f64dd2bb316d9957974}} 
+{\bfseries \$oauth} = null
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPHPMailerOAuth_ae7d734fcdd7bacd45e93338169716a35}\label{classPHPMailerOAuth_ae7d734fcdd7bacd45e93338169716a35}} 
+\index{PHPMailerOAuth@{PHPMailerOAuth}!getOAUTHInstance@{getOAUTHInstance}}
+\index{getOAUTHInstance@{getOAUTHInstance}!PHPMailerOAuth@{PHPMailerOAuth}}
+\doxysubsubsection{\texorpdfstring{getOAUTHInstance()}{getOAUTHInstance()}}
+{\footnotesize\ttfamily P\+H\+P\+Mailer\+O\+Auth\+::get\+O\+A\+U\+T\+H\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get a \mbox{\hyperlink{classPHPMailerOAuthGoogle}{P\+H\+P\+Mailer\+O\+Auth\+Google}} instance to use. \begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classPHPMailerOAuthGoogle}{P\+H\+P\+Mailer\+O\+Auth\+Google}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPHPMailerOAuth_a627c5750045635a95a201e3113ed6a8b}\label{classPHPMailerOAuth_a627c5750045635a95a201e3113ed6a8b}} 
+\index{PHPMailerOAuth@{PHPMailerOAuth}!smtpConnect@{smtpConnect}}
+\index{smtpConnect@{smtpConnect}!PHPMailerOAuth@{PHPMailerOAuth}}
+\doxysubsubsection{\texorpdfstring{smtpConnect()}{smtpConnect()}}
+{\footnotesize\ttfamily P\+H\+P\+Mailer\+O\+Auth\+::smtp\+Connect (\begin{DoxyParamCaption}\item[{}]{\$options = {\ttfamily array()} }\end{DoxyParamCaption})}
+
+Initiate a connection to an \mbox{\hyperlink{classSMTP}{S\+M\+TP}} server. Overrides the original smtp\+Connect method to add support for O\+Auth. 
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$options} & An array of options compatible with stream\+\_\+context\+\_\+create() @uses \mbox{\hyperlink{classSMTP}{S\+M\+TP}} @access public \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classphpmailerException}{phpmailer\+Exception}}} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented from \mbox{\hyperlink{classPHPMailer_ad256b0d8cead706e1ed69ad148075773}{P\+H\+P\+Mailer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/var/www/html/trabajos/hospital/views/\+P\+H\+P\+Mailer/class.\+phpmaileroauth.\+php\end{DoxyCompactItemize}

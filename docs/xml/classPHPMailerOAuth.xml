@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classPHPMailerOAuth" kind="class" language="PHP" prot="public">
+    <compoundname>PHPMailerOAuth</compoundname>
+    <basecompoundref refid="classPHPMailer" prot="public" virt="non-virtual">PHPMailer</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classPHPMailerOAuth_1a75ed27da698ba5304f69bf6c66316521" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuth::$oauthUserEmail</definition>
+        <argsstring></argsstring>
+        <name>$oauthUserEmail</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" line="32" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPHPMailerOAuth_1a983cf308e5b00447d76a4780f0760945" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuth::$oauthRefreshToken</definition>
+        <argsstring></argsstring>
+        <name>$oauthRefreshToken</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" line="38" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPHPMailerOAuth_1af97fd6a79483001680b9dda1897b868b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuth::$oauthClientId</definition>
+        <argsstring></argsstring>
+        <name>$oauthClientId</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" line="44" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPHPMailerOAuth_1a248a3f9ab1117fc4513105f4e69c8a3b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuth::$oauthClientSecret</definition>
+        <argsstring></argsstring>
+        <name>$oauthClientSecret</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" line="50" column="12" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classPHPMailerOAuth_1a16ffe78e5bbb1f64dd2bb316d9957974" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>PHPMailerOAuth::$oauth</definition>
+        <argsstring></argsstring>
+        <name>$oauth</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" line="57" column="15" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPHPMailerOAuth_1ae7d734fcdd7bacd45e93338169716a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PHPMailerOAuth::getOAUTHInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getOAUTHInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a <ref refid="classPHPMailerOAuthGoogle" kindref="compound">PHPMailerOAuthGoogle</ref> instance to use. <simplesect kind="return"><para><ref refid="classPHPMailerOAuthGoogle" kindref="compound">PHPMailerOAuthGoogle</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" line="63" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" bodystart="63" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classPHPMailerOAuth_1a627c5750045635a95a201e3113ed6a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PHPMailerOAuth::smtpConnect</definition>
+        <argsstring>($options=array())</argsstring>
+        <name>smtpConnect</name>
+        <reimplements refid="classPHPMailer_1ad256b0d8cead706e1ed69ad148075773">smtpConnect</reimplements>
+        <param>
+          <declname>$options</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initiate a connection to an <ref refid="classSMTP" kindref="compound">SMTP</ref> server. Overrides the original smtpConnect method to add support for OAuth. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of options compatible with stream_context_create() @uses <ref refid="classSMTP" kindref="compound">SMTP</ref> @access public </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classphpmailerException" kindref="compound">phpmailerException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" line="85" column="21" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" bodystart="85" bodyend="196"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>PHPMailerOAuth</label>
+        <link refid="classPHPMailerOAuth"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>PHPMailer</label>
+        <link refid="classPHPMailer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>PHPMailerOAuth</label>
+        <link refid="classPHPMailerOAuth"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>PHPMailer</label>
+        <link refid="classPHPMailer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" line="27" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/class.phpmaileroauth.php" bodystart="26" bodyend="197"/>
+    <listofallmembers>
+      <member refid="classPHPMailer_1a7b21538b6755c155217ac9bc08f30502" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$action_function</name></member>
+      <member refid="classPHPMailer_1a6300d0a50c65a033269ff56f8bba844f" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$all_recipients</name></member>
+      <member refid="classPHPMailer_1a22ed92f4f67498f3ca7e971ea9491b0c" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$AllowEmpty</name></member>
+      <member refid="classPHPMailer_1af38d9cfaa22f3a246c3168184c3858aa" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$AltBody</name></member>
+      <member refid="classPHPMailer_1a1091c5222df6cf187eb290afc409b283" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$attachment</name></member>
+      <member refid="classPHPMailer_1aca8041e7e1b1582c40daccf94d091e1c" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$AuthType</name></member>
+      <member refid="classPHPMailer_1a47faeb7fa77389aeec99d8dbeb1be106" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$bcc</name></member>
+      <member refid="classPHPMailer_1a55ee46413a3783fceaa4cc301dc362a4" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Body</name></member>
+      <member refid="classPHPMailer_1a6e9b4fea689f43dc24f94bd1cd643de3" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$boundary</name></member>
+      <member refid="classPHPMailer_1aab84d69e0d9f30d16c7c895f40c02383" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$cc</name></member>
+      <member refid="classPHPMailer_1a89bc16ad4e86bf04d0a38779f239d08d" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$CharSet</name></member>
+      <member refid="classPHPMailer_1aef7e191f4c673b49c378fe9005333277" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$ConfirmReadingTo</name></member>
+      <member refid="classPHPMailer_1a886fb2b5374dfdbdce9efdaff842c2a2" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$ContentType</name></member>
+      <member refid="classPHPMailer_1a3aa8045c1da6dfea6b846fa02d0a35c8" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$CustomHeader</name></member>
+      <member refid="classPHPMailer_1a77745ad471482821edb67bfbef7b2ec6" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Debugoutput</name></member>
+      <member refid="classPHPMailer_1afea9d50183287a5b1d4343d9791a1211" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$DKIM_domain</name></member>
+      <member refid="classPHPMailer_1acf9024f1cac01f6e7ed6c906bbd6dc5a" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$DKIM_identity</name></member>
+      <member refid="classPHPMailer_1a3efe2b20aa6a85e7623ab175a2a38c14" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$DKIM_passphrase</name></member>
+      <member refid="classPHPMailer_1a1dddb5e4502ab2a5d05869ea66aaaef5" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$DKIM_private</name></member>
+      <member refid="classPHPMailer_1a95407c8606fdeab14c164f276ac085f5" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$DKIM_private_string</name></member>
+      <member refid="classPHPMailer_1afa2553a1ceb268e2e40eec38f235851b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$DKIM_selector</name></member>
+      <member refid="classPHPMailer_1a7b107d21ac2e000e52d1df9230b12cda" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$do_verp</name></member>
+      <member refid="classPHPMailer_1adbefcf8fbeb0bad68e2f87f889a6937f" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Encoding</name></member>
+      <member refid="classPHPMailer_1a581edb1dbc5a192fb34ef01957932e9a" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$error_count</name></member>
+      <member refid="classPHPMailer_1a9e523ba9e3cfcaf1f54569a9e4a29c73" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$ErrorInfo</name></member>
+      <member refid="classPHPMailer_1aeaae00497cd33660a2d6737febc5d83e" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$exceptions</name></member>
+      <member refid="classPHPMailer_1a487a2ed6abdc3474c5e6526d4bd37dd9" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$From</name></member>
+      <member refid="classPHPMailer_1a331a07d4f29ee939024b69c07f83188d" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$FromName</name></member>
+      <member refid="classPHPMailer_1aefc737f24d6dc6bdd13019297762c8e3" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Helo</name></member>
+      <member refid="classPHPMailer_1a201d861b4e284bd9bc580e90922f1a2b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Host</name></member>
+      <member refid="classPHPMailer_1a52a56734c1c555e576f3fcdd3f3214fa" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Hostname</name></member>
+      <member refid="classPHPMailer_1adcac7693c1bef5af9b8ddfd65cae5072" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Ical</name></member>
+      <member refid="classPHPMailer_1aa6a0ec99ebdf7280f6565369d4d291b7" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$language</name></member>
+      <member refid="classPHPMailer_1ad54796f61d4fd84ff5eaafedd46d4b8e" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$lastMessageID</name></member>
+      <member refid="classPHPMailer_1ab0c4941bda43ab5a330a712d036c7ae5" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$LE</name></member>
+      <member refid="classPHPMailer_1ab7b493935220dbd0643bfccbe9fa898f" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Mailer</name></member>
+      <member refid="classPHPMailer_1a3a839f49603d36ba4e3ee786ac7039dc" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$mailHeader</name></member>
+      <member refid="classPHPMailer_1a19a75d8b3e63eb58f9a4a2b31c81ab6b" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$message_type</name></member>
+      <member refid="classPHPMailer_1af70d2776c3a0cb421fd9f0c85e0a5b37" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$MessageDate</name></member>
+      <member refid="classPHPMailer_1ae8903e0c049d9c21fe218a5610f8e66e" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$MessageID</name></member>
+      <member refid="classPHPMailer_1a402d38834379651e52ddaf239cdce6e6" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$MIMEBody</name></member>
+      <member refid="classPHPMailer_1a9ee27a94a8595267eb8544fb18ad6672" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$MIMEHeader</name></member>
+      <member refid="classPHPMailerOAuth_1a16ffe78e5bbb1f64dd2bb316d9957974" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$oauth</name></member>
+      <member refid="classPHPMailerOAuth_1af97fd6a79483001680b9dda1897b868b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$oauthClientId</name></member>
+      <member refid="classPHPMailerOAuth_1a248a3f9ab1117fc4513105f4e69c8a3b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$oauthClientSecret</name></member>
+      <member refid="classPHPMailerOAuth_1a983cf308e5b00447d76a4780f0760945" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$oauthRefreshToken</name></member>
+      <member refid="classPHPMailerOAuth_1a75ed27da698ba5304f69bf6c66316521" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$oauthUserEmail</name></member>
+      <member refid="classPHPMailer_1a42bef0c65cf4248312aebc7d6cf05dc7" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Password</name></member>
+      <member refid="classPHPMailer_1a25dc51236eaeba43c2661197b2fdecca" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$PluginDir</name></member>
+      <member refid="classPHPMailer_1aecad460b067a209821f1b0fc3492aa0c" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Port</name></member>
+      <member refid="classPHPMailer_1a4b25b31326864ecfd89865021595d14c" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Priority</name></member>
+      <member refid="classPHPMailer_1ae107458a54ead9f27946e0dfc33bdb41" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Realm</name></member>
+      <member refid="classPHPMailer_1afcc21cd5fd378568160ab3cbcbcc5916" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$RecipientsQueue</name></member>
+      <member refid="classPHPMailer_1aff7bfc1ad6c3e1e95d0caa6ecf7bfc25" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$ReplyTo</name></member>
+      <member refid="classPHPMailer_1ae68f5dc85bb5dba0fee95dc8421a2df4" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$ReplyToQueue</name></member>
+      <member refid="classPHPMailer_1ad9cd7606ba70bbae1517112f8fccba23" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$ReturnPath</name></member>
+      <member refid="classPHPMailer_1afeb96ec21062655663877de7bdcfe4b5" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Sender</name></member>
+      <member refid="classPHPMailer_1a389a13126ef669fbc0fa29e9182b2b88" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Sendmail</name></member>
+      <member refid="classPHPMailer_1aa4f22631c7d466a80d08378f5674d95a" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$sign_cert_file</name></member>
+      <member refid="classPHPMailer_1a73b151653b8271743d5500e581a7d94c" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$sign_extracerts_file</name></member>
+      <member refid="classPHPMailer_1ac11e24b257bd1cc7f6833cab0df1def6" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$sign_key_file</name></member>
+      <member refid="classPHPMailer_1a5af85c6201ec258cfe5ff15d13699fcf" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$sign_key_pass</name></member>
+      <member refid="classPHPMailer_1ae467a7f9d8bbb478bd0ea7a8b9bb512b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$SingleTo</name></member>
+      <member refid="classPHPMailer_1a79e7627498c6cb092202f40b276cafc0" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$SingleToArray</name></member>
+      <member refid="classPHPMailer_1a785ebe388dfcd1a76d445df09b6be3d6" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$smtp</name></member>
+      <member refid="classPHPMailer_1a1e41f01702afcf903f409c2a8c1eb1c0" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$SMTPAuth</name></member>
+      <member refid="classPHPMailer_1aa6e8256720111a91896cc1131ac378ec" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$SMTPAutoTLS</name></member>
+      <member refid="classPHPMailer_1aedc42401affee6e0e8b205f3c50d5f17" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$SMTPDebug</name></member>
+      <member refid="classPHPMailer_1abcf46a6c16b46fc88f401a7e9acfbb43" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$SMTPKeepAlive</name></member>
+      <member refid="classPHPMailer_1a7ae7155f7f983d212624f396644bf660" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$SMTPOptions</name></member>
+      <member refid="classPHPMailer_1a57744693d505d8c945c667fec9e65555" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$SMTPSecure</name></member>
+      <member refid="classPHPMailer_1a720bc605963a617253bf0773b6ffafbf" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Subject</name></member>
+      <member refid="classPHPMailer_1affe70c58cb6adb734a41f8eb2a2e58b9" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Timeout</name></member>
+      <member refid="classPHPMailer_1afa095cad0712f480475cea3a1b9a498e" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$to</name></member>
+      <member refid="classPHPMailer_1aecf69c754d7e6582d64e0f35526bf542" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$uniqueid</name></member>
+      <member refid="classPHPMailer_1a111a9831009cde61ec90b2f702d91f8c" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Username</name></member>
+      <member refid="classPHPMailer_1ac3e08466d9b80cbf5a2a429ffa567a07" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$UseSendmailOptions</name></member>
+      <member refid="classPHPMailer_1a228e41af91197ee762433e31d020ad3f" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$validator</name></member>
+      <member refid="classPHPMailer_1a50e20d60ee564b2e0e09774b0f0c4ee4" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Version</name></member>
+      <member refid="classPHPMailer_1a9ea7fd1e74ce459204bd25ab10aa4800" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$WordWrap</name></member>
+      <member refid="classPHPMailer_1a3e5c9cb0438cc60af27f9448d68bfa1d" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$Workstation</name></member>
+      <member refid="classPHPMailer_1a10d8959c54bddeca080e82581657057c" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>$XMailer</name></member>
+      <member refid="classPHPMailer_1a0ecb02fb405337bb4d66e56d3651b30f" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>__construct</name></member>
+      <member refid="classPHPMailer_1aab0f23b3b419bfa0090281530e926a56" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>__destruct</name></member>
+      <member refid="classPHPMailer_1ac31fdaba7cf01c43f9719cf63e8a5ef6" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>_mime_types</name></member>
+      <member refid="classPHPMailer_1a710206c4b4c43b43f352fb8e139cd0da" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addAddress</name></member>
+      <member refid="classPHPMailer_1aaebdddb92a154b184d4e96fac9eced7b" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addAnAddress</name></member>
+      <member refid="classPHPMailer_1a62bfbe0f5f678aa826c9e15cb2adcfa2" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addAttachment</name></member>
+      <member refid="classPHPMailer_1af89ff133bac97eeed5c17bb8018e89db" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addBCC</name></member>
+      <member refid="classPHPMailer_1a46b29687c4f82d20e947f94b908116e2" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addCC</name></member>
+      <member refid="classPHPMailer_1a12be8fba58266eb85f2dbac5faba442d" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addCustomHeader</name></member>
+      <member refid="classPHPMailer_1a96495b70b7777ca87fb441458307bb47" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addEmbeddedImage</name></member>
+      <member refid="classPHPMailer_1afe25754a30a7deb9e8d21770eae10445" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addOrEnqueueAnAddress</name></member>
+      <member refid="classPHPMailer_1a72d47213e885d38421847c0028b6b7de" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addrAppend</name></member>
+      <member refid="classPHPMailer_1a2cd3a4cf1456a55d8cd181e3605a6785" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addReplyTo</name></member>
+      <member refid="classPHPMailer_1ae6314aa12918fb6d71579d59550a2c2d" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addrFormat</name></member>
+      <member refid="classPHPMailer_1a0edd7bb6bf61a7774ccb9390beaed059" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addStringAttachment</name></member>
+      <member refid="classPHPMailer_1a749f8bcce46fac00436124f7bdbd4c92" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>addStringEmbeddedImage</name></member>
+      <member refid="classPHPMailer_1a1ba0cacb520c9783a37d21d4a5d306db" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>alternativeExists</name></member>
+      <member refid="classPHPMailer_1a71ae1da3986acda925198fed1d9bbb36" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>attachAll</name></member>
+      <member refid="classPHPMailer_1a31d3dabce21fc9fc73884a8d0a5dda18" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>attachmentExists</name></member>
+      <member refid="classPHPMailer_1a6ca640040a05915b0f9e27a39eb4bba9" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>base64EncodeWrapMB</name></member>
+      <member refid="classPHPMailer_1aee6adb214d282869949246c5df46cdb5" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>clearAddresses</name></member>
+      <member refid="classPHPMailer_1a9e50d689e115e948c49d38d5dc154db6" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>clearAllRecipients</name></member>
+      <member refid="classPHPMailer_1a4e56a18ac260e14293214c8aaad64e0b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>clearAttachments</name></member>
+      <member refid="classPHPMailer_1aa21c721f20350fd24785b0e757974044" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>clearBCCs</name></member>
+      <member refid="classPHPMailer_1a6aadfef524b1d68dbd74c92edeb20e3b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>clearCCs</name></member>
+      <member refid="classPHPMailer_1a3cafb993a1f3ea98d157de510cdb7751" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>clearCustomHeaders</name></member>
+      <member refid="classPHPMailer_1a3bcade00083c362409865a2c1125cb7e" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>clearQueuedAddresses</name></member>
+      <member refid="classPHPMailer_1a7708faed307f7ab6754cf0fc3e70abd0" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>clearReplyTos</name></member>
+      <member refid="classPHPMailer_1a79754501ca7538d9f9e60706eda37552" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>createBody</name></member>
+      <member refid="classPHPMailer_1add8dca06fe959bc4a081db2917ea99ba" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>createHeader</name></member>
+      <member refid="classPHPMailer_1a5865a5896d97f9ab5352318a6fa19dab" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>CRLF</name></member>
+      <member refid="classPHPMailer_1a5d557c422dd418a81147aeadf65a21d2" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>DKIM_Add</name></member>
+      <member refid="classPHPMailer_1aa9663f6262eef13ea3f6c75d142460a7" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>DKIM_BodyC</name></member>
+      <member refid="classPHPMailer_1a1e62388dd7fe1e63baf24a219a860e7a" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>DKIM_HeaderC</name></member>
+      <member refid="classPHPMailer_1aa3359069634a324db4db430e2a5236d3" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>DKIM_QP</name></member>
+      <member refid="classPHPMailer_1a1a20762f9d24610dbc042df09a161564" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>DKIM_Sign</name></member>
+      <member refid="classPHPMailer_1ac4ce55222eb113ec8a637fc4db518de7" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>doCallback</name></member>
+      <member refid="classPHPMailer_1af3749554a8b85a5bdfde05441854a17c" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>edebug</name></member>
+      <member refid="classPHPMailer_1a88d024bd390a552ebc9be66de1bf08d5" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>encodeFile</name></member>
+      <member refid="classPHPMailer_1acc873a724ba707ebb1d7b2da749d1812" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>encodeHeader</name></member>
+      <member refid="classPHPMailer_1a39354cd9097ebe593153392cb121e223" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>encodeQ</name></member>
+      <member refid="classPHPMailer_1ab710ab8b22e157c617437783375ad8f3" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>encodeQP</name></member>
+      <member refid="classPHPMailer_1ad067c5c7e93929bf4d0a5d46bc422aef" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>encodeQPphp</name></member>
+      <member refid="classPHPMailer_1a6c1c0a94e1b5390d10fbf91d585c5c78" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>encodeString</name></member>
+      <member refid="classPHPMailer_1a8c79b8b88eca28e86dde76efc72b3b77" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>endBoundary</name></member>
+      <member refid="classPHPMailer_1add54abd3420cd88712530270ca0c641d" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>filenameToType</name></member>
+      <member refid="classPHPMailer_1a3b4fad02d1b8ed3aaefbff42bf0b2846" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>fixEOL</name></member>
+      <member refid="classPHPMailer_1ab79ccb83e1ad0e442d50bd09587ff879" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>generateId</name></member>
+      <member refid="classPHPMailer_1a32cd11f072a716c6e03be18e91882a3e" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getAllRecipientAddresses</name></member>
+      <member refid="classPHPMailer_1a192498fa150cdee1d2f96ad46530ed68" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getAttachments</name></member>
+      <member refid="classPHPMailer_1a0a10fbbc813dfe528772bbb1a9240409" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getBccAddresses</name></member>
+      <member refid="classPHPMailer_1a855e97313a3b55ab81507ed6d666584f" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getBoundary</name></member>
+      <member refid="classPHPMailer_1a2425fbefa7ffa627e4a1a4d3d2856cdb" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getCcAddresses</name></member>
+      <member refid="classPHPMailer_1aa685d75b52b7ced5ddb1c3bfcc482b99" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getCustomHeaders</name></member>
+      <member refid="classPHPMailer_1abe341255f193c97147b97b274dbe5231" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getLastMessageID</name></member>
+      <member refid="classPHPMailer_1a4238784c168132810accd750323bc150" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getMailMIME</name></member>
+      <member refid="classPHPMailerOAuth_1ae7d734fcdd7bacd45e93338169716a35" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getOAUTHInstance</name></member>
+      <member refid="classPHPMailer_1a158031d49131fcfa354986010796a967" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getReplyToAddresses</name></member>
+      <member refid="classPHPMailer_1aec6ce40e288b3a467d1f02eb4ebcca0d" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getSentMIMEMessage</name></member>
+      <member refid="classPHPMailer_1ac3a22964fd24af953bad3454e961e616" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getSMTPInstance</name></member>
+      <member refid="classPHPMailer_1af22f192632b6f6d8c48115dc9ee87953" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getToAddresses</name></member>
+      <member refid="classPHPMailer_1a72c6fabba47dad807772801d1a6efdfb" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>getTranslations</name></member>
+      <member refid="classPHPMailer_1a3dcc28fcd9a275ba846f1dae847a483c" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>has8bitChars</name></member>
+      <member refid="classPHPMailer_1affe5b2756b810d299d33643b7e731409" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>hasLineLongerThanMax</name></member>
+      <member refid="classPHPMailer_1ab78b7aaec42fe0f883be15b03dea3f08" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>hasMultiBytes</name></member>
+      <member refid="classPHPMailer_1acd329ee528ab0cbfdd1d71c38b919335" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>headerLine</name></member>
+      <member refid="classPHPMailer_1a7d0b7d428d537916c31cd42301709e20" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>html2text</name></member>
+      <member refid="classPHPMailer_1adadc15cb1875252d0f695377ae405a1f" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>idnSupported</name></member>
+      <member refid="classPHPMailer_1a32ad954f8292a4615a04f41b935db841" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>inlineImageExists</name></member>
+      <member refid="classPHPMailer_1ae781c666caa03737687dd67232824582" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>isError</name></member>
+      <member refid="classPHPMailer_1aaa2f1d7b49eb316e3567773c01770377" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>isHTML</name></member>
+      <member refid="classPHPMailer_1a5fb69456c3abfbe88d9a19e7374c6910" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>isMail</name></member>
+      <member refid="classPHPMailer_1ad1beee3e050181b792e0ddd364b0b253" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>isPermittedPath</name></member>
+      <member refid="classPHPMailer_1aa34f0d6e401e7f07a68777c3d8f686ed" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>isQmail</name></member>
+      <member refid="classPHPMailer_1a00833d08b354d38513df87393d79b6c3" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>isSendmail</name></member>
+      <member refid="classPHPMailer_1a1456f83c2c70d379c7b66969db8a1519" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>isShellSafe</name></member>
+      <member refid="classPHPMailer_1aa94bd392205c9a523671d39fb1f6e079" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>isSMTP</name></member>
+      <member refid="classPHPMailer_1a60edd0800fd302bac9c30dbde7d705c5" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>lang</name></member>
+      <member refid="classPHPMailer_1a1709b010e29511267411c882516ac87f" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>mailSend</name></member>
+      <member refid="classPHPMailer_1af1d345aa034ec6a5259bc3b08e6a5cea" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>MAX_LINE_LENGTH</name></member>
+      <member refid="classPHPMailer_1a73136e7211d02834ea0fa6aaa7fa5db5" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>mb_pathinfo</name></member>
+      <member refid="classPHPMailer_1a78c3d1937d0fa804cc38d005f174cb32" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>msgHTML</name></member>
+      <member refid="classPHPMailer_1af023809d86409dee11dba42309d22b09" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>normalizeBreaks</name></member>
+      <member refid="classPHPMailer_1a93d0d1b3b732b2a6b1bab5fe1a90c59a" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>parseAddresses</name></member>
+      <member refid="classPHPMailer_1a14c847b42d1147e0605c615cbe7510e6" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>postSend</name></member>
+      <member refid="classPHPMailer_1aaef84591efbd9b09f178aae6221933f0" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>preSend</name></member>
+      <member refid="classPHPMailer_1a7e684e6070c16bfe7abef4bc11c48f42" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>punyencodeAddress</name></member>
+      <member refid="classPHPMailer_1a0617b2311d5a7c5ca3308f839434c95a" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>rfcDate</name></member>
+      <member refid="classPHPMailer_1aa2bef564ca933ff831f2985b7fc87298" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>secureHeader</name></member>
+      <member refid="classPHPMailer_1afdd4742f07cfb0bfa7be86ce20468fa3" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>send</name></member>
+      <member refid="classPHPMailer_1ae9b5778b19d7b0fea87a44936af168ed" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>sendmailSend</name></member>
+      <member refid="classPHPMailer_1a36f6955354169096bfe05a59565ae23c" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>serverHostname</name></member>
+      <member refid="classPHPMailer_1a71faad700fa71876e41d1118daf45a89" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>set</name></member>
+      <member refid="classPHPMailer_1ac9a733d05c4cdbe4c98e731147303652" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>setError</name></member>
+      <member refid="classPHPMailer_1a30d3ec8466c08ecbd3b21be2610bc369" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>setFrom</name></member>
+      <member refid="classPHPMailer_1a0a036c9cfe49499ec35c39712575f8aa" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>setLanguage</name></member>
+      <member refid="classPHPMailer_1a53aedc637834412f0b0ea50dea3158a8" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>setMessageType</name></member>
+      <member refid="classPHPMailer_1a61decbe3be3dc0cc9562af8d0dbb7cdb" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>setWordWrap</name></member>
+      <member refid="classPHPMailer_1a90f8cfae744497250bcef6b40b8b1e6b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>sign</name></member>
+      <member refid="classPHPMailer_1abc370b33386baa1c4bc927f812f7e8cc" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>smtpClose</name></member>
+      <member refid="classPHPMailerOAuth_1a627c5750045635a95a201e3113ed6a8b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>smtpConnect</name></member>
+      <member refid="classPHPMailer_1a73bfc6cf31ce2b71399522de2b36e865" prot="protected" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>smtpSend</name></member>
+      <member refid="classPHPMailer_1acb27435a7e929b1e41e476c5067ddd43" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>STOP_CONTINUE</name></member>
+      <member refid="classPHPMailer_1a4b6cdf657bb4ded1f91020a2d26e31ab" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>STOP_CRITICAL</name></member>
+      <member refid="classPHPMailer_1a84dc28f3f0eb955044cb1f559d40253b" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>STOP_MESSAGE</name></member>
+      <member refid="classPHPMailer_1aaf78d5e61b23f83805ac61aa1defd2d8" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>textLine</name></member>
+      <member refid="classPHPMailer_1a74c592dc553831e2730c3814da78fc09" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>utf8CharBoundary</name></member>
+      <member refid="classPHPMailer_1ab8ded1ff8bd8d47c4a3300851cba88b4" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>validateAddress</name></member>
+      <member refid="classPHPMailer_1ab0d9b95d98d242bf6712173a1bebac2d" prot="public" virt="non-virtual"><scope>PHPMailerOAuth</scope><name>wrapText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceLeague_1_1OAuth2_1_1Client_1_1Token_1_1AccessToken" kind="namespace" language="PHP">
+    <compoundname>League::OAuth2::Client::Token::AccessToken</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="1" column="1"/>
+  </compounddef>
+</doxygen>

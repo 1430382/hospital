@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceLeague_1_1OAuth2_1_1Client_1_1Provider" kind="namespace" language="PHP">
+    <compoundname>League::OAuth2::Client::Provider</compoundname>
+    <innerclass refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google" prot="public">League::OAuth2::Client::Provider::Google</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_1aa0a589ae49cc378d9c24b882b3a24006" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>League::OAuth2::Client::Provider\$redirectUri</definition>
+        <argsstring></argsstring>
+        <name>$redirectUri</name>
+        <initializer>= isset($_SERVER[&apos;HTTPS&apos;]) ? &apos;https://&apos; : &apos;http://&apos; . $_SERVER[&apos;HTTP_HOST&apos;] . $_SERVER[&apos;PHP_SELF&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="28" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_1ab8ce28ebe72b1f8eefd37f2a5f20cfee" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>League::OAuth2::Client::Provider\$clientId</definition>
+        <argsstring></argsstring>
+        <name>$clientId</name>
+        <initializer>= &apos;RANDOMCHARS-----duv1n2.apps.googleusercontent.com&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="32" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_1abb7ee95744dcf0f0de8802390d1dfb5f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>League::OAuth2::Client::Provider\$clientSecret</definition>
+        <argsstring></argsstring>
+        <name>$clientSecret</name>
+        <initializer>= &apos;RANDOMCHARS-----lGyjPcRtvP&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="33" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_1aeee6dcbd59af93dd4303526dedf970b4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>League::OAuth2::Client::Provider\$provider</definition>
+        <argsstring></argsstring>
+        <name>$provider</name>
+        <initializer>= new <ref refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google" kindref="compound">Google</ref>(
+    array(
+        &apos;clientId&apos; =&gt; $clientId,
+        &apos;clientSecret&apos; =&gt; $clientSecret,
+        &apos;redirectUri&apos; =&gt; $redirectUri,
+        &apos;scope&apos; =&gt; array(&apos;https://mail.google.com/&apos;),
+	&apos;accessType&apos; =&gt; &apos;offline&apos;
+    )
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="131" column="1" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceLeague_1_1OAuth2_1_1Client_1_1Provider_1aa195d6c3313b8f9acc84a27b1ac2cc1e" prot="public" static="no" mutable="no">
+        <type>if(!isset($_GET[&apos;code&apos;])) elseif(empty($_GET[&apos;state&apos;])||($_GET[&apos;state&apos;] !==$_SESSION[&apos;oauth2state&apos;]))</type>
+        <definition>if (!isset( $_GET[ &apos;code&apos;])) elseif (empty( $_GET[ &apos;state&apos;])||( $_GET[ &apos;state&apos;] !==$_SESSION[ &apos;oauth2state&apos;])) League::OAuth2::Client::Provider\else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{
+    
+    $token = $provider-&gt;getAccessToken(
+        &apos;authorization_code&apos;,
+        array(
+            &apos;code&apos; =&gt; $_GET[&apos;code&apos;]
+        )
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="151" column="2" bodyfile="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Get an OAuth2 token from <ref refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google" kindref="compound">Google</ref>.<itemizedlist>
+<listitem><para>Install this script on your server so that it&apos;s accessible as [https/http]://&lt;yourdomain&gt;/&lt;folder&gt;/get_oauth_token.php e.g.: <ulink url="http://localhost/phpmail/get_oauth_token.php">http://localhost/phpmail/get_oauth_token.php</ulink></para>
+</listitem><listitem><para>Ensure dependencies are installed with &apos;composer install&apos;</para>
+</listitem><listitem><para>Set up an app in your <ref refid="classLeague_1_1OAuth2_1_1Client_1_1Provider_1_1Google" kindref="compound">Google</ref> developer console</para>
+</listitem><listitem><para>Set the script address as the app&apos;s redirect URL If no refresh token is obtained when running this file, revoke access to your app using link: <ulink url="https://accounts.google.com/b/0/IssuedAuthSubTokens">https://accounts.google.com/b/0/IssuedAuthSubTokens</ulink> and run the script again. This script requires PHP 5.4 or later PHP Version 5.4 </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="/var/www/html/trabajos/hospital/views/PHPMailer/get_oauth_token.php" line="16" column="10"/>
+  </compounddef>
+</doxygen>
